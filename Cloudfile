@@ -4,7 +4,7 @@ trug:
   monitoring_email: gotar@ragnarson.com
   domains:
     - trug.shellyapp.com
-    - *.trug.pl
+    - "*.trug.pl"
   servers:
     app1:
       size: small
