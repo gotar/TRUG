@@ -1,13 +1,21 @@
 !!!
-%html
+%html{lang:'pl'}
   %head
-    %title TRUG - Trójmiasto Ruby User Group
+    %title TRUG - Trójmiejska Grupa Użytkowników Ruby
     %meta{ name: "viewport", content: "width=device-width, initial-scale=1.0"}
     %link{ href: "css/bootstrap.min.css", rel: "stylesheet", media: "screen"}
+    %link{ href: "css/custom.css", rel: "stylesheet", media: "screen"}
   %body
     .container
-      = yield
-
+      %header
+        %h1 TRUG - Trójmiejska Grupa Użytkowników Ruby
+      %article
+        = yield
+      %footer
+        %p.text-center
+          %a{ href: "https://github.com/gotar/TRUG.git"}
+            Kod źródłowy
+          \- zapraszam do udziału w tworzeniu strony.
     %script{ src: "http://code.jquery.com/jquery.js"}
     %script{ src: "js/bootstrap.min.js"}
 

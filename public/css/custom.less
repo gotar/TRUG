@@ -1,0 +1,39 @@
+.verticalGradient(@start, @stop){
+  background: @start; // Old browsers
+  background: -moz-linear-gradient(top,  @start 0%, @stop 100%) fixed; // FF3.6+
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,@start), color-stop(100%,@stop)) fixed; // Chrome, Safari4+
+  background: -webkit-linear-gradient(top,  @start 0%,@stop 100%) fixed; // Chrome10+, Safari5.1+
+  background: -o-linear-gradient(top,  @start 0%,@stop 100%) fixed; // Opera 11.10+
+  background: -ms-linear-gradient(top,  @start 0%,@stop 100%) fixed; // IE10+
+  background: linear-gradient(top,  @start 0%,@stop 100%) fixed; // W3C
+}
+
+.box-shadow (@x: 0, @y: 2px, @blur: 6px, @spread: 2px, @alpha: 0.2) {
+  box-shadow: @x @y @blur @spread rgba(0, 0, 0, @alpha);
+  -moz-box-shadow: @x @y @blur @spread rgba(0, 0, 0, @alpha);
+  -webkit-box-shadow: @x @y @blur @spread rgba(0, 0, 0, @alpha);
+}
+
+body{
+  .verticalGradient(#e5e5e5, #727272);
+
+  .container {
+    header, footer, article {
+      background-color: #fff;
+      .box-shadow
+    }
+
+    header {
+      height: 150px;
+    }
+
+    footer {
+      padding: 20px;
+      height: 30px;
+    }
+
+    article {
+      min-height: 500px;
+    }
+  }
+}
