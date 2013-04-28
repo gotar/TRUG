@@ -5,6 +5,7 @@ gem 'activesupport'
 gem 'rake'
 gem 'thin'
 gem 'shelly-dependencies'
+gem 'haml'
 
 group :development do
   gem 'shelly'

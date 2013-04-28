@@ -2,7 +2,10 @@ require 'sinatra/base'
 require 'active_support/all'
 
 class App < Sinatra::Base
+
+  set :haml, :format => :html5
+
   get '/' do
-   'OK'
+    haml :home, layout: :base
   end
 end
