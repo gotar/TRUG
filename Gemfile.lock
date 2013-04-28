@@ -4,15 +4,32 @@ GEM
     activesupport (3.2.13)
       i18n (= 0.6.1)
       multi_json (~> 1.0)
+    addressable (2.3.4)
+    coderay (1.0.9)
+    daemons (1.1.9)
     diff-lcs (1.2.3)
+    eventmachine (1.0.3)
     fivemat (1.2.1)
     i18n (0.6.1)
+    json (1.7.7)
+    launchy (2.3.0)
+      addressable (~> 2.3)
+    method_source (0.8.1)
+    mime-types (1.23)
     multi_json (1.7.2)
+    progressbar (0.20.0)
+    pry (0.9.12.1)
+      coderay (~> 1.0.5)
+      method_source (~> 0.8)
+      slop (~> 3.4)
     rack (1.5.2)
     rack-protection (1.5.0)
       rack
     rack-test (0.6.2)
       rack (>= 1.0)
+    rake (10.0.3)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
     rspec (2.13.0)
       rspec-core (~> 2.13.0)
       rspec-expectations (~> 2.13.0)
@@ -21,12 +38,26 @@ GEM
     rspec-expectations (2.13.0)
       diff-lcs (>= 1.1.3, < 2.0)
     rspec-mocks (2.13.1)
+    shelly (0.2.18)
+      json
+      launchy
+      progressbar
+      rest-client
+      wijet-thor (~> 0.14.9)
+    shelly-dependencies (0.2.3)
+      thin
     sinatra (1.4.2)
       rack (~> 1.5, >= 1.5.2)
       rack-protection (~> 1.4)
       tilt (~> 1.3, >= 1.3.4)
+    slop (3.4.4)
+    thin (1.5.1)
+      daemons (>= 1.0.9)
+      eventmachine (>= 0.12.6)
+      rack (>= 1.0.0)
     tilt (1.3.7)
     timecop (0.6.1)
+    wijet-thor (0.14.9)
 
 PLATFORMS
   ruby
@@ -34,7 +65,12 @@ PLATFORMS
 DEPENDENCIES
   activesupport
   fivemat
+  pry
   rack-test
+  rake
   rspec
+  shelly
+  shelly-dependencies
   sinatra
+  thin
   timecop
