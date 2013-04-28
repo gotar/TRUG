@@ -6,6 +6,7 @@ gem 'rake'
 gem 'thin'
 gem 'shelly-dependencies'
 gem 'haml'
+gem 'rack-rewrite'
 
 group :development do
   gem 'shelly'
