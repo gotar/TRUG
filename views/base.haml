@@ -5,14 +5,34 @@
     %meta{ name: "viewport", content: "width=device-width, initial-scale=1.0"}
     %link{ href: "css/bootstrap.min.css", rel: "stylesheet", media: "screen"}
     %link{ href: "css/custom.css", rel: "stylesheet", media: "screen"}
+    %link{ href: 'http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic&subset=latin-ext', rel: 'stylesheet', type: 'text/css'}
   %body
     .container
       %header
         %h1 TRUG - Trójmiejska Grupa Użytkowników Ruby
       %article
-        = yield
+        .row-fluid
+          .span9= yield
+          %aside.span2
+            %section
+              %header
+                %h4 TRUG w sieci
+              %ul.unstyled
+                %li
+                  %a{:href => "https://plus.google.com/u/0/b/115366219080630998906/115366219080630998906/posts"} Google+
+                %li
+                  %a{:href => "https://groups.google.com/forum/?hl=pl&fromgroups#!forum/trug-pl"} Grupa dyskusyja
+
+            %section
+              %header
+                %h4 Inne grupy
+              %ul.unstyled
+                - %w(DRUG KRUG LRUG PRUG SRUG WRUG).each do |g|
+                  %li
+                    %a= g
+
       %footer
-        %p.text-center
+        %p.text-center.muted
           %a{ href: "https://github.com/gotar/TRUG.git"}
             Kod źródłowy
           \- zapraszam do udziału w tworzeniu strony.

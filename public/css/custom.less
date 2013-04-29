@@ -8,32 +8,41 @@
   background: linear-gradient(top,  @start 0%,@stop 100%) fixed; // W3C
 }
 
-.box-shadow (@x: 0, @y: 2px, @blur: 6px, @spread: 2px, @alpha: 0.2) {
+.box-shadow(@x: 0, @y: 2px, @blur: 6px, @spread: 2px, @alpha: 0.2) {
   box-shadow: @x @y @blur @spread rgba(0, 0, 0, @alpha);
   -moz-box-shadow: @x @y @blur @spread rgba(0, 0, 0, @alpha);
   -webkit-box-shadow: @x @y @blur @spread rgba(0, 0, 0, @alpha);
 }
 
+@light_grey: #999;
+@dark_grey: #333;
+
 body{
   .verticalGradient(#e5e5e5, #727272);
+  font-family: 'Noto Sans', sans-serif;
+
 
   .container {
-    header, footer, article {
-      background-color: #fff;
-      .box-shadow
-    }
+    .box-shadow;
+    background-color: #fff;
+    padding: 2em;
+    margin-top: 20px;
 
     header {
-      height: 150px;
+      height: 120px;
     }
 
     footer {
-      padding: 20px;
-      height: 30px;
+      padding: 30px;
+      border-top: 1px solid #ccc;
     }
 
     article {
-      min-height: 500px;
+      min-height: 400px;
+
+      header {
+        height: 2.5em;
+      }
     }
   }
 }
