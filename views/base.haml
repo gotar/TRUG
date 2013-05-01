@@ -19,17 +19,18 @@
                 %h4 TRUG w sieci
               %ul.unstyled
                 %li
-                  %a{:href => "https://plus.google.com/u/0/b/115366219080630998906/115366219080630998906/posts"} Google+
+                  %a{ href: "https://plus.google.com/u/0/b/115366219080630998906/115366219080630998906/posts"} Google+
                 %li
-                  %a{:href => "https://groups.google.com/forum/?hl=pl&fromgroups#!forum/trug-pl"} Grupa dyskusyja
+                  %a{ href: "https://groups.google.com/forum/?hl=pl&fromgroups#!forum/trug-pl"} Grupa dyskusyja
 
             %section
               %header
                 %h4 Inne grupy
               %ul.unstyled
-                - %w(DRUG KRUG LRUG PRUG SRUG WRUG).each do |g|
+                - @rugs.each do |rug|
                   %li
-                    %a= g
+                    %a{ href: rug.url }
+                      =rug.name.upcase
 
       %footer
         %p.text-center.muted

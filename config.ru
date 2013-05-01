@@ -3,6 +3,7 @@ require 'bundler'
 
 Bundler.require
 
+Dir["./models/*.rb"].each { |f| require f }
 require './app.rb'
 
 require 'rack/rewrite'
