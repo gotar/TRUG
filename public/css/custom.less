@@ -1,48 +1,37 @@
-.verticalGradient(@start, @stop){
-  background: @start; // Old browsers
-  background: -moz-linear-gradient(top,  @start 0%, @stop 100%) fixed; // FF3.6+
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,@start), color-stop(100%,@stop)) fixed; // Chrome, Safari4+
-  background: -webkit-linear-gradient(top,  @start 0%,@stop 100%) fixed; // Chrome10+, Safari5.1+
-  background: -o-linear-gradient(top,  @start 0%,@stop 100%) fixed; // Opera 11.10+
-  background: -ms-linear-gradient(top,  @start 0%,@stop 100%) fixed; // IE10+
-  background: linear-gradient(top,  @start 0%,@stop 100%) fixed; // W3C
-}
-
 .box-shadow(@x: 0, @y: 2px, @blur: 6px, @spread: 2px, @alpha: 0.2) {
   box-shadow: @x @y @blur @spread rgba(0, 0, 0, @alpha);
   -moz-box-shadow: @x @y @blur @spread rgba(0, 0, 0, @alpha);
   -webkit-box-shadow: @x @y @blur @spread rgba(0, 0, 0, @alpha);
 }
 
-@light_grey: #999;
-@dark_grey: #333;
+@pastel_red: #FF6961;
 
 body{
-  .verticalGradient(#e5e5e5, #727272);
-  font-family: 'Noto Sans', sans-serif;
+  background: transparent url('../img/bg.jpg');
+  font-family: 'Titillium Web', sans-serif;
+}
+
+body .container header, body footer .container {
+  margin-top: 4em;
+  padding: 2em 0;
+}
+
+body .container article h2 {
+  font-size: 48px;
+  line-height: 48px;
+  color: #c95555;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
 
 
-  .container {
-    .box-shadow;
-    background-color: #fff;
-    padding: 2em;
-    margin-top: 20px;
+.navbar nav {
+  background-color: #2b2f35;
+}
 
-    header {
-      height: 120px;
-    }
-
-    footer {
-      padding: 30px;
-      border-top: 1px solid #ccc;
-    }
-
-    article {
-      min-height: 400px;
-
-      header {
-        height: 2.5em;
-      }
-    }
-  }
+#map-canvas {
+  width: 100%;
+  height: 300px;
+  border: 1px solid #ccc;
 }
