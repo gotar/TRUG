@@ -21,10 +21,18 @@
         .row-fluid= yield
     %footer
       .container
-        %p.text-center.muted
+        %p.pull-left.muted
           %a{ href: "https://github.com/gotar/TRUG.git"}
+            %img{src: 'img/icons/Github.png'}
             Kod źródłowy
           \- zapraszam do udziału w tworzeniu strony.
+        %p.pull-right
+          %a{href: 'https://groups.google.com/forum/?hl=pl&fromgroups#!forum/trug-pl'}
+            %img{src: 'img/icons/groups.png'}
+          %a{href: 'https://plus.google.com/u/0/115366219080630998906/posts'}
+            %img{src: 'img/icons/Google.png'}
+
+
     %script{ src: "http://code.jquery.com/jquery.js"}
     %script{ src: "js/bootstrap.min.js"}
     %script{:type => "text/javascript", :src => "https://maps.googleapis.com/maps/api/js?key=AIzaSyBB3Xw2XX0X3KGilOXv6Zfug2eC8QSiSF0&sensor=false"}
