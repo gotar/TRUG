@@ -1,5 +1,4 @@
-#!/usr/bin/env rake
-require 'rspec/core/rake_task'
+task :default => :spec
 
 namespace :db do
   task :migrate
@@ -7,9 +6,8 @@ namespace :db do
 end
 
 desc 'Run all specs'
-RSpec::Core::RakeTask.new(:spec) do |t|
-  t.pattern = './spec/**/*_spec.rb'
-  t.rspec_opts = ['--profile', '--color']
+task :spec do
+  FileList["**/*_spec.rb"].each do |file|
+    sh "bundle exec rspec -cp #{file}"
+  end
 end
-
-task :default => :spec
