@@ -4,3 +4,5 @@ body .container article h2{font-size:48px;line-height:48px;color:#c95555;font-we
 body footer a:hover{text-decoration:none;}
 .navbar nav{background-color:#2b2f35;}
 #map-canvas{width:100%;height:300px;border:1px solid #ccc;}
+h2.newsletter{margin:40px 0 0 0;}
+small{color: #999;}
