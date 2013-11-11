@@ -30,4 +30,16 @@ describe "application" do
       last_response.should match /input(.*)id='mce-EMAIL'/
     end
   end
+
+  context 'archive' do
+    it 'should render 200 OK for the archive page' do
+      get '/archive'
+      last_response.should be_ok
+    end
+
+    it "shold contain 'Archiwum' title" do
+      get '/archive'
+      last_response.body.should match(/Archiwum/)
+    end
+  end
 end
