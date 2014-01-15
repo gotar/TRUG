@@ -6,7 +6,7 @@
 
 @pastel_red: #FF6961;
 
-body{
+body {
   background: transparent url('../img/bg.jpg');
   font-family: 'Titillium Web', sans-serif;
   font-size: 1em;
@@ -34,11 +34,19 @@ small {
   color: #999;
 }
 
-body footer a:hover {
-  text-decoration: none;
+body footer {
+  .container {
+    margin-top: 2em;
+    padding: 1em;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
 }
 
-.navbar nav {
+header.navbar,
+footer {
   background-color: #2b2f35;
 }
 

@@ -24,19 +24,16 @@
         .row-fluid= yield
     %footer
       .container
-        %p.pull-left.muted
-          %a{ href: "https://github.com/gotar/TRUG.git"}
-            %img{src: 'img/icons/Github.png'}
-            Kod źródłowy
-          \- zapraszam do udziału w tworzeniu strony.
-        %p.pull-right
+        %div.pull-left.muted
           %a{href: 'https://groups.google.com/forum/?hl=pl&fromgroups#!forum/trug-pl'}
             %img{src: 'img/icons/groups.png'}
           %a{href: 'https://plus.google.com/u/0/115366219080630998906/posts'}
             %img{src: 'img/icons/Google.png'}
-        .clearfix
-        %a.pull-left{href: 'http://shellycloud.com'}
-          %img{src: 'img/shelly-cloud-banner.png'}
+          %a{ href: "https://github.com/gotar/TRUG.git"}
+            %img{src: 'img/icons/Github.png'}
+        %div.pull-right
+          %a.pull-left{href: 'http://shellycloud.com'}
+            %img{src: 'img/shelly-cloud-banner.png'}
 
     %script{ src: "http://code.jquery.com/jquery.js"}
     %script{ src: "js/bootstrap.min.js"}
