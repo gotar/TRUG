@@ -9,6 +9,7 @@
 body{
   background: transparent url('../img/bg.jpg');
   font-family: 'Titillium Web', sans-serif;
+  font-size: 1em;
 }
 
 body .container header, body footer .container {
@@ -17,12 +18,20 @@ body .container header, body footer .container {
 }
 
 body .container article h2 {
+  &.newsletter{
+    margin-top: 40px;
+  }
+
   font-size: 48px;
   line-height: 48px;
   color: #c95555;
   font-weight: 200;
   text-transform: uppercase;
   margin-bottom: 25px;
+}
+
+small {
+  color: #999;
 }
 
 body footer a:hover {
@@ -37,4 +46,19 @@ body footer a:hover {
   width: 100%;
   height: 300px;
   border: 1px solid #ccc;
+}
+
+.dl-horizontal {
+  dt,
+  dd {
+    padding: 3px 0;
+  }
+
+  dt {
+    width: 60px;
+  }
+
+  dd {
+    margin-left: 85px;
+  }
 }
