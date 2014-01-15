@@ -10,7 +10,6 @@ gem 'therubyracer'
 gem 'rack-rewrite'
 
 group :development do
-  gem 'shelly'
   gem 'pry'
 end
 
