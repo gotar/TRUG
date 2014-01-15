@@ -54,8 +54,6 @@ GEM
       progressbar
       rest-client
       wijet-thor (~> 0.14.10)
-    shelly-dependencies (0.2.3)
-      thin
     sinatra (1.4.2)
       rack (~> 1.5, >= 1.5.2)
       rack-protection (~> 1.4)
@@ -86,7 +84,6 @@ DEPENDENCIES
   rake
   rspec
   shelly
-  shelly-dependencies
   sinatra
   therubyracer
   thin
