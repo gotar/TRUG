@@ -10,4 +10,4 @@ trug:
   servers:
     app1:
       size: small
-      thin: 4
+      thin: 6
