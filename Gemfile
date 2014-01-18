@@ -8,6 +8,7 @@ gem 'rack-rewrite'
 
 gem 'haml'
 
+gem 'sinatra-assetpack'
 gem 'less'
 gem 'therubyracer'
 
