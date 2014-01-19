@@ -9,15 +9,10 @@ class App < Sinatra::Base
     serve '/css', from: 'public/css'
     serve '/js', from: 'public/js'
 
-    css :styles, '/css/styles.css', [
-      '/css/custom.css',
-      '/css/custom-mailchimp.css'
-    ]
+    css :styles, '/css/styles.css', ['/css/custom.css']
     css_compression :less
 
-    js :load_google_map, '/js/application.js', [
-      '/js/map.js'
-    ]
+    js :load_google_map, '/js/application.js', ['/js/map.js']
 
     prebuild true
     expires 86400 * 365, :public

@@ -23,21 +23,20 @@
       %small - Adam Okoń
 
   %h2 Archiwum
-  %a{href: '/archive', class: 'btn btn-danger'} Zobacz materiały ze spotkań
+  %a.btn.btn-inverse{href: '/archive'} Zobacz materiały ze spotkań
 
   %h2.newsletter Newsletter
   %p Nie chcesz przegapić kolejnego TRUGu? Zapisz się na listę, abyśmy mogli powiadomić Cię o najbliższym spotkaniu*:
-  #mc_embed_signup
-    %form#mc-embedded-subscribe-form.validate{action: "http://trug.us7.list-manage1.com/subscribe/post?u=f8d2876ca6b2aa3d9ba96ab2c&amp;id=5e34bce3f9",
-      method: "post", name: "mc-embedded-subscribe-form", novalidate:"", target:"_blank"}
-      %label{for: "mce-EMAIL"}
-      %input#mce-EMAIL.email{name: "EMAIL", placeholder: "twój adres e-mail", required: "", type: "email", value: ""}
-      %input#mc-embedded-subscribe.button{name: "subscribe", type: "submit", value: "Subskrybuj"}
+  %form.form-inline{action: "http://trug.us7.list-manage1.com/subscribe/post?u=f8d2876ca6b2aa3d9ba96ab2c&amp;id=5e34bce3f9",
+    method: "post",
+    target: "_blank",
+    novalidate:""}
+    %input.input{name: "EMAIL", placeholder: "Twój adres e-mail", required: "", type: "email"}
+    %button.btn.btn-inverse{name: "subscribe", type: "submit"} Subskrybuj
   %small * Don't worry, it's spam free! Trust us, we are programmers :)
 
 .span6
   %h2 Lokalizacja
-
   #map-canvas
 
 %script{:type => "text/javascript", :src => "https://maps.googleapis.com/maps/api/js?key=AIzaSyBB3Xw2XX0X3KGilOXv6Zfug2eC8QSiSF0&sensor=false"}

@@ -26,8 +26,9 @@ describe "application" do
 
     it "should contain Mailchimp form inside 'Newsletter' section" do
       get '/'
-      last_response.should match /form(.*)id='mc-embedded-subscribe-form'/
-      last_response.should match /input(.*)id='mce-EMAIL'/
+      last_response.should match /form(.*)action='http:\/\/trug.us7.list-manage1.com\/subscribe\/(.*)'/
+      last_response.should match /input(.*)name='EMAIL'/
+      last_response.should match /button(.*)name='subscribe'/
     end
   end
 
