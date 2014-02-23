@@ -70,3 +70,43 @@ footer {
     margin-left: 85px;
   }
 }
+
+@videoBoxHeigt:  259px;
+
+.meetup {
+  [class*=span] {
+    margin-left: 10px;  
+  }
+
+  .video {
+    margin-bottom: 10px;
+    position: relative;
+    height: @videoBoxHeigt;
+  }
+
+  .play {
+    width: 60px;
+    height: 60px;
+    background-color: #ccc;
+    border-radius: 60px;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    cursor: pointer;  
+  }
+
+  i {
+    margin-left: 21px;
+    margin-top: 15px;
+  }
+
+  img {
+    width: 100%;
+    height: @videoBoxHeigt;
+    cursor: pointer;  
+  }
+
+  hr {
+    clear: both;  
+  }
+}
