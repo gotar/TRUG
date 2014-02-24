@@ -1,0 +1,6 @@
+.meetup
+  %h3= meetup[:meetup_number] 
+  - if meetup[:talks]
+    - meetup[:talks].each do |talk|
+      = haml :talk, layout: false, locals: { talk: talk }
+  %hr

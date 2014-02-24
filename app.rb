@@ -1,6 +1,7 @@
 require 'sinatra/base'
 require 'sinatra/assetpack'
 require 'less'
+require 'yaml'
 
 class App < Sinatra::Base
   register Sinatra::AssetPack
@@ -26,6 +27,8 @@ class App < Sinatra::Base
   end
 
   get '/archive' do
+    meetups_path = File.expand_path('../meetups.yaml', __FILE__)
+    @meetups = File.exists?(meetups_path) ? YAML.load_file(meetups_path) : nil
     haml :archive, layout: :base
   end
 end
