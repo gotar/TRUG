@@ -5,12 +5,6 @@
       .play
         %i.fa.fa-play.fa-2x
   %p
-    - if talk[:slides]
-      %a{ href: talk[:slides], target: "_blank" }= talk[:title]
-    - else
-      = talk[:title]
+    = talk_title(talk)
     –
-    - if talk[:home_page]
-      %a{ href: talk[:home_page], target: "_blank" }= talk[:fullname]
-    - else
-      = talk[:fullname]
+    = talk_speaker(talk)
