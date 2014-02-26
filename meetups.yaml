@@ -1,4 +1,5 @@
-- :meetup_number: TRUG#22 (2014-02-19)
+- :number: 22
+  :date: 2014-02-19
   :talks:
     - :fullname: Adrian Gruntkowski
       :home_page: https://github.com/zoldar
@@ -16,7 +17,8 @@
       :video_provider: 
       :video_thumb: 
 
-- :meetup_number: TRUG#19 (2013-11-20)
+- :number: 19
+  :date: 2013-11-20
   :talks:
     - :fullname: Sebastian Nowak
       :home_page: https://github.com/seban
@@ -34,7 +36,8 @@
       :video_provider: vimeo
       :video_thumb: http://b.vimeocdn.com/ts/463/514/463514579_640.jpg
 
-- :meetup_number: TRUG#18 (2013-10-23)
+- :number: 18
+  :date: 2013-10-23
   :talks:
     - :fullname: Łukasz Piestrzeniewicz
       :home_page: https://github.com/bragi
@@ -44,7 +47,8 @@
       :video_provider: youtube
       :video_thumb: http://img.youtube.com/vi/iDKoYfXHbwE/sddefault.jpg
 
-- :meetup_number: TRUG#17 (2013-09-18)
+- :number: 17
+  :date: 2013-09-18
   :talks:
     - :fullname: Michał Kwiatkowski
       :home_page: https://github.com/mkwiatkowski
@@ -78,9 +82,11 @@
       :video_provider: 
       :video_thumb: 
 
-- :meetup_number: TRUG#16 (2013-08-21)
+- :number: 16
+  :date: 2013-08-21
 
-- :meetup_number: TRUG#15 (2013-07-24)
+- :number: 15
+  :date: 2013-07-24
   :talks:
     - :fullname: Michał Kwiatkowski
       :home_page: https://github.com/mkwiatkowski
@@ -98,7 +104,8 @@
       :video_provider: vimeo
       :video_thumb: http://b.vimeocdn.com/ts/465/293/465293280_640.jpg
 
-- :meetup_number: TRUG#14 (2013-06-19)
+- :number: 14
+  :date: 2013-06-19
   :talks:
     - :fullname: Szymon Jeż
       :home_page: https://github.com/jeznet
@@ -124,7 +131,8 @@
       :video_provider: vimeo
       :video_thumb: http://b.vimeocdn.com/ts/457/570/457570632_640.jpg
 
-- :meetup_number: TRUG#13 (2013-05-22)
+- :number: 13
+  :date: 2013-05-22
   :talks:
     - :fullname: Paweł Gościcki
       :home_page: https://github.com/pjg
@@ -150,7 +158,7 @@
       :video_provider: vimeo
       :video_thumb: http://b.vimeocdn.com/ts/457/527/457527978_640.jpg
 
-- :meetup_number: TRUG#11
+- :number: 11
   :talks:
     - :fullname: Adam Okoń
       :home_page: https://github.com/aokon
@@ -168,7 +176,7 @@
       :video_provider: vimeo
       :video_thumb: http://b.vimeocdn.com/ts/454/269/454269365_640.jpg
 
-- :meetup_number: TRUG#10
+- :number: 10
   :talks:
     - :fullname: Przemysław Wróblewski
       :home_page: http://przemyslawwroblewski.blogspot.com/
@@ -178,7 +186,8 @@
       :video_provider: vimeo
       :video_thumb: http://b.vimeocdn.com/ts/454/269/454269575_640.jpg
 
-- :meetup_number: TRUG#9 (2012-05-15)
+- :number: 9
+  :date: 2012-05-15
   :talks:
     - :fullname: Sebastian Nowak
       :home_page: https://github.com/seban
@@ -196,7 +205,7 @@
       :video_provider: vimeo
       :video_thumb: http://b.vimeocdn.com/ts/454/269/454269943_640.jpg
 
-- :meetup_number: TRUG#8
+- :number: 8
   :talks:
     - :fullname: Michał Kwiatkowski
       :home_page: https://github.com/mkwiatkowski
@@ -206,7 +215,7 @@
       :video_provider: vimeo
       :video_thumb: http://b.vimeocdn.com/ts/454/271/454271088_640.jpg
 
-- :meetup_number: TRUG#6
+- :number: 6
   :talks:
     - :fullname: Oskar Szrajer
       :home_page: https://github.com/gotar
@@ -216,7 +225,7 @@
       :video_provider: vimeo
       :video_thumb: http://b.vimeocdn.com/ts/454/270/454270982_640.jpg
 
-- :meetup_number: TRUG#5
+- :number: 5
   :talks:
     - :fullname: Sebastian Nowak
       :home_page: https://github.com/seban
@@ -242,7 +251,7 @@
       :video_provider: vimeo
       :video_thumb: http://b.vimeocdn.com/ts/454/271/454271206_640.jpg
 
-- :meetup_number: TRUG#4
+- :number: 4
   :talks:
     - :fullname: Michał Kwiatkowski
       :home_page: https://github.com/mkwiatkowski
@@ -252,7 +261,7 @@
       :video_provider: vimeo
       :video_thumb: http://b.vimeocdn.com/ts/454/271/454271733_640.jpg
 
-- :meetup_number: TRUG#3
+- :number: 3
   :talks:
     - :fullname: Sebastian Nowak
       :home_page: https://github.com/seban
@@ -270,7 +279,7 @@
       :video_provider: vimeo
       :video_thumb: http://b.vimeocdn.com/ts/454/271/454271652_640.jpg
 
-- :meetup_number: TRUG#2
+- :number: 2
   :talks:
     - :fullname: Włodzimierz Bzyl
       :home_page: https://github.com/wbzyl
@@ -288,7 +297,7 @@
       :video_provider: vimeo
       :video_thumb: http://b.vimeocdn.com/ts/454/272/454272115_640.jpg
 
-- :meetup_number: TRUG#1
+- :number: 1
   :talks:
     - :fullname: Oskar Szrajer
       :home_page: https://github.com/gotar

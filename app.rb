@@ -6,6 +6,15 @@ require 'yaml'
 class App < Sinatra::Base
   register Sinatra::AssetPack
 
+  helpers do
+    def meetup_header(meetup)
+      header = []
+      header.push("TRUG##{meetup[:number]}") if  meetup[:number]
+      header.push("(#{meetup[:date]})") if meetup[:date]
+      header.join(' ')
+    end
+  end
+
   assets do
     serve '/css', from: 'public/css'
     serve '/js', from: 'public/js'
