@@ -37,6 +37,33 @@
       :video_provider:
       :video_thumb:
 
+- :number: 21
+  :date: 2014-01-22
+  :talks:
+    - :fullname: Maciej Małecki
+      :home_page: https://github.com/smt116 
+      :title: RethinkDB
+      :slides: http://smefju.pl/presentations/rethinkdb/#1
+      :video_id: 87866803
+      :video_provider: vimeo
+      :video_thumb: http://b.vimeocdn.com/ts/466/111/466111992_640.jpg
+
+    - :fullname: Adam Okoń
+      :home_page: https://github.com/aokon
+      :title: Puma
+      :slides:
+      :video_id: 89399924
+      :video_provider: vimeo
+      :video_thumb: http://b.vimeocdn.com/ts/468/411/468411439_640.jpg
+
+    - :fullname: Adam Okoń
+      :home_page: https://github.com/aokon
+      :title: Podsumowanie 2013
+      :slides:
+      :video_id: 89426724
+      :video_provider: vimeo
+      :video_thumb: http://b.vimeocdn.com/ts/468/411/468411386_640.jpg
+
 - :number: 19
   :date: 2013-11-20
   :talks:
