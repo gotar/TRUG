@@ -1,3 +1,23 @@
+- :number: 23
+  :date: 2014-03-19
+  :talks:
+    - :fullname: Bartłomiej Kozal
+      :home_page: https://github.com/bkzl
+      :title: CSS w dużych aplikacjach webowych
+      :slides: https://speakerdeck.com/bkzl/scalable-css
+      :video_id:
+      :video_provider:
+      :video_thumb:
+
+    - :fullname: Krzysztof Wawer
+      :home_page: https://github.com/wafcio
+      :title: dynamiczne szablony Liquid markup
+      :slides: https://speakerdeck.com/wafcio/dynamiczne-szablony-liquid-markup
+      :source_code: https://github.com/wafcio/liquid_example_trug
+      :video_id:
+      :video_provider:
+      :video_thumb:
+
 - :number: 22
   :date: 2014-02-19
   :talks:
@@ -5,17 +25,17 @@
       :home_page: https://github.com/zoldar
       :title: React JS
       :slides: http://zoldar.net/react/#1
-      :video_id: 
-      :video_provider: 
-      :video_thumb: 
+      :video_id:
+      :video_provider:
+      :video_thumb:
 
     - :fullname: Oskar Szrajer
       :home_page: https://github.com/gotar
       :title: Elastic Search
-      :slides: 
-      :video_id: 
-      :video_provider: 
-      :video_thumb: 
+      :slides:
+      :video_id:
+      :video_provider:
+      :video_thumb:
 
 - :number: 19
   :date: 2013-11-20
@@ -23,13 +43,13 @@
     - :fullname: Sebastian Nowak
       :home_page: https://github.com/seban
       :title: Git like a pro
-      :slides: 
+      :slides:
       :video_id: 85487366
       :video_provider: vimeo
       :video_thumb: http://b.vimeocdn.com/ts/463/444/463444567_640.jpg
 
     - :fullname: Sebastian Zontek
-      :home_page: 
+      :home_page:
       :title: Advertine
       :slides: http://www.advertine.com/
       :video_id: 85975292
@@ -54,33 +74,33 @@
       :home_page: https://github.com/mkwiatkowski
       :title: AngularJS + Rails
       :slides: http://mkwiatkowski.github.io/angularjs-rails4-trug-presentation
-      :video_id: 
-      :video_provider: 
-      :video_thumb: 
+      :video_id:
+      :video_provider:
+      :video_thumb:
 
     - :fullname: Piotr Macuk
       :home_page: https://github.com/macuk
       :title: Mail gem problem
       :slides: https://gist.github.com/macuk/6619938
-      :video_id: 
-      :video_provider: 
-      :video_thumb: 
+      :video_id:
+      :video_provider:
+      :video_thumb:
 
     - :fullname: Piotr Macuk
       :home_page: https://github.com/macuk
       :title: Less is more
       :slides: /archive/20130918/Less-is-More-Piotr-Macuk.pdf
-      :video_id: 
-      :video_provider: 
-      :video_thumb: 
+      :video_id:
+      :video_provider:
+      :video_thumb:
 
     - :fullname: Adrian Gruntkowski
       :home_page: https://github.com/zoldar
       :title: Grafowe bazy danych
       :slides: /archive/20130918/Grafowe-bazy-danych.pdf
-      :video_id: 
-      :video_provider: 
-      :video_thumb: 
+      :video_id:
+      :video_provider:
+      :video_thumb:
 
 - :number: 16
   :date: 2013-08-21
@@ -91,15 +111,15 @@
     - :fullname: Michał Kwiatkowski
       :home_page: https://github.com/mkwiatkowski
       :title: Emacs
-      :slides: 
+      :slides:
       :video_id: 86509377
       :video_provider: vimeo
       :video_thumb: http://b.vimeocdn.com/ts/465/279/465279284_640.jpg
 
     - :fullname: Szymon Wrożyński
-      :home_page: https://github.com/szw 
+      :home_page: https://github.com/szw
       :title: Vim
-      :slides: 
+      :slides:
       :video_id: 87281357
       :video_provider: vimeo
       :video_thumb: http://b.vimeocdn.com/ts/465/293/465293280_640.jpg
@@ -110,7 +130,7 @@
     - :fullname: Szymon Jeż
       :home_page: https://github.com/jeznet
       :title: The Wrong Way
-      :slides: 
+      :slides:
       :video_id: 78759335
       :video_provider: vimeo
       :video_thumb: http://b.vimeocdn.com/ts/454/273/454273440_640.jpg
@@ -118,7 +138,7 @@
     - :fullname: Michał Kwiatkowski
       :home_page: https://github.com/mkwiatkowski
       :title: Timeout
-      :slides: 
+      :slides:
       :video_id: 80318734
       :video_provider: vimeo
       :video_thumb: http://b.vimeocdn.com/ts/457/527/457527903_640.jpg
@@ -126,7 +146,7 @@
     - :fullname: Maciej Greń
       :home_page: https://defii.co/en
       :title: Defii
-      :slides: 
+      :slides:
       :video_id: 81406179
       :video_provider: vimeo
       :video_thumb: http://b.vimeocdn.com/ts/457/570/457570632_640.jpg
@@ -145,7 +165,7 @@
     - :fullname: Sebastian Nowak
       :home_page: https://github.com/seban
       :title: MongoDB
-      :slides: 
+      :slides:
       :video_id: 80318733
       :video_provider: vimeo
       :video_thumb: http://b.vimeocdn.com/ts/457/528/457528059_640.jpg
@@ -153,7 +173,7 @@
     - :fullname: Adam Okoń
       :home_page: https://github.com/aokon
       :title: Celluloid
-      :slides: 
+      :slides:
       :video_id: 80318732
       :video_provider: vimeo
       :video_thumb: http://b.vimeocdn.com/ts/457/527/457527978_640.jpg
@@ -163,7 +183,7 @@
     - :fullname: Adam Okoń
       :home_page: https://github.com/aokon
       :title: Faye
-      :slides: 
+      :slides:
       :video_id: 78581709
       :video_provider: vimeo
       :video_thumb: http://b.vimeocdn.com/ts/454/269/454269753_640.jpg
@@ -171,7 +191,7 @@
     - :fullname: Michał Kwiatkowski
       :home_page: https://github.com/mkwiatkowski
       :title: Shelly Cloud
-      :slides: 
+      :slides:
       :video_id: 78670603
       :video_provider: vimeo
       :video_thumb: http://b.vimeocdn.com/ts/454/269/454269365_640.jpg
@@ -181,7 +201,7 @@
     - :fullname: Przemysław Wróblewski
       :home_page: http://przemyslawwroblewski.blogspot.com/
       :title: Torquebox 2
-      :slides: 
+      :slides:
       :video_id: 78670602
       :video_provider: vimeo
       :video_thumb: http://b.vimeocdn.com/ts/454/269/454269575_640.jpg
@@ -192,7 +212,7 @@
     - :fullname: Sebastian Nowak
       :home_page: https://github.com/seban
       :title: Statyczna analiza kodu przy użyciu Rubiniusa
-      :slides: 
+      :slides:
       :video_id: 78579342
       :video_provider: vimeo
       :video_thumb: http://b.vimeocdn.com/ts/454/270/454270056_640.jpg
@@ -210,7 +230,7 @@
     - :fullname: Michał Kwiatkowski
       :home_page: https://github.com/mkwiatkowski
       :title: Testy naprawdę jednostkowe
-      :slides: 
+      :slides:
       :video_id: 78579341
       :video_provider: vimeo
       :video_thumb: http://b.vimeocdn.com/ts/454/271/454271088_640.jpg
@@ -220,7 +240,7 @@
     - :fullname: Oskar Szrajer
       :home_page: https://github.com/gotar
       :title: Goliath
-      :slides: 
+      :slides:
       :video_id: 78578277
       :video_provider: vimeo
       :video_thumb: http://b.vimeocdn.com/ts/454/270/454270982_640.jpg
@@ -230,7 +250,7 @@
     - :fullname: Sebastian Nowak
       :home_page: https://github.com/seban
       :title: Deployment
-      :slides: 
+      :slides:
       :video_id: 77541867
       :video_provider: vimeo
       :video_thumb: http://b.vimeocdn.com/ts/454/271/454271442_640.jpg
@@ -238,7 +258,7 @@
     - :fullname: Oskar Szrajer
       :home_page: https://github.com/gotar
       :title: Odtwarzacz muzyczny w Ruby
-      :slides: 
+      :slides:
       :video_id: 77541868
       :video_provider: vimeo
       :video_thumb: http://b.vimeocdn.com/ts/454/271/454271354_640.jpg
@@ -246,7 +266,7 @@
     - :fullname: Maciej Wojdyr
       :home_page: https://github.com/mwojdyr
       :title: RoR i i18n
-      :slides: 
+      :slides:
       :video_id: 77541869
       :video_provider: vimeo
       :video_thumb: http://b.vimeocdn.com/ts/454/271/454271206_640.jpg
@@ -256,7 +276,7 @@
     - :fullname: Michał Kwiatkowski
       :home_page: https://github.com/mkwiatkowski
       :title: Wyszukiwanie w RoR
-      :slides: 
+      :slides:
       :video_id: 77527002
       :video_provider: vimeo
       :video_thumb: http://b.vimeocdn.com/ts/454/271/454271733_640.jpg
@@ -266,15 +286,15 @@
     - :fullname: Sebastian Nowak
       :home_page: https://github.com/seban
       :title: JRuby Real Use Case
-      :slides: 
+      :slides:
       :video_id: 77281779
       :video_provider: vimeo
       :video_thumb: http://b.vimeocdn.com/ts/454/272/454272967_640.jpg
 
     - :fullname: Mateusz Leszczyński
-      :home_page: 
+      :home_page:
       :title: Hobo Cookbook
-      :slides: 
+      :slides:
       :video_id: 77541866
       :video_provider: vimeo
       :video_thumb: http://b.vimeocdn.com/ts/454/271/454271652_640.jpg
@@ -284,7 +304,7 @@
     - :fullname: Włodzimierz Bzyl
       :home_page: https://github.com/wbzyl
       :title: CouchDB
-      :slides: 
+      :slides:
       :video_id: 77281778
       :video_provider: vimeo
       :video_thumb: http://b.vimeocdn.com/ts/452/750/452750252_640.jpg
@@ -292,7 +312,7 @@
     - :fullname: Mateusz Marek
       :home_page: https://github.com/matthewpl
       :title: Czym jest agile work flow
-      :slides: 
+      :slides:
       :video_id: 77281780
       :video_provider: vimeo
       :video_thumb: http://b.vimeocdn.com/ts/454/272/454272115_640.jpg
@@ -302,7 +322,7 @@
     - :fullname: Oskar Szrajer
       :home_page: https://github.com/gotar
       :title: Tworzenie aplikacji desktopowych w Ruby i Gtk2
-      :slides: 
+      :slides:
       :video_id: 75640499
       :video_provider: vimeo
       :video_thumb: http://b.vimeocdn.com/ts/450/342/450342003_640.jpg
@@ -310,7 +330,7 @@
     - :fullname: Sebastian Nowak
       :home_page: https://github.com/seban
       :title: MongoDB case study
-      :slides: 
+      :slides:
       :video_id: 75640498
       :video_provider: vimeo
       :video_thumb: http://b.vimeocdn.com/ts/450/342/450342180_640.jpg
