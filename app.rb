@@ -29,6 +29,10 @@ class App < Sinatra::Base
         talk[:fullname]
       end
     end
+
+    def talk_source_code(talk)
+      "Source code: <a href='#{talk[:source_code]}' target='_blank'>#{talk[:source_code]}</a>" if talk[:source_code]
+    end
   end
 
   assets do
