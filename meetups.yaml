@@ -18,6 +18,14 @@
       :video_provider:
       :video_thumb:
 
+    - :fullname: Oskar Szrajer
+      :home_page: https://github.com/gotar
+      :title: Keep your wrists healthy
+      :slides:
+      :video_id: 89779134
+      :video_provider: vimeo
+      :video_thumb: http://b.vimeocdn.com/ts/468/668/468668214_640.jpg
+
 - :number: 22
   :date: 2014-02-19
   :talks:
