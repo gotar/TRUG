@@ -1,3 +1,14 @@
+- :number: 24
+  :date: 2014-04-23
+  :talks:
+    - :fullname: Krzysztof Wawer
+      :home_page: https://github.com/wafcio
+      :title: Odchudzanie .gitignore
+      :slides: https://speakerdeck.com/wafcio/odchudzanie-gitignore
+      :video_id:
+      :video_provider:
+      :video_thumb:
+
 - :number: 23
   :date: 2014-03-19
   :talks:
