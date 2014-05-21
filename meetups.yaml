@@ -44,23 +44,23 @@
       :home_page: https://github.com/zoldar
       :title: React JS
       :slides: http://zoldar.net/react/#1
-      :video_id:
-      :video_provider:
-      :video_thumb:
+      :video_id: 91980711
+      :video_provider: vimeo
+      :video_thumb: http://i.vimeocdn.com/video/471590150_640.jpg
 
     - :fullname: Oskar Szrajer
       :home_page: https://github.com/gotar
       :title: Elastic Search
       :slides:
-      :video_id:
-      :video_provider:
-      :video_thumb:
+      :video_id: 92492821
+      :video_provider: vimeo
+      :video_thumb: http://i.vimeocdn.com/video/472285541_640.jpg
 
 - :number: 21
   :date: 2014-01-22
   :talks:
     - :fullname: Maciej Małecki
-      :home_page: https://github.com/smt116 
+      :home_page: https://github.com/smt116
       :title: RethinkDB
       :slides: http://smefju.pl/presentations/rethinkdb/#1
       :video_id: 87866803
