@@ -1,3 +1,21 @@
+- :number: 25
+  :date: 2014-05-21
+  :talks:
+    - :fullname: Oskar Szrajer
+      :home_page: https://github.com/gotar
+      :title: Modern API (JSON, REST)
+      :slides:
+      :video_id:
+      :video_provider:
+      :video_thumb:
+    - :fullname: Michał Kwiatkowski
+      :home_page: https://github.com/mkwiatkowski
+      :title: Porównanie Rails-Django
+      :slides:
+      :video_id:
+      :video_provider:
+      :video_thumb:
+
 - :number: 24
   :date: 2014-04-23
   :talks:
