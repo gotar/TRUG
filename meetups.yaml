@@ -1,3 +1,14 @@
+- :number: 26
+  :date: 2014-06-18
+  :talks:
+    - :fullname: Oskar Szrajer
+      :home_page: http://gotar.info
+      :title: Lotus Router, Model, Controller, View
+      :slides: http://lotusrb.org
+      :video_id:
+      :video_provider:
+      :video_thumb:
+
 - :number: 25
   :date: 2014-05-21
   :talks:
