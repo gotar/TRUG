@@ -1,3 +1,15 @@
+- :number: 27
+  :date: 2014-07-24
+  :talks:
+    - :fullname: Krzysztof Wawer
+      :home_page: https://github.com/wafcio
+      :title: Budowanie aplikacji webowej w Ruby (Hobbit)
+      :slides: https://speakerdeck.com/wafcio/hobbit
+      :source_code: https://github.com/wafcio/blog_hobbit_trug
+      :video_id:
+      :video_provider:
+      :video_thumb:
+
 - :number: 26
   :date: 2014-06-18
   :talks:
