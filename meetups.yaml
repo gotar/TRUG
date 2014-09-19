@@ -1,3 +1,22 @@
+- :number: 29
+  :date: 2014-09-17
+  :talks:
+    - :fullname: Michał Podlecki
+      :home_page: https://github.com/michalpodlecki
+      :title: Mazureo.pl
+      :slides: http://mazureo.pl/
+      :video_id:
+      :video_provider:
+      :video_thumb:
+
+    - :fullname: Piotr Macuk
+      :home_page: https://github.com/macuk
+      :title: Konfeo.com -- moja przygoda z biznesem
+      :slides: /archive/20140917/Konfeo.com-moja-przygoda-z-biznesem-Piotr-Macuk.pdf
+      :video_id:
+      :video_provider:
+      :video_thumb:
+
 - :number: 28
   :date: 2014-08-20
   :talks:
