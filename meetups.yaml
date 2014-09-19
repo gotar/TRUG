@@ -21,7 +21,7 @@
   :date: 2014-08-20
   :talks:
     - :fullname: Oskar Szrajer
-      :home_page: gotar.info
+      :home_page: http://gotar.info
       :title: Beyond MVC
       :slides: http://www.slideshare.net/oskarszrajer/beyond-mvc
       :source_code:
