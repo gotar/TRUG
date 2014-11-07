@@ -96,18 +96,18 @@
       :home_page: https://github.com/bkzl
       :title: CSS w dużych aplikacjach webowych
       :slides: https://speakerdeck.com/bkzl/scalable-css
-      :video_id:
-      :video_provider:
-      :video_thumb:
+      :video_id: 96590922
+      :video_provider: vimeo
+      :video_thumb: http://i.vimeocdn.com/video/476683884_640.jpg
 
     - :fullname: Krzysztof Wawer
       :home_page: https://github.com/wafcio
       :title: Dynamiczne szablony Liquid Markup
       :slides: https://speakerdeck.com/wafcio/dynamiczne-szablony-liquid-markup
       :source_code: https://github.com/wafcio/liquid_example_trug
-      :video_id:
-      :video_provider:
-      :video_thumb:
+      :video_id: W-Mg6J-97M8
+      :video_provider: youtube
+      :video_thumb: http://img.youtube.com/vi/W-Mg6J-97M8/sddefault.jpg
 
     - :fullname: Oskar Szrajer
       :home_page: https://github.com/gotar
