@@ -1,5 +1,5 @@
 trug:
-  ruby_version: 2.0.0
+  ruby_version: 2.1.4
   environment: production
   monitoring_email: gotar@ragnarson.com
   domains:
