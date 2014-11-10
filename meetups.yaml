@@ -25,17 +25,17 @@
       :title: Beyond MVC
       :slides: http://www.slideshare.net/oskarszrajer/beyond-mvc
       :source_code:
-      :video_id:
-      :video_provider:
-      :video_thumb:
+      :video_id: 9b1G_Q2AHXI
+      :video_provider: youtube
+      :video_thumb: http://img.youtube.com/vi/9b1G_Q2AHXI/sddefault.jpg
     - :fullname: Paweł Gościcki
       :home_page: https://github.com/pjg
       :title: 'Rspec: Best practices'
       :slides: /archive/20140820/rspec.html
       :source_code:
-      :video_id:
-      :video_provider:
-      :video_thumb:
+      :video_id: NS2N-gqTU78
+      :video_provider: youtube
+      :video_thumb: http://img.youtube.com/vi/NS2N-gqTU78/sddefault.jpg
 
 - :number: 27
   :date: 2014-07-24
