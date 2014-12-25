@@ -36,6 +36,7 @@ class App < Sinatra::Base
   end
 
   assets do
+    serve '/images', from: 'public/img'
     serve '/css', from: 'public/css'
     serve '/js', from: 'public/js'
 
