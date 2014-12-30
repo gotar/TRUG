@@ -5,17 +5,17 @@
       :home_page: https://github.com/michalpodlecki
       :title: Mazureo.pl
       :slides: http://mazureo.pl/
-      :video_id:
-      :video_provider:
-      :video_thumb:
+      :video_id: b3i5CHojnsU
+      :video_provider: youtube
+      :video_thumb: http://img.youtube.com/vi/b3i5CHojnsU/sddefault.jpg
 
     - :fullname: Piotr Macuk
       :home_page: https://github.com/macuk
       :title: Konfeo.com -- moja przygoda z biznesem
       :slides: /archive/20140917/Konfeo.com-moja-przygoda-z-biznesem-Piotr-Macuk.pdf
-      :video_id:
-      :video_provider:
-      :video_thumb:
+      :video_id: l_XMz4m7lt4
+      :video_provider: youtube
+      :video_thumb: http://img.youtube.com/vi/l_XMz4m7lt4/sddefault.jpg
 
 - :number: 28
   :date: 2014-08-20
