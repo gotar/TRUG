@@ -1,3 +1,13 @@
+- :number: 30
+  :date: 2014-10-14
+  :talks:
+    - :fullname: Adam Okoń
+      :home_page: https://github.com/aokon
+      :title: Rubymotion
+      :slides:
+      :video_id: wmssg1g6bNA
+      :video_provider: youtube
+      :video_thumb: http://img.youtube.com/vi/wmssg1g6bNA/sddefault.jpg
 - :number: 29
   :date: 2014-09-17
   :talks:
