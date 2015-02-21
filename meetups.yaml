@@ -1,3 +1,85 @@
+- :number: 34
+  :date: 2015-02-18
+  :talks:
+    - :fullname: Oskar Szrajer
+      :home_page: https://github.com/gotar
+      :title: ROM - Ruby Object Mapper
+      :slides:
+      :video_id:
+      :video_provider:
+      :video_thumb:
+- :number: 33
+  :date: 2015-01-21
+  :talks:
+    - :fullname: Maciej Małecki
+      :home_page: https://github.com/smefju
+      :title: Ship your code with Codeship
+      :slides:
+      :video_id:
+      :video_provider:
+      :video_thumb:
+    - :fullname: Krzysztof Wawer
+      :home_page: https://github.com/wafcio
+      :title: ORM, DataMapper czy Agregacja encji
+      :slides:
+      :video_id:
+      :video_provider:
+      :video_thumb:
+    - :fullname: Michał Kwiatkowski
+      :home_page: https://github.com/mkwiatkowski
+      :title: "Języki funkcyjne: czego jeszcze mogą nas nauczyć?"
+      :slides:
+      :video_id:
+      :video_provider:
+      :video_thumb:
+- :number: 32
+  :date: 2014-12-17
+  :talks:
+    - :fullname: Maciej Małecki
+      :home_page: https://github.com/smefju
+      :title: Eye
+      :slides:
+      :video_id:
+      :video_provider:
+      :video_thumb:
+    - :fullname: Adam Okoń
+      :home_page: https://github.com/aokon
+      :title: Rubymotion - Smart Watch
+      :slides:
+      :video_id:
+      :video_provider:
+      :video_thumb:
+    - :fullname: Oskar Szrajer
+      :home_page: https://github.com/gotar
+      :title: Repository Pattern
+      :slides:
+      :video_id:
+      :video_provider:
+      :video_thumb:
+- :number: 31
+  :date: 2014-11-19
+  :talks:
+    - :fullname: Mateusz Nowakowski
+      :home_page: https://github.com/nowakov
+      :title:
+      :slides:
+      :video_id:
+      :video_provider:
+      :video_thumb:
+    - :fullname: Krzysztof Wawer
+      :home_page: https://github.com/wafcio
+      :title: Jak (nie)używać Service Object
+      :slides:
+      :video_id:
+      :video_provider:
+      :video_thumb:
+    - :fullname: Oskar Szrajer
+      :home_page: https://github.com/gotar
+      :title: Lotus Validations
+      :slides:
+      :video_id:
+      :video_provider:
+      :video_thumb:
 - :number: 30
   :date: 2014-10-14
   :talks:
