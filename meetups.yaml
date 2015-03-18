@@ -1,3 +1,13 @@
+- :number: 35
+  :date: 2015-03-18
+  :talks:
+    - :fullname: Krzysztof Wawer
+      :home_page: https://github.com/wafcio
+      :title: Trailblazer bez trailblazera
+      :slides: https://speakerdeck.com/wafcio/trailblazer-bez-trailblazera
+      :video_id:
+      :video_provider:
+      :video_thumb:
 - :number: 34
   :date: 2015-02-18
   :talks:
@@ -21,7 +31,7 @@
     - :fullname: Krzysztof Wawer
       :home_page: https://github.com/wafcio
       :title: ORM, DataMapper czy Agregacja encji
-      :slides:
+      :slides: https://speakerdeck.com/wafcio/activerecord-datamapper-czy-agregacja-encji
       :video_id:
       :video_provider:
       :video_thumb:
@@ -69,7 +79,7 @@
     - :fullname: Krzysztof Wawer
       :home_page: https://github.com/wafcio
       :title: Jak (nie)używać Service Object
-      :slides:
+      :slides: https://speakerdeck.com/wafcio/jak-nie-uzywac-service-object
       :video_id:
       :video_provider:
       :video_thumb:
