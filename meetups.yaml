@@ -1,3 +1,20 @@
+- :number: 38
+  :date: 2015-06-17
+  :talks:
+    - :fullname: Michał Poczwardowski
+      :home_page: https://github.com/dmp0x7c6
+      :title: "Defining DSL in Ruby"
+      :slides: https://speakerdeck.com/dmp0x7c5/defining-dsl-in-ruby/
+      :video_id:
+      :video_provider:
+      :video_thumb:
+    - :fullname: Krzysztof Wawer
+      :home_page: https://github.com/wafcio
+      :title: "Generating a CSV file with ROM"
+      :slides:
+      :video_id:
+      :video_provider:
+      :video_thumb:
 - :number: 37
   :date: 2015-05-20
   :talks:
