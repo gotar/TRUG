@@ -1,3 +1,16 @@
+- :number: 40
+  :date: 2015-08-12
+  :talks:
+    - :fullname: Oskar Szrajer
+      :home_page: https://github.com/gotar
+      :title: "Mapping data structures"
+      :slides: https://gist.github.com/gotar/4f1d2dfcf8fb2750bc25
+      :video_id:
+      :video_provider:
+      :video_thumb:
+    - :fullname: Krzysztof Wawer
+    - :fullname: Adam Okoń
+- :number: 39
 - :number: 38
   :date: 2015-06-17
   :talks:
