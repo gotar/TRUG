@@ -1,3 +1,8 @@
+- :number: 42
+  :date: 2015-10-21
+  :talks:
+    - :fullname: Krzysztof Wawer
+      :title: "Moving API from Sinatra to Roda (live coding)"
 - :number: 41
   :date: 2015-09-09
   :talks:
