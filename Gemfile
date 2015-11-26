@@ -1,25 +1,23 @@
-source 'http://rubygems.org'
+source "http://rubygems.org"
 
-ruby '2.2.3'
+ruby "2.2.3"
 
-gem 'sinatra', require: 'sinatra/base'
+gem "rodakase"
+gem "pry"
+gem "bcrypt"
+gem "dry-data"
 
-gem 'rake'
-gem 'thin'
-gem 'rack-rewrite'
+gem "rake"
+gem "thin"
+gem "rack-rewrite"
 
-gem 'haml'
+gem "haml"
 
-gem 'sinatra-assetpack'
-gem 'less'
-gem 'therubyracer'
-
-group :development do
-  gem 'pry'
-end
+gem "less"
+gem "therubyracer"
 
 group :test do
-  gem 'rspec'
-  gem 'fivemat'
-  gem 'rack-test'
+  gem "rspec"
+  gem "fivemat"
+  gem "rack-test"
 end

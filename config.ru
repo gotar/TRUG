@@ -1,15 +1,15 @@
-require 'rubygems'
-require 'bundler'
+require "rubygems"
+require "bundler"
 
 Bundler.require
 
-require './app.rb'
+require_relative "core/boot"
 
-require 'rack/rewrite'
+require "rack/rewrite"
 use Rack::Rewrite do
-  r301 %r{.*}, 'http://trug.pl$&', :if => Proc.new { |rack_env|
-    rack_env['SERVER_NAME'] == 'www.trug.pl'
+  r301 %r{.*}, "http://trug.pl$&", :if => Proc.new { |rack_env|
+    rack_env["SERVER_NAME"] == "www.trug.pl"
   }
 end
 
-run App
+run Trug::Application.freeze.app
