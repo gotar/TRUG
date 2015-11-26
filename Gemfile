@@ -11,9 +11,8 @@ gem "rake"
 gem "thin"
 gem "rack-rewrite"
 
-gem "haml"
-
-gem "less"
+gem "slim"
+gem "scss"
 gem "therubyracer"
 
 group :test do

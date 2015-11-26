@@ -9,6 +9,10 @@ module Trug
 
     route do |r|
       r.multi_route
+
+      r.root do
+        r.is(to: 'ui.root')
+      end
     end
 
     load_routes!
