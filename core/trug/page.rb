@@ -7,15 +7,15 @@ module Trug
       attr_reader :root
 
       def initialize(root)
-        @root = root.join("web/assets")
+        @root = root.join("public")
       end
 
       def stylesheets
-        Dir[root.join("stylesheets/**/*.css")].map(&File.method(:basename))
+        Dir[root.join("css/**/*.css")].map(&File.method(:basename))
       end
 
       def javascripts
-        Dir[root.join("javascripts/**/*.js")].map(&File.method(:basename))
+        Dir[root.join("js/**/*.js")].map(&File.method(:basename))
       end
     end
 
