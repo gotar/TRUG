@@ -4,3 +4,4 @@
 .DS_Store
 mailchimp_password.txt
 .bundle
+/log/application.log

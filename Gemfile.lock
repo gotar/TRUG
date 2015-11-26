@@ -17,12 +17,14 @@ GEM
       kleisli (~> 0.2)
     dry-equalizer (0.2.0)
     dry-pipeline (0.0.1)
+    equalizer (0.0.11)
     eventmachine (1.0.8)
     fivemat (1.3.2)
     inflecto (0.0.2)
     kleisli (0.2.6)
     libv8 (3.16.14.13)
     method_source (0.8.2)
+    pg (0.18.4)
     pry (0.10.3)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -44,6 +46,21 @@ GEM
       roda (~> 2.7)
       tilt (~> 2.0)
       transflow (~> 0.3)
+    rom (0.9.1)
+      equalizer (~> 0.0, >= 0.0.9)
+      rom-mapper (~> 0.2, >= 0.2.0)
+      rom-support (~> 0.1, >= 0.1.0)
+      transproc (~> 0.3, >= 0.3.0)
+    rom-mapper (0.2.0)
+      equalizer (~> 0.0, >= 0.0.10)
+      rom-support (~> 0.1, >= 0.1.0)
+      transproc (~> 0.3)
+    rom-sql (0.6.1)
+      equalizer (~> 0.0, >= 0.0.9)
+      rom (~> 0.9, >= 0.9.0)
+      sequel (~> 4.18)
+    rom-support (0.1.0)
+      wisper (~> 1.6, >= 1.6.0)
     rspec (3.4.0)
       rspec-core (~> 3.4.0)
       rspec-expectations (~> 3.4.0)
@@ -58,6 +75,7 @@ GEM
       rspec-support (~> 3.4.0)
     rspec-support (3.4.1)
     scss (1.0.2)
+    sequel (4.28.0)
     slim (3.0.6)
       temple (~> 0.7.3)
       tilt (>= 1.3.3, < 2.1)
@@ -76,6 +94,7 @@ GEM
       dry-pipeline
       kleisli
       wisper
+    transproc (0.4.0)
     wisper (1.6.1)
 
 PLATFORMS
@@ -85,11 +104,13 @@ DEPENDENCIES
   bcrypt
   dry-data
   fivemat
+  pg
   pry
   rack-rewrite
   rack-test
   rake
   rodakase
+  rom-sql
   rspec
   scss
   slim

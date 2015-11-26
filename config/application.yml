@@ -1,0 +1,4 @@
+development:
+  DATABASE_URL: 'postgres://localhost/trug_dev'
+test:
+  DATABASE_URL: 'postgres://localhost/trug_test'

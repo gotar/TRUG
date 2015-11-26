@@ -6,6 +6,8 @@ gem "rodakase"
 gem "pry"
 gem "bcrypt"
 gem "dry-data"
+gem "pg"
+gem "rom-sql"
 
 gem "rake"
 gem "thin"

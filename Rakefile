@@ -1,20 +1,20 @@
-require 'json'
+require "bundler"
+Bundler.setup
 
-task :default => :spec
+require "json"
+require "rom/sql/rake_task"
+require "rspec/core/rake_task"
+require_relative "core/trug/container"
+
+RSpec::Core::RakeTask.new(:spec)
 
 namespace :db do
-  task :migrate
-  task :setup
-end
-
-desc 'Run all specs'
-task :spec do
-  FileList["**/*_spec.rb"].each do |file|
-    sh "bundle exec rspec -cp #{file}"
+  task :setup do
+    Trug::Container.boot!(:rom)
   end
 end
 
-desc 'Fetch video thumb url'
+desc "Fetch video thumb url"
 task :fetch_vimeo_thumb_url, [:video_id] do |t, args|
   if args[:video_id]
     uri = URI("http://vimeo.com/api/v2/video/#{args[:video_id]}.json")
