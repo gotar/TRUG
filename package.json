@@ -1,0 +1,22 @@
+{
+  "name": "TRUG-website",
+  "description": "Description",
+  "author": "Your Name",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "start": "brunch watch --server"
+  },
+  "dependencies": {
+    "auto-reload-brunch": ">= 1.0 < 1.9",
+    "clean-css-brunch": "^1.8.0",
+    "css-brunch": "^1.7.0",
+    "javascript-brunch": ">= 1.0 < 1.9",
+    "material-design-lite": "^1.0.6",
+    "sass-brunch": "^1.9.1",
+    "uglify-js-brunch": "^1.7.8"
+  }
+}
