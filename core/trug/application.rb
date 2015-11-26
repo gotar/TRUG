@@ -8,6 +8,7 @@ module Trug
     end
 
     route do |r|
+      r.assets
       r.multi_route
 
       r.root do

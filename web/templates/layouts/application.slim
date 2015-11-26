@@ -4,9 +4,9 @@ html
     title TRUG - Trójmieska Grupa Użytkowników Ruby
 
     - page.assets.stylesheets.each do |href|
-      link rel="stylesheet" type="text/css" href=href
+      link rel="stylesheet" type="text/css" href="assets/css/#{href}"
 
     - page.assets.javascripts.each do |href|
-      script type="text/javascript" src=href
+      script type="text/javascript" src="assets/js/#{href}"
   body
     == yield
