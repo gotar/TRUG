@@ -4,10 +4,11 @@ ruby "2.2.3"
 
 gem "rodakase"
 gem "pry"
-gem "bcrypt"
 gem "dry-data"
+gem "dry-validation"
 gem "pg"
 gem "rom-sql"
+gem "database_cleaner"
 
 gem "rake"
 gem "thin"
