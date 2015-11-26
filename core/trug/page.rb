@@ -11,7 +11,11 @@ module Trug
       end
 
       def stylesheets
-        Dir[root.join("css/**/*.css")].map(&File.method(:basename))
+        Dir[root.join("stylesheets/**/*.css")].map(&File.method(:basename))
+      end
+
+      def javascripts
+        Dir[root.join("javascripts/**/*.js")].map(&File.method(:basename))
       end
     end
 
