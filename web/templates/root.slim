@@ -1,1 +1,5 @@
-h1 Hello World
+- if _value._data[:current_user]
+  img height="40" src=_value._data[:current_user].avatar_url
+  a.sign-out href='/sign_out' Sign out
+- else
+  a.sign-in href='/auth/github' Sign in with Github

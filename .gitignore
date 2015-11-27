@@ -16,6 +16,9 @@ mailchimp_password.txt
 .bundle
 /config/application.yml
 /log/application.log
+/.env
+/assets/*
+
 .cache
 .project
 .settings

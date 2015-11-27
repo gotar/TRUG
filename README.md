@@ -37,9 +37,10 @@ How to run locally
    $ bundle install
    ```
 
-1. Copy and fill example `config/application.yml` file:
+1. Copy and fill example `config/application.yml` and `.env` file:
    ```
    $ cp config/application.yml.example config/application.yml
+   $ cp .env.example .env
    ```
 
 1. Create PostgreSQL databases:

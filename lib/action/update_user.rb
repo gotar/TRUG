@@ -7,7 +7,7 @@ module Action
     include Trug::Import(
       "action.validation.user_schema",
       "persistence.update_user",
-      "persistence.find_user"
+      "persistence.find_user",
     )
 
     extend Transproc::Registry
@@ -27,7 +27,7 @@ module Action
         @errors = errors.to_h
         nil
       else
-        Entities::User.new(persist_user.(new_params))
+        Entities::User.new(update_user.by_id(user[:id]).(new_params))
       end
     end
 
