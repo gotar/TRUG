@@ -11,7 +11,7 @@ gem "rom-sql"
 gem "database_cleaner"
 
 gem "rake"
-gem "thin"
+gem "puma"
 gem "rack-rewrite"
 
 gem "slim"
