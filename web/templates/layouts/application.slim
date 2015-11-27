@@ -2,6 +2,10 @@ doctype html
 html
   head
     title TRUG - Trójmieska Grupa Użytkowników Ruby
+    meta charset="utf-8"
+    meta http-equiv="X-UA-Compatible" content="IE=edge"
+    meta name="description" content="Introducing Lollipop, a sweet new take on Android."
+    meta name="viewport" content="width=device-width, initial-scale=1"
 
     - page.assets.stylesheets.each do |href|
       link rel="stylesheet" type="text/css" href="assets/css/#{href}"
@@ -9,4 +13,19 @@ html
     - page.assets.javascripts.each do |href|
       script type="text/javascript" src="assets/js/#{href}"
   body
-    == yield
+    div class="mdl-layout mdl-js-layout mdl-layout--fixed-header"
+      header class="mdl-layout__header"
+        div class="mdl-layout__header-row"
+          span class="mdl-layout-title"
+            | TRUG
+          // Add spacer, to align navigation to the right
+          div class="mdl-layout-spacer"
+          // Navigation
+          nav class="mdl-navigation"
+            a class="mdl-navigation__link" href=""
+              | Strona główna
+            a class="mdl-navigation__link" href=""
+              | Archiwum
+
+      main class="mdl-layout__content"
+        == yield
