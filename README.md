@@ -1,6 +1,9 @@
-# Brunch app
+TRUG - Trójmiasto Ruby User Group
+=================================
 
-This is HTML5 application, built with [Brunch](http://brunch.io).
+[![Join the chat at https://gitter.im/gotar/TRUG](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/gotar/TRUG?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+Rodakase powered webpage of TRUG. Check on [http://trug.pl](http://trug.pl)
 
 ## Getting started
 * Install (if you don't have them):
@@ -15,3 +18,42 @@ This is HTML5 application, built with [Brunch](http://brunch.io).
     * `public/` dir is fully auto-generated and served by HTTP server.  Write your code in `app/` dir.
     * Place static files you want to be copied from `app/assets/` to `public/`.
     * [Brunch site](http://brunch.io), [Getting started guide](https://github.com/brunch/brunch-guide#readme)
+
+How to run locally
+---
+
+1. Clone app repository:
+   ```
+   $ git clone git@github.com:gotar/TRUG
+   ```
+
+1. Change directory:
+   ```
+   $ cd TRUG
+   ```
+
+1. Install gems:
+   ```
+   $ bundle install
+   ```
+
+1. Copy and fill example `config/application.yml` file:
+   ```
+   $ cp config/application.yml.example config/application.yml
+   ```
+
+1. Create PostgreSQL databases:
+   ```
+   trug_dev
+   trug_test
+   ```
+
+1. Check if all tests pass:
+   ```
+   $ bundle exec rspec
+   ```
+
+1. Run backend apps:
+   ```
+   $ bundle exec rackup
+   ```
