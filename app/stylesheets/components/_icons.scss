@@ -1,0 +1,18 @@
+.icon {
+  height: $icon-size-big;
+  width: $icon-size-big;
+  margin: auto;
+
+  &--chat {
+    background: url('/images/icon-chat.svg') no-repeat;
+  }
+
+  &--fun {
+    background: url('/images/icon-fun.svg') no-repeat;
+  }
+
+  &--open {
+    background: url('/images/icon-open.svg') no-repeat;
+
+  }
+}
