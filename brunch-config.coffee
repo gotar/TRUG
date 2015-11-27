@@ -7,3 +7,5 @@ exports.config =
       joinTo: 'css/app.css'
     templates:
       joinTo: 'app.js'
+  paths:
+    public: 'assets'

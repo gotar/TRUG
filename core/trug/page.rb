@@ -7,7 +7,7 @@ module Trug
       attr_reader :root
 
       def initialize(root)
-        @root = root.join("public")
+        @root = root.join("assets")
       end
 
       def stylesheets
