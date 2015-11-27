@@ -1,5 +1,3 @@
-require_relative "spec_helper"
-
 Trug::Container.boot!(:rom)
 
 Dir[SPEC_ROOT.join("support/*.rb").to_s].each { |f| require f }

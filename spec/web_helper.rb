@@ -1,5 +1,3 @@
-require "spec_helper"
-
 require "rack/test"
 
 require_relative "../core/boot"

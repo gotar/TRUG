@@ -1,4 +1,3 @@
-require "spec_helper"
 require "action/validation/user_schema"
 
 RSpec.describe Action::Validation::UserSchema do
