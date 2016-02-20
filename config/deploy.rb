@@ -5,11 +5,4 @@ set :repo_url, 'https://github.com/gotar/TRUG/'
 
 set :deploy_to, '/home/gotar/Sites/TRUG'
 
-namespace :deploy do
-  after :restart, :clear_cache do
-    on roles(:web), in: :groups, limit: 3, wait: 10 do
-      execute :touch, release_path.join('tmp/restart.txt')
-    end
-  end
-  after :publishing, :restart
-end
+set :passenger_restart_with_touch, true
