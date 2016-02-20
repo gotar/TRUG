@@ -15,6 +15,7 @@ gem 'less'
 gem 'therubyracer'
 
 group :development do
+  gem 'capistrano'
   gem 'pry'
 end
 
