@@ -1,8 +1,32 @@
+- :number: 46
+  :date: 2016-02-17
+  :talks:
+  :talks:
+    - :title: "Panel dyskusyjny"
+- :number: 45
+  :date: 2016-01-27
+  :talks:
+  :talks:
+    - :fullname: Maciej Małecki
+      :home_page: https://github.com/smefju
+      :title: "Interactors and Organizers"
+    - :fullname: Przemysław Kędzierski
+      :title: "Action Cable"
+- :number: 44
+  :date: 2015-12-16
+  :talks:
+- :number: 43
+  :date: 2015-11-18
+  :talks:
+    - :fullname: Paweł Okoń
+      :title: "Appium - test automation framework for use with native, hybrid and mobile web apps."
 - :number: 42
   :date: 2015-10-21
   :talks:
     - :fullname: Krzysztof Wawer
+      :home_page: https://github.com/wafcio
       :title: "Moving API from Sinatra to Roda (live coding)"
+      :source_code: https://github.com/wafcio/roda-rom
 - :number: 41
   :date: 2015-09-09
   :talks:
