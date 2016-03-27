@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <head>
+    <title>TRUG - Trójmieska Grupa Użytkowników Ruby</title>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+          <div class="mdl-layout-title header__logo"></div>
+          <div class="mdl-layout-spacer"></div>
+          <nav class="mdl-navigation">
+            <a class="mdl-navigation__link" href="">Strona główna</a><a class="mdl-navigation__link" href="">Archiwum</a>
+          </nav>
+        </div>
+      </header>
+      <main class="mdl-layout__content">
+        <div class="cover"></div>
+        <div class="mdl-grid mdl-cell--12-col">
+          <div class="mdl-grid mdl-cell--4-col">
+            <div class="icon icon--chat"></div>
+            <h1 class="mdl-cell--12-col u-text--center">
+              Lorem ipsum
+            </h1>
+          </div>
+          <div class="mdl-grid mdl-cell--4-col">
+            <div class="icon icon--fun"></div>
+            <h1 class="mdl-cell--12-col u-text--center">
+              Lorem ipsum
+            </h1>
+          </div>
+          <div class="mdl-grid mdl-cell--4-col">
+            <div class="icon icon--open"></div>
+            <h1 class="mdl-cell--12-col u-text--center">
+              Lorem ipsum
+            </h1>
+          </div>
+        </div>
+
+        {{ content }}
+
+      </main>
+      <footer class="mdl-mini-footer">
+        <div class="mdl-mini-footer__left-section">
+          <div class="mdl-logo">
+            &copy; 2015 TRUG
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
+
