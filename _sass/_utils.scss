@@ -3,8 +3,16 @@
   margin: auto;
 }
 
+.width-full {
+  width: 100%;
+}
+
 .margin-none {
   margin: 0;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
 }
 
 .padding {
@@ -25,4 +33,9 @@
 
 .padding-large-bottom {
   padding-bottom: $content-padding-large;
+}
+
+.card-data-container {
+  display: flex;
+  flex-direction: column;
 }
