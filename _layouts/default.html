@@ -57,20 +57,19 @@
         </div>
 
         <div class="mdl-grid mdl-cell--12-col">
-
           <div class="mdl-grid mdl-cell--6-col">
             <div class="mdl-card mdl-shadow--2dp width-full">
               <div class="mdl-card__title u-text--center text-uppercase">
                 <h3 class="margin-none">Najblizsze spotkanie</h3>
               </div>
               <div class="mdl-grid mdl-cell--12-col">
-                <div class="mdl-grid mdl-cell--6-col card-data-container">
+                <div class="mdl-grid mdl-cell--6-col flex-column">
                   <p>Data</p>
                   <p>Godzina</p>
                   <p>Miejsce</p>
                   <p>Data</p>
                 </div>
-                <div class="mdl-grid mdl-cell--6-col card-data-container">
+                <div class="mdl-grid mdl-cell--6-col flex-column">
                   <p>2016-03-23 (sroda)</p>
                   <p>18:00</p>
                   <p>Sopot, Aleja Niepodleglosci 807/5</p>
@@ -83,10 +82,19 @@
             </div>
           </div>
 
-          <div class="mdl-grid mdl-cell--6-col">
+          <div class="mdl-grid mdl-cell--6-col block">
             <h3 class="text-uppercase">
               Poprzednie spotkania
             </h3>
+            <div class="container-history padding-bottom">
+              <a href="">TRUG#46 (2016-02-17)</a>
+                <p>Panel dyskusyjny</p>
+              <a href="">TRUG#46 (2016-02-17)</a>
+                <p> Interactors and Organizers, Action Cable</p>
+              <a href="">TRUG#46 (2016-02-17)</a>
+                <p>Interactors and Organizers, Action Cable</p>
+            </div>
+            <a href="" class="text-uppercase">Przejdz do archiwum ></a>
           </div>
 
         {{ content }}

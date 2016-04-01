@@ -7,6 +7,10 @@
   width: 100%;
 }
 
+.block {
+  display: block;
+}
+
 .margin-none {
   margin: 0;
 }
@@ -35,7 +39,7 @@
   padding-bottom: $content-padding-large;
 }
 
-.card-data-container {
+.flex-column {
   display: flex;
   flex-direction: column;
 }
