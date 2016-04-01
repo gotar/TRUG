@@ -3,15 +3,25 @@
   width: $icon-size-big;
   margin: auto;
 
+  &.icon-circle {
+    background-color: $color-light;
+    background-position: center;
+    border-radius: 50%;
+    box-shadow: $box-shadow-dark;
+  }
+
   &--chat {
-    background: url('images/icon-chat.svg') no-repeat;
+    background: url('images/icon_chat.svg') no-repeat;
+    background-size: $icon-bg-size;
   }
 
-  &--fun {
-    background: url('images/icon-fun.svg') no-repeat;
+  &--party {
+    background: url('images/icon_party.svg') no-repeat;
+    background-size: $icon-bg-size;
   }
 
-  &--open {
-    background: url('images/icon-open.svg') no-repeat;
+  &--door {
+    background: url('images/icon_door.svg') no-repeat;
+    background-size: $icon-bg-size;
   }
 }
