@@ -14,3 +14,16 @@
   left: 0;
   right: 0;
 }
+
+.cover-title {
+  color: $color-light;
+  text-align: center;
+  padding: $content-padding;
+}
+
+.cover-logo-signet {
+  margin: 0 auto;
+  background: url('images/logo_signet.svg') no-repeat;
+  height: 100px;
+  width: 100px;
+}

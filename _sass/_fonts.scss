@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'district_prothin';
+    src: url('fonts/distproth-webfont.eot');
+    src: url('fonts/distproth-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/distproth-webfont.woff2') format('woff2'),
+         url('fonts/distproth-webfont.woff') format('woff'),
+         url('fonts/distproth-webfont.ttf') format('truetype'),
+         url('fonts/distproth-webfont.svg#district_prothin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1, h2, h3, h4, p {
+  font-family: 'district_prothin';
+}
+
