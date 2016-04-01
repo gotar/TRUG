@@ -6,3 +6,23 @@
 .margin-none {
   margin: 0;
 }
+
+.padding {
+  padding: $content-padding;
+}
+
+.padding-top {
+  padding-top: $content-padding;
+}
+
+.padding-bottom {
+  padding-bottom: $content-padding;
+}
+
+.padding-large-top {
+  padding-top: $content-padding-large;
+}
+
+.padding-large-bottom {
+  padding-bottom: $content-padding-large;
+}
