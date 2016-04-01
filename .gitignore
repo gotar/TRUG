@@ -18,6 +18,7 @@ mailchimp_password.txt
 /log/application.log
 /.env
 /assets/*
+/_site
 
 .cache
 .project
