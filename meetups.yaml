@@ -1,6 +1,21 @@
+- :number: 49
+  :date: 2016-03-27
+  :talks:
+- :number: 48
+  :date: 2016-03-20
+  :talks:
+    - :fullname: Bartłomiej Kozal
+      :home_page: https://github.com/bkzl
+      :title: "Kiedy zamykasz dochodowy biznes z 6 letnią historią czyli czego nauczyłem się jako CEO"
+      :slides: https://speakerdeck.com/bkzl/what-have-i-learned-as-a-ceo-pl
+      :video_id: Ik4gMxTKYrI
+      :video_provider: youtube
+      :video_thumb: http://img.youtube.com/vi/Ik4gMxTKYrI/sddefault.jpg
+- :number: 47
+  :date: 2016-03-23
+  :talks:
 - :number: 46
   :date: 2016-02-17
-  :talks:
   :talks:
     - :title: "Panel dyskusyjny"
 - :number: 45
