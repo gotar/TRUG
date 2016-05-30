@@ -1,12 +1,19 @@
+- :number: 50
+  :date: 2016-05-25
 - :number: 49
-  :date: 2016-03-27
+  :date: 2016-04-27
   :talks:
     - :fullname: Robert Pankowecki
+      :home_page: https://github.com/paneq
       :title: "Fuckin' startups..."
+      :video_id: 4uYmy3hDC4Q
+      :video_provider: youtube
+      :video_thumb: http://img.youtube.com/vi/4uYmy3hDC4Q/sddefault.jpg
     - :fullname: Robert Pankowecki
+      :home_page: https://github.com/paneq
       :title: "Jak zarobić $80 000 na blogu"
 - :number: 48
-  :date: 2016-03-20
+  :date: 2016-04-20
   :talks:
     - :fullname: Bartłomiej Kozal
       :home_page: https://github.com/bkzl
