@@ -1,3 +1,13 @@
+- :number: 52
+  :date: 2016-07-20
+  :talks:
+    - :fullname: Szymon Jeż
+      :home_page: http://szymon.jez.net.pl
+      :title: "ETL systems in Elixir; Extract |> Transform |> Load; Case study of an ETL system written in Elixir"
+      :slides:
+      :video_id:
+      :video_provider:
+      :video_thumb:
 - :number: 51
   :date: 2016-06-22
   :talks:
