@@ -1,3 +1,13 @@
+- :number: 55
+  :date: 2016-10-19
+  :talks:
+    - :fullname: Michał Kwiatkowski
+      :title: "Ruby contracts"
+    - :fullname: Maciej Małecki
+      :title: "Git"
+      :slides: https://www.icloud.com/keynote/0LiFcstnYD8VV3pNltHqBGG_w#Git
+    - :fullname: Adrian Gruntkowski
+      :title: "Wprowadzenie do Ecto"
 - :number: 52
   :date: 2016-07-20
   :talks:
