@@ -1,6 +1,6 @@
 require 'sinatra/base'
-require 'sinatra/assetpack'
-require 'less'
+require 'sass'
+require 'slim'
 require 'yaml'
 
 class App < Sinatra::Base
@@ -41,7 +41,7 @@ class App < Sinatra::Base
     serve '/js', from: 'public/js'
 
     css :styles, '/css/styles.css', ['/css/custom.css']
-    css_compression :less
+    css_compression :sass
 
     js :load_google_map, '/js/application.js', ['/js/map.js']
     js :load_archive, '/js/archive.js', ['/js/jquery-2.1.0.min.js', '/js/archive.js']
@@ -50,15 +50,15 @@ class App < Sinatra::Base
     expires 86400 * 365, :public
   end
 
-  set :haml, format: :html5
+  set :slim, format: :html5
 
   get '/' do
-    haml :home, layout: :base
+    slim :index, layout: :layout
   end
 
   get '/archive' do
     meetups_path = File.expand_path('../meetups.yaml', __FILE__)
     @meetups = File.exists?(meetups_path) ? YAML.load_file(meetups_path) : nil
-    haml :archive, layout: :base
+    slim :archive, layout: :layout
   end
 end
