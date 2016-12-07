@@ -37,7 +37,7 @@ class App < Sinatra::Base
 
   assets do
     serve '/images', from: 'public/img'
-    serve '/css', from: 'public/css'
+    serve '/stylesheets', from: 'public/css'
     serve '/js', from: 'public/js'
 
     css :styles, '/css/styles.css', ['/css/custom.css']

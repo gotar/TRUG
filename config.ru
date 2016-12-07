@@ -5,6 +5,11 @@ Bundler.require
 
 require './app.rb'
 
+require 'sass/plugin/rack'
+
+Sass::Plugin.options[:style] = :compressed
+use Sass::Plugin::Rack
+
 require 'rack/rewrite'
 use Rack::Rewrite do
   r301 %r{.*}, 'http://trug.pl$&', :if => Proc.new { |rack_env|
