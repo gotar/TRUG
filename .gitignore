@@ -4,3 +4,6 @@
 .DS_Store
 mailchimp_password.txt
 .bundle
+.sass-cache/
+node_modules
+*.css.map

@@ -3,13 +3,13 @@ source 'http://rubygems.org'
 gem 'sinatra', require: 'sinatra/base'
 
 gem 'rake'
-gem 'thin'
+gem 'puma'
 gem 'rack-rewrite'
 
-gem 'haml'
+gem 'slim'
+gem 'sass'
 
 gem 'sinatra-assetpack'
-gem 'less'
 gem 'therubyracer'
 
 group :development do

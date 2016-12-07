@@ -1,8 +1,0 @@
-.span12
-  %h2 Archiwum
-
-  - if @meetups
-    - @meetups.each do |meetup|
-      = haml :meetup, layout: false, locals: { meetup: meetup }
-
-!= js :load_archive
