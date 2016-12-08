@@ -26,6 +26,28 @@
   height: 300px;
 }
 
+.landing-schedule {
+  tr {
+    vertical-align: baseline;
+  }
+}
+
+.landing-schedule-icon {
+  font-size: 1.5rem;
+  color: $color-brand;
+  padding-right: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .landing-schedule-icon {
+    padding-right: 0;
+  }
+
+  .landing-schedule td {
+    width: 100px;
+  }
+}
+
 @include rwd('compact') {
   .landing-hero {
     height: 300px;
