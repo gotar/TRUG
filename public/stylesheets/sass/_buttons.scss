@@ -12,7 +12,6 @@
   @include btn-base($color-brand, 0, $color-light);
   padding: .7rem 2.5rem;
 
-
   &:hover {
     background: darken($color-brand, 10%);
   }

@@ -6,8 +6,19 @@
   height: 85vh;
 }
 
-.landing-lead {
-  font-size: 2.5rem;
+.landing-community {
+  background-image: url('../img/bg-community.png');
+  height: 265px;
+}
+
+.landing-bg-rubies {
+  background-image: url('../img/rubies.svg');
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+
+.landing-link {
+  font-size: 1.1rem;
 }
 
 @include rwd('compact') {
@@ -17,5 +28,8 @@
 
   .landing-lead {
     font-size: $font-size-lead;
+  }
+  .landing-bg-rubies {
+    height: 200px;
   }
 }
