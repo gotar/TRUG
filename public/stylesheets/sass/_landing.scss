@@ -21,6 +21,11 @@
   font-size: 1.1rem;
 }
 
+.landing-map-canvas {
+  width: 500px;
+  height: 300px;
+}
+
 @include rwd('compact') {
   .landing-hero {
     height: 300px;
@@ -30,6 +35,11 @@
     font-size: $font-size-lead;
   }
   .landing-bg-rubies {
+    height: 200px;
+  }
+
+  .landing-map-canvas {
+    width: 280px;
     height: 200px;
   }
 }
