@@ -1,54 +1,13 @@
-/ !!!
-/ %html{lang:'pl'}
-/   %head
-/     %title TRUG - Trójmiejska Grupa Użytkowników Ruby
-/     %meta{ name: "viewport", content: "width=device-width, initial-scale=1.0"}
-/     %meta{ content: "TRUG", property: "og:title"}
-/     %meta{ content: "TRUG - Trójmiasto Ruby User Group", property: "og:description"}
-/     %meta{ content: "http://trug.pl/images/logo_pf_s.jpg", property: "og:image" }
-/     %link{ href: "css/bootstrap.min.css", rel: "stylesheet", media: "screen"}
-/     %link{ href: 'http://fonts.googleapis.com/css?family=Titillium+Web:400,200,700&subset=latin,latin-ext', rel: 'stylesheet', type: 'text/css'}
-/     %link{ href: 'http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css', rel: 'stylesheet', type: 'text/css'}
-
-/     != css :styles, media: 'screen'
-  %body
-    %header.navbar.navbar-inverse.navbar-fixed-top
-      %nav
-        .container
-          %ul.nav
-            %li
-              %a{href: '/'} TRUG
-            %li
-              %a{href: '/archive'} Archiwum
-/     .container
-/       %header
-/         %h1 TRUG - Trójmiejska Grupa Użytkowników Ruby
-/       %article
-/         .row-fluid= yield
-/     %footer
-/       .container
-/         %div.pull-left.muted
-/           %a{href: 'https://groups.google.com/forum/?hl=pl&fromgroups#!forum/trug-pl'}
-/             != img 'images/icons/groups.png'
-/           %a{href: 'https://plus.google.com/u/0/115366219080630998906/posts'}
-/             != img 'images/icons/Google.png'
-/           %a{ href: "https://github.com/gotar/TRUG.git"}
-/             != img 'images/icons/Github.png'
-/           %a{ href: 'https://gitter.im/gotar/TRUG?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge'}
-/             != img 'images/Join_Chat.svg'
-
 doctype html
 html
   head
-    title My Slim Templates App
+    title Trójmiejska Grupa Użytkowników Ruby
+
+    meta charset="utf-8"
+    meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport"
+
+    link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet"
     link rel="stylesheet" type="text/css" href="stylesheets/all.css"
-    body
-      header.navbar.navbar-inverse.navbar-fixed-top
-        nav
-          .container
-            ul.nav
-              li
-                a href='/' TRUG
-              li
-                a href='/archive' Archiwum
+  body
+    == slim :navbar
     == yield

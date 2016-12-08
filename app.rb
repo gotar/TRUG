@@ -37,10 +37,9 @@ class App < Sinatra::Base
 
   assets do
     serve '/images', from: 'public/img'
-    serve '/stylesheets', from: 'public/css'
+    serve '/stylesheets', from: 'public/stylesheets'
     serve '/js', from: 'public/js'
 
-    css :styles, '/css/styles.css', ['/css/custom.css']
     css_compression :sass
 
     js :load_google_map, '/js/application.js', ['/js/map.js']
