@@ -1,0 +1,34 @@
+.footer {
+  color: $color-light;
+  background: $color-brand;
+  background-image: url('../img/sparkles.svg');
+  background-repeat: no-repeat;
+  background-size: 130px;
+  background-position-y: center;
+}
+
+.footer-form {
+  input {
+    border: 1px solid $color-light;
+    border-radius: 50px 0 0 50px;
+    padding: 5px 0 5px 10px;
+  }
+
+  button {
+    background: transparent;
+    border: 1px solid $color-light;
+    border-radius: 0 50px 50px 0;
+    color: $color-light;
+    font-size: 0.9rem;
+    padding: 6px 25px 7px 20px;
+    text-transform: uppercase;
+    position: relative;
+    left: -10px;
+  }
+}
+
+@include rwd('compact') {
+  .footer {
+    background-image: none;
+  }
+}

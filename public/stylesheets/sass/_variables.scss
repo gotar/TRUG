@@ -1,4 +1,6 @@
 //Colors
 $color-brand: #e25454;
+$color-brand-muted: lighten($color-brand, 30%);
+$color-brand-dark: darken($color-brand, 10%);
 $color-light: #ffffff;
 $color-dark: #505050;
