@@ -1,0 +1,21 @@
+.landing-hero {
+  background-image: url('../img/tricity-panorama.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  height: 85vh;
+}
+
+.landing-lead {
+  font-size: 2.5rem;
+}
+
+@include rwd('compact') {
+  .landing-hero {
+    height: 300px;
+  }
+
+  .landing-lead {
+    font-size: $font-size-lead;
+  }
+}

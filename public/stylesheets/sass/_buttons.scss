@@ -4,13 +4,14 @@
   color: $color;
 
   border-radius: 50px;
-  padding: .5rem 2.5rem;
   transition: all 0.2s ease-in-out;
   text-transform: uppercase;
 }
 
 .btn-brand {
   @include btn-base($color-brand, 0, $color-light);
+  padding: .7rem 2.5rem;
+
 
   &:hover {
     background: darken($color-brand, 10%);
@@ -19,6 +20,7 @@
 
 .btn-ghost {
   @include btn-base(transparent, 1px solid $color-brand, $color-brand);
+  padding: .5rem 2.5rem;
 
   &:hover {
     background: $color-brand;
