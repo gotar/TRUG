@@ -7,6 +7,12 @@
   background-position-y: center;
 }
 
+.footer-icon {
+  height: 45px;
+  margin-top: $spacing-unit;
+  margin-right: .5 * $spacing-unit;
+}
+
 .footer-form {
   input {
     border: 1px solid $color-light;
