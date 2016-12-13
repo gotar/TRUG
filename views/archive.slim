@@ -1,8 +1,7 @@
-.span12
+div class="container"
   h2 Archiwum
 
-  - if @meetups
-    - @meetups.each do |meetup|
-      = slim :meetup, layout: false, locals: { meetup: meetup }
+  - @meetups.each do |meetup|
+    == slim :meetup, layout: false, locals: { meetup: meetup }
 
-!= js :load_archive
+== js :load_archive

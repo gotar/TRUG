@@ -1,6 +1,7 @@
-.meetup
-  h3 = meetup_header(meetup)
+div class="meetup"
+  h3
+    == meetup_header(meetup)
   - if meetup[:talks]
     - meetup[:talks].each do |talk|
-      = haml :talk, layout: false, locals: { talk: talk }
+      == slim :talk, layout: false, locals: { talk: talk }
   hr

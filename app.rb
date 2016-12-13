@@ -49,7 +49,7 @@ class App < Sinatra::Base
     expires 86400 * 365, :public
   end
 
-  set :slim, format: :html5
+  set :slim, format: :html
 
   get '/' do
     slim :index, layout: :layout
@@ -57,7 +57,7 @@ class App < Sinatra::Base
 
   get '/archive' do
     meetups_path = File.expand_path('../meetups.yaml', __FILE__)
-    @meetups = File.exists?(meetups_path) ? YAML.load_file(meetups_path) : nil
-    slim :archive, layout: :layout
+    meetups = File.exists?(meetups_path) ? YAML.load_file(meetups_path) : []
+    slim :archive, layout: :layout, locals: { meetups: meetups }
   end
 end
