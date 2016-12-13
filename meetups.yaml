@@ -8,6 +8,20 @@
       :slides: https://www.icloud.com/keynote/0LiFcstnYD8VV3pNltHqBGG_w#Git
     - :fullname: Adrian Gruntkowski
       :title: "Wprowadzenie do Ecto"
+- :number: 54
+  :date: 2016-09-21
+  :talks:
+    - :fullname: Maciej Małecki
+      :title: "Dreyfus Model"
+    - :fullname: Krzysztof Wawer
+      :home_page: https://github.com/wafcio
+      :title: "Konfiguracja aplikacji Ruby - Rób to mądrze"
+- :number: 53
+  :date: 2016-08-24
+  :talks:
+    - :fullname: Adam Okoń
+      :home_page: https://github.com/aokon
+      :title: "Wstęp do Vue.JS"
 - :number: 52
   :date: 2016-07-20
   :talks:
