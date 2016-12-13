@@ -13,23 +13,49 @@
   margin-right: .5 * $spacing-unit;
 }
 
-.footer-form {
-  input {
-    border: 1px solid $color-light;
-    border-radius: 50px 0 0 50px;
-    padding: 5px 0 5px 10px;
+.footer-form-input {
+  border: 1px solid $color-light;
+  border-radius: 50px 0 0 50px;
+  padding: 5px 0 5px 10px;
+  margin: 0;
+}
+
+.footer-form-btn {
+  background: transparent;
+  border: 1px solid $color-light;
+  border-radius: 0 50px 50px 0;
+  color: $color-light;
+  font-size: 0.9rem;
+  padding: 6px 25px 7px 20px;
+  margin: 0;
+  text-transform: uppercase;
+  position: relative;
+  left: -10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer {
+    text-align: center;
+
+    .footer-col-title {
+      padding-top: 1rem
+    }
+
+    .grid-item {
+      width: 100%;
+      max-width: 100%;
+      flex-basis: 100%;
+    }
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .footer-form-input {
+    padding: 5px 0 5px 5px;
   }
 
-  button {
-    background: transparent;
-    border: 1px solid $color-light;
-    border-radius: 0 50px 50px 0;
-    color: $color-light;
-    font-size: 0.9rem;
-    padding: 6px 25px 7px 20px;
-    text-transform: uppercase;
-    position: relative;
-    left: -10px;
+  .footer-form-btn {
+    padding: 6px 10px 7px 10px;
   }
 }
 

@@ -48,6 +48,13 @@
   }
 }
 
+@media only screen and (min-width: 760px) and (max-width: 768px),
+only screen and (min-width: 2400px) {
+  .landing-lead {
+    padding-top: 10rem;
+  }
+}
+
 @include rwd('compact') {
   .landing-hero {
     height: 300px;
