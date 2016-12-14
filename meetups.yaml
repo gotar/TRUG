@@ -2,20 +2,30 @@
   :date: 2016-10-19
   :talks:
     - :fullname: Michał Kwiatkowski
+      :home_page: https://github.com/mkwiatkowski
       :title: "Ruby contracts"
     - :fullname: Maciej Małecki
       :title: "Git"
+      :home_page: https://github.com/smt116
       :slides: https://www.icloud.com/keynote/0LiFcstnYD8VV3pNltHqBGG_w#Git
     - :fullname: Adrian Gruntkowski
+      :home_page: https://github.com/zoldar
       :title: "Wprowadzenie do Ecto"
 - :number: 54
   :date: 2016-09-21
   :talks:
     - :fullname: Maciej Małecki
       :title: "Dreyfus Model"
+      :home_page: https://github.com/smt116
+      :video_id: T3Wlogn6HzQ
+      :video_provider: youtube
+      :video_thumb: http://img.youtube.com/vi/T3Wlogn6HzQ/sddefault.jpg
     - :fullname: Krzysztof Wawer
       :home_page: https://github.com/wafcio
       :title: "Konfiguracja aplikacji Ruby - Rób to mądrze"
+      :video_id: lutdPH58oOM
+      :video_provider: youtube
+      :video_thumb: http://img.youtube.com/vi/lutdPH58oOM/sddefault.jpg
 - :number: 53
   :date: 2016-08-24
   :talks:
@@ -89,7 +99,7 @@
   :talks:
   :talks:
     - :fullname: Maciej Małecki
-      :home_page: https://github.com/smefju
+      :home_page: https://github.com/smt116
       :title: "Interactors and Organizers"
     - :fullname: Przemysław Kędzierski
       :title: "Action Cable"
