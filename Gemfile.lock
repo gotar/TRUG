@@ -14,9 +14,7 @@ GEM
       capistrano (~> 3.0)
       sshkit (~> 1.2)
     coderay (1.1.0)
-    daemons (1.2.3)
     diff-lcs (1.2.5)
-    eventmachine (1.0.8)
     fivemat (1.3.2)
     i18n (0.7.0)
     jsmin (1.0.1)
@@ -29,6 +27,7 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
+    puma (3.6.2)
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
@@ -71,10 +70,6 @@ GEM
     therubyracer (0.12.2)
       libv8 (~> 3.16.14.0)
       ref
-    thin (1.6.4)
-      daemons (~> 1.0, >= 1.0.9)
-      eventmachine (~> 1.0, >= 1.0.4)
-      rack (~> 1.0)
     tilt (1.4.1)
 
 PLATFORMS
@@ -87,6 +82,7 @@ DEPENDENCIES
   capistrano-rvm
   fivemat
   pry
+  puma
   rack-rewrite
   rack-test
   rake
@@ -96,7 +92,6 @@ DEPENDENCIES
   sinatra-assetpack
   slim
   therubyracer
-  thin
 
 BUNDLED WITH
    1.13.6

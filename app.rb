@@ -44,6 +44,7 @@ class App < Sinatra::Base
 
     js :load_google_map, '/js/application.js', ['/js/map.js']
     js :load_archive, '/js/archive.js', ['/js/jquery-2.1.0.min.js', '/js/archive.js']
+    js :load_schedule, '/js/schedule.js', ['/js/jquery-2.1.0.min.js', '/js/schedule.js']
 
     prebuild true
     expires 86400 * 365, :public

@@ -1,7 +1,7 @@
 div class="container"
   h2 Archiwum
 
-  - @meetups.each do |meetup|
+  - meetups.each do |meetup|
     == slim :meetup, layout: false, locals: { meetup: meetup }
 
 == js :load_archive
