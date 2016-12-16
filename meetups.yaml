@@ -32,6 +32,9 @@
     - :fullname: Adam Okoń
       :home_page: https://github.com/aokon
       :title: "Wstęp do Vue.JS"
+      :video_id: G3bzinki1AE
+      :video_provider: youtube
+      :video_thumb: http://img.youtube.com/vi/G3bzinki1AE/sddefault.jpg
 - :number: 52
   :date: 2016-07-20
   :talks:
