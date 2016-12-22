@@ -5,10 +5,11 @@ Bundler.require
 
 require './app.rb'
 
-require 'sass/plugin/rack'
-
-Sass::Plugin.options[:style] = :compressed
-use Sass::Plugin::Rack
+if ENV["RACK_ENV"] != "production"
+  require 'sass/plugin/rack'
+  Sass::Plugin.options[:style] = :compressed
+  use Sass::Plugin::Rack
+end
 
 require 'rack/rewrite'
 use Rack::Rewrite do
