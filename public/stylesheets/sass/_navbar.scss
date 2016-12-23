@@ -1,12 +1,12 @@
+.navbar-logo {
+  width: 150px;
+}
+
 @media screen and (min-width: 1600px) {
   .navbar {
     width: 1400px;
     margin: 0 auto;
   }
-}
-
-.navbar-logo {
-  width: 150px;
 }
 
 @include rwd('compact') {
