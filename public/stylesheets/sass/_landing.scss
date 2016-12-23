@@ -22,8 +22,8 @@
 }
 
 .landing-map-canvas {
-  width: 500px;
-  height: 300px;
+  width: 100%;
+  height: 270px;
 }
 
 .landing-schedule {
@@ -64,11 +64,6 @@ only screen and (min-width: 2400px) {
     font-size: $font-size-lead;
   }
   .landing-bg-rubies {
-    height: 200px;
-  }
-
-  .landing-map-canvas {
-    width: 280px;
     height: 200px;
   }
 }
