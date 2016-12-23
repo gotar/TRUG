@@ -1,8 +1,6 @@
 - if talk[:video_thumb]
-  .video  data-video_id=talk[:video_id] data-provider=talk[:video_provider]
-    img src=talk[:video_thumb]
-    .play
-      i.fa.fa-play.fa-2x
+  div class="video" data-video_id=talk[:video_id] data-provider=talk[:video_provider]
+    img class="compact-1/1 margin-1/2-bottom" src=talk[:video_thumb]
 p
   == talk_title(talk)
   | &nbsp; - &nbsp;
