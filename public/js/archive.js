@@ -1,9 +1,10 @@
 var archive = (function() {
   playerTemplate = function( movieId, provider ) {
-    return $("<iframe />", { 
+    return $("<iframe />", {
       src: movieUrl(movieId, provider),
-      width: 460, 
+      width: 460,
       height: 259,
+      class: 'compact-1/1',
       frameborder: 0,
     });
   }
@@ -13,17 +14,17 @@ var archive = (function() {
       return "http://www.youtube.com/embed/" + movieId + "/?autoplay=1&rel=0";
     } else {
       return "http://player.vimeo.com/video/" + movieId + "?autoplay=true";
-    }   
+    }
   }
 
   playVideo = function( event ) {
     event.preventDefault();
     var $videoBox = $(this).parents('.video'),
-        player = playerTemplate( $videoBox.data('videoId'), $videoBox.data('provider') );
+        player = playerTemplate( $videoBox.data('video_id'), $videoBox.data('provider') );
     $videoBox.append( player );
     $videoBox.find('.play, img').hide();
   }
-  
+
   return {
     init: function() {
       $(".meetup img, .meetup .play").on( "click", playVideo );
