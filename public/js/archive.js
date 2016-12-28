@@ -4,6 +4,7 @@ var archive = (function() {
       src: movieUrl(movieId, provider),
       width: 460,
       height: 259,
+      class: 'compact-1/1',
       frameborder: 0,
     });
   }
