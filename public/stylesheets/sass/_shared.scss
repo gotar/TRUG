@@ -16,6 +16,11 @@ a {
   color: $color-brand;
 }
 
+input[type="email"],
+input[type="text"] {
+  padding: .375em 1em;
+}
+
 .link-brand {
   color: $color-brand;
   text-decoration: none;
