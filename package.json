@@ -1,0 +1,15 @@
+{
+  "name": "trug",
+  "version": "1.0.0",
+  "description": "TRUG - Trójmiasto Ruby User Group",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gotar/TRUG.git"
+  },
+  "author": "Oskar Szrajer",
+  "homepage": "http://trug.pl",
+  "devDependencies": {
+    "hocus-pocus": "^0.3.3"
+  }
+}
