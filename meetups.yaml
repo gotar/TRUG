@@ -1,3 +1,37 @@
+- :number: 58
+  :date: 2017-01-18
+  :talks:
+    - :fullname: Adam Okoń
+      :home_page: https://github.com/aokon
+      :title: PostgreSQL - Dlaczego moje zapytania są takie wolne?
+      :slides: https://speakerdeck.com/aokon/postgresql-dlaczego-moje-zapytania-sa-takie-wolne
+    - :fullname: Sebastian Nowak
+      :home_page: https://github.com/seban
+      :title: Haskell na produkcji
+    - :fullname: Agata Kubiak
+      :home_page: https://www.behance.net/AgataKubiak
+      :title: Logo - proces twórczy, ukryte znaczenie
+
+- :number: 57
+  :date: 2016-12-14
+  :talks:
+    - :fullname: Jakub Naliwajek
+      :home_page: https://github.com/naliwajek
+      :title: Jupyter, interactive notebooks
+    - :fullname: Stanisław Tuszyński
+      :home_page: https://github.com/stuszynski
+      :title: Dokku - part 2
+
+- :number: 56
+  :date: 2016-11-19
+  :talks:
+    - :fullname: Jakub Naliwajek
+      :home_page: https://github.com/naliwajek
+      :title: GraphQL
+    - :fullname: Ignacy Kasperowicz
+      :home_page: https://github.com/ignacykasperowicz
+      :title: OSINT - Why Internet is a scary place
+
 - :number: 55
   :date: 2016-10-19
   :talks:
@@ -11,6 +45,7 @@
     - :fullname: Adrian Gruntkowski
       :home_page: https://github.com/zoldar
       :title: "Wprowadzenie do Ecto"
+
 - :number: 54
   :date: 2016-09-21
   :talks:
@@ -26,6 +61,7 @@
       :video_id: aM-ioLCZ3fA
       :video_provider: youtube
       :video_thumb: http://img.youtube.com/vi/aM-ioLCZ3fA/sddefault.jpg
+
 - :number: 53
   :date: 2016-08-24
   :talks:
@@ -35,6 +71,7 @@
       :video_id: G3bzinki1AE
       :video_provider: youtube
       :video_thumb: http://img.youtube.com/vi/G3bzinki1AE/sddefault.jpg
+
 - :number: 52
   :date: 2016-07-20
   :talks:
@@ -45,6 +82,7 @@
       :video_id:
       :video_provider:
       :video_thumb:
+
 - :number: 51
   :date: 2016-06-22
   :talks:
@@ -54,8 +92,10 @@
       :video_id: 2FGRXzysd2M
       :video_provider: youtube
       :video_thumb: http://img.youtube.com/vi/2FGRXzysd2M/sddefault.jpg
+
 - :number: 50
   :date: 2016-05-25
+
 - :number: 49
   :date: 2016-04-27
   :talks:
@@ -68,6 +108,7 @@
     - :fullname: Robert Pankowecki
       :home_page: https://github.com/paneq
       :title: "Jak zarobić $80 000 na blogu"
+
 - :number: 48
   :date: 2016-04-20
   :talks:
@@ -78,6 +119,7 @@
       :video_id: Ik4gMxTKYrI
       :video_provider: youtube
       :video_thumb: http://img.youtube.com/vi/Ik4gMxTKYrI/sddefault.jpg
+
 - :number: 47
   :date: 2016-03-23
   :talks:
@@ -93,10 +135,12 @@
       :video_id: ZxcQ5dWUAKI
       :video_provider: youtube
       :video_thumb: http://img.youtube.com/vi/ZxcQ5dWUAKI/sddefault.jpg
+
 - :number: 46
   :date: 2016-02-17
   :talks:
-    - :title: "Panel dyskusyjny"
+    - :title: "Panel dyskusyjny - SPA hot or not?"
+
 - :number: 45
   :date: 2016-01-27
   :talks:
@@ -106,14 +150,17 @@
       :title: "Interactors and Organizers"
     - :fullname: Przemysław Kędzierski
       :title: "Action Cable"
+
 - :number: 44
   :date: 2015-12-16
   :talks:
+
 - :number: 43
   :date: 2015-11-18
   :talks:
     - :fullname: Paweł Okoń
       :title: "Appium - test automation framework for use with native, hybrid and mobile web apps."
+
 - :number: 42
   :date: 2015-10-21
   :talks:
@@ -121,11 +168,13 @@
       :home_page: https://github.com/wafcio
       :title: "Moving API from Sinatra to Roda (live coding)"
       :source_code: https://github.com/wafcio/roda-rom
+
 - :number: 41
   :date: 2015-09-09
   :talks:
     - :fullname: Damian Nowak
       :title: "Zebrałem milion dolarów od inwestorów na rozwój mojej firmy. Oto jak."
+
 - :number: 40
   :date: 2015-08-12
   :talks:
@@ -137,7 +186,11 @@
       :video_provider:
       :video_thumb:
     - :fullname: Krzysztof Wawer
+      :home_page: https://github.com/wafcio
     - :fullname: Adam Okoń
+      :home_page: https://github.com/aokon
+      :title: Derailed Benchmarks - nowe podejście do testowania wydajności aplikacji railsowej
+
 - :number: 39
   :date: 2015-07-22
   :talks:
@@ -147,6 +200,7 @@
       :video_id: ctkSVZsiaF4
       :video_provider: youtube
       :video_thumb: http://img.youtube.com/vi/ctkSVZsiaF4/sddefault.jpg
+
 - :number: 38
   :date: 2015-06-17
   :talks:
@@ -164,6 +218,7 @@
       :video_id: kdml2xdwmxo
       :video_provider: youtube
       :video_thumb: http://img.youtube.com/vi/kdml2xdwmxo/sddefault.jpg
+
 - :number: 37
   :date: 2015-05-20
   :talks:
@@ -188,6 +243,7 @@
       :video_id:
       :video_provider:
       :video_thumb:
+
 - :number: 36
   :date: 2015-04-15
   :talks:
@@ -205,6 +261,7 @@
       :video_id:
       :video_provider:
       :video_thumb:
+
 - :number: 35
   :date: 2015-03-18
   :talks:
@@ -215,6 +272,7 @@
       :video_id:
       :video_provider:
       :video_thumb:
+
 - :number: 34
   :date: 2015-02-18
   :talks:
@@ -225,6 +283,7 @@
       :video_id: M0PfkUL_IB8
       :video_provider: youtube
       :video_thumb: http://img.youtube.com/vi/M0PfkUL_IB8/sddefault.jpg
+
 - :number: 33
   :date: 2015-01-21
   :talks:
@@ -249,6 +308,7 @@
       :video_id: _JlL3p5V3Gg
       :video_provider: youtube
       :video_thumb: http://img.youtube.com/vi/_JlL3p5V3Gg/sddefault.jpg
+
 - :number: 32
   :date: 2014-12-17
   :talks:
@@ -273,6 +333,7 @@
       :video_id:
       :video_provider:
       :video_thumb:
+
 - :number: 31
   :date: 2014-11-19
   :talks:
@@ -297,6 +358,7 @@
       :video_id:
       :video_provider:
       :video_thumb:
+
 - :number: 30
   :date: 2014-10-14
   :talks:
@@ -307,6 +369,7 @@
       :video_id: wmssg1g6bNA
       :video_provider: youtube
       :video_thumb: http://img.youtube.com/vi/wmssg1g6bNA/sddefault.jpg
+
 - :number: 29
   :date: 2014-09-17
   :talks:
