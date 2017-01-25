@@ -67,10 +67,11 @@
   :talks:
     - :fullname: Adam Okoń
       :home_page: https://github.com/aokon
-      :title: "Wstęp do Vue.JS"
+      :title: Z czym się je Vue.JS
       :video_id: G3bzinki1AE
       :video_provider: youtube
       :video_thumb: http://img.youtube.com/vi/G3bzinki1AE/sddefault.jpg
+      :slides: https://speakerdeck.com/aokon/trug-number-54-z-czym-sie-je-vuejs
 
 - :number: 52
   :date: 2016-07-20
@@ -154,6 +155,9 @@
 - :number: 44
   :date: 2015-12-16
   :talks:
+    - :fullname: Adam Okoń
+      :home_page: https://github.com/aokon
+      :title: Derailed Benchmarks - nowe podejście do testowania wydajności aplikacji railsowej
 
 - :number: 43
   :date: 2015-11-18
@@ -189,7 +193,8 @@
       :home_page: https://github.com/wafcio
     - :fullname: Adam Okoń
       :home_page: https://github.com/aokon
-      :title: Derailed Benchmarks - nowe podejście do testowania wydajności aplikacji railsowej
+      :title: Roda
+      :slides: https://speakerdeck.com/aokon/trug-number-40-roda
 
 - :number: 39
   :date: 2015-07-22
