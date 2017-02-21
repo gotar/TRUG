@@ -1,3 +1,23 @@
+- :number: 59
+  :date: 2017-02-15
+  :talks:
+    - :fullname: Paweł Niewiadomski
+      :home_page: https://github.com/pawelniewie
+      :title: GraphQL - zaawansowane API (mutacje, autoryzacja, itp.)
+      :video_id: HGa8dr2OYIk
+      :video_provider: youtube
+      :video_thumb: http://img.youtube.com/vi/HGa8dr2OYIk/sddefault.jpg
+    - :fullname: Michał Poczwardowski
+      :home_page: https://github.com/dmp0x7c5
+      :title: ML in Ruby
+      :video_id: zSfXh-Qul1s
+      :video_provider: youtube
+      :video_thumb: http://img.youtube.com/vi/zSfXh-Qul1s/sddefault.jpg
+    - :fullname: Szymon Szypulski
+      :home_page: https://github.com/szymonpk
+      :title: InSpec - Inspect Your Infrastructure
+      :slides:
+
 - :number: 58
   :date: 2017-01-18
   :talks:
