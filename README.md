@@ -1,6 +1,22 @@
-TRUG - Trójmiasto Ruby User Group
-=================================
+# TRUG - Trójmiasto Ruby User Group
 
 [![Join the chat at https://gitter.im/gotar/TRUG](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/gotar/TRUG?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Sinatra powered webpage of TRUG. Check on [http://trug.pl](http://trug.pl)
+
+## Local development
+
+Install all dependencies:
+
+```
+bundle install
+npm install --save-dev
+```
+
+Run local Sinatra server:
+
+```
+rackup -p 4567
+```
+
+And visit http://localhost:4567 to see it.
