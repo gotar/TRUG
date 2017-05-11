@@ -1,0 +1,2 @@
+web: bundle exec shotgun -p 9292 -o 0.0.0.0 config.ru
+assets: npm run watch

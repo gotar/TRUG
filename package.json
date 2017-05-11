@@ -9,7 +9,18 @@
   },
   "author": "Oskar Szrajer",
   "homepage": "http://trug.pl",
+  "scripts": {
+    "watch": "webpack --watch-stdin --progress --color",
+    "build": "NODE_ENV=production webpack --progress --hide-modules"
+  },
   "devDependencies": {
-    "hocus-pocus": "^0.3.3"
+    "css-loader": "^0.28.1",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "hocus-pocus": "^0.3.3",
+    "isdev": "^1.0.1",
+    "node-sass": "^4.5.2",
+    "sass-loader": "^6.0.5",
+    "style-loader": "^0.17.0",
+    "webpack": "^2.5.1"
   }
 }

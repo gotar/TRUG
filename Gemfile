@@ -17,7 +17,9 @@ group :development do
   gem 'capistrano-bundler'
   gem 'capistrano-passenger'
   gem 'capistrano-rvm'
+  gem 'foreman'
   gem 'pry'
+  gem 'shotgun'
 end
 
 group :test do

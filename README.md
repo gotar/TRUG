@@ -10,13 +10,13 @@ Install all dependencies:
 
 ```
 bundle install
-npm install --save-dev
+npm install
 ```
 
-Run local Sinatra server:
+Run application:
 
 ```
-rackup -p 4567
+bundle exec foreman start -f Procfile.dev
 ```
 
-And visit http://localhost:4567 to see it.
+And visit http://localhost:9292 to see it.
