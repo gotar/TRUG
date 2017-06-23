@@ -1,3 +1,18 @@
+- :number: 63
+  :date: 2017-06-21
+  :talks:
+    - :fullname: Marcin Siepetowski
+      :home_page: https://github.com/siepet
+      :title: Docker
+      :video_id: oZNMzAx57nY
+      :video_provider: youtube
+      :video_thumb: http://img.youtube.com/vi/oZNMzAx57nY/sddefault.jpg
+      :slides: https://docs.google.com/presentation/d/1p6uGENUkJKV4OrFMoafJVvMGdaE7ew-7mP3kP9S3aSo
+    - :fullname: Krzysztof Wawer
+      :home_page: https://github.com/wafcio
+      :title: "Slim Ruby on Rails: Controllers & Middlewares"
+      :slides: https://speakerdeck.com/wafcio/slim-ruby-on-rails-controllers-and-middlewares
+
 - :number: 62
   :date: 2017-05-24
   :talks:
