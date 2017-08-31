@@ -1,3 +1,19 @@
+- :number: 65
+  :date: 2017-08-30
+  :talks:
+    - :fullname: Robert Kostrzewski
+
+    - :fullname: Oskar Szrajer
+      :home_page: http://gotar.info
+      :title: CSS Grid
+      :video_id: 5CmeDZmd-_I
+      :video_provider: youtube
+      :video_thumb: http://img.youtube.com/vi/aQzmsXu3P7A/sddefault.jpg
+
+- :number: 64
+  :date: 2017-07-19
+  :talks:
+
 - :number: 63
   :date: 2017-06-21
   :talks:
