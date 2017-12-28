@@ -1,8 +1,41 @@
+- :number: 69
+  :date: 2017-12-20
+  :talks:
+    - :fullname: Adam Okoń
+      :home_page: https://github.com/aokon
+      :title: Make frontend development great again in Rails
+
+- :number: 68
+  :date: 2017-11-22
+  :talks:
+    - :fullname: Krzysztof Wawer
+      :home_page: https://github.com/wafcio
+      :title: DDD & Hexagonal Architecture
+
+- :number: 67
+  :date: 2017-10-25
+  :talks:
+    - :fullname: Anna Mikulińska
+      :title: Jak to się robi w wielkim świecie - berlińska scena softwareowa
+    - :fullname: Andrzej Krzywda
+      :home_page: https://twitter.com/andrzejkrzywda
+      :title: "Event-Driven Rails from scratch - Part 1: Motivation"
+
+- :number: 66
+  :date: 2017-09-20
+  :talks:
+    - :fullname: Krzysztof Wawer
+      :home_page: https://github.com/wafcio
+      :title: Git Good Practices
+    - :fullname: Agata Kubiak
+      :home_page: https://www.behance.net/AgataKubiak
+      :title: Logo - proces twórczy, ukryte znaczenie
+
 - :number: 65
   :date: 2017-08-30
   :talks:
     - :fullname: Robert Kostrzewski
-
+      :title: Integracja mikroserwisu Machine Learning w Python z aplikacją webową Ruby on Rails
     - :fullname: Oskar Szrajer
       :home_page: http://gotar.info
       :title: CSS Grid
@@ -42,10 +75,19 @@
 - :number: 61
   :date: 2017-04-26
   :talks:
+    - :fullname: Krzysztof Wawer
+      :home_page: https://github.com/wafcio
+      :title: Designing a developer friendly API client
+    - :fullname: Piotr Macuk
+      :home_page: https://github.com/macuk
+      :title: ActiveModel::Validations vs dry-validation vs custom solution - my form objects story.
 
 - :number: 60
   :date: 2017-03-22
   :talks:
+    - :fullname: Adam Okoń
+      :home_page: https://github.com/aokon
+      :title: Webpack 2 dla opornych
 
 - :number: 59
   :date: 2017-02-15
