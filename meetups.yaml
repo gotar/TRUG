@@ -4,6 +4,10 @@
     - :fullname: Adam Okoń
       :home_page: https://github.com/aokon
       :title: Make frontend development great again in Rails
+      :video_id: rgmW_VIzPc4
+      :video_provider: youtube
+      :video_thumb: http://img.youtube.com/vi/rgmW_VIzPc4/sddefault.jpg
+      :slides: https://speakerdeck.com/aokon/trug-number-69-make-frontend-development-great-again-in-rails
 
 - :number: 68
   :date: 2017-11-22
