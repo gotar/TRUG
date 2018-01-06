@@ -22,6 +22,12 @@
 - :number: 67
   :date: 2017-10-25
   :talks:
+    - :fullname: Sebastian Nowak
+      :title: AWS deploy pipeline for Jekyll blog
+      :home_page: https://github.com/seban
+      :video_id: ojvRSb4qQG4
+      :video_provider: youtube
+      :video_thumb: http://img.youtube.com/vi/ojvRSb4qQG4/sddefault.jpg
     - :fullname: Anna Mikulińska
       :title: Jak to się robi w wielkim świecie - berlińska scena softwareowa
     - :fullname: Andrzej Krzywda
