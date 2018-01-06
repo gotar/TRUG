@@ -101,6 +101,10 @@
     - :fullname: Adam Okoń
       :home_page: https://github.com/aokon
       :title: Webpack 2 dla opornych
+      :video_id: HO-gFdVni1k
+      :video_provider: youtube
+      :video_thumb: http://img.youtube.com/vi/HO-gFdVni1k/sddefault.jpg
+      :slides: https://speakerdeck.com/aokon/trug-number-60-webpack-2
 
 - :number: 59
   :date: 2017-02-15
