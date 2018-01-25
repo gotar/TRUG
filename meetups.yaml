@@ -1,3 +1,11 @@
+- :number: 70
+  :date: 2018-01-24
+  :talks:
+    - :fullname: Piotr Macuk
+      :home_page: https://github.com/macuk
+      :title: Hourly billing is nuts
+      :slides: https://www.slideshare.net/piotrmacuk/hourly-billing-is-nuts
+
 - :number: 69
   :date: 2017-12-20
   :talks:
