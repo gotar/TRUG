@@ -1,3 +1,21 @@
+- :number: 72
+  :date: 2018-03-21
+  :talks:
+    - :fullname: Michał Poczwardowski
+      :home_page: https://github.com/dmp0x7c5
+      :title: Delivering backend - case study.
+      :slides: https://speakerdeck.com/dmp0x7c5/delivering-backend-case-study/
+    - :fullname: Oskar Szrajer
+      :home_page: http://gotar.info
+      :title: Another Live code session (discovering ruby through TDD)
+
+- :number: 71
+  :date: 2018-02-28
+  :talks:
+    - :fullname: Oskar Szrajer
+      :home_page: http://gotar.info
+      :title: Live code session (discovering ruby through TDD)
+
 - :number: 70
   :date: 2018-01-24
   :talks:
