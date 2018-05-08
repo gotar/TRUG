@@ -1,3 +1,9 @@
+- :number: 73
+  :date: 2018-04-18
+  :talks:
+    - :fullname: Jan Dudek
+      :home_page: https://github.com/jdudek
+      :title: Front-end Deployment with Lambda@Edge
 - :number: 72
   :date: 2018-03-21
   :talks:
