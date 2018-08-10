@@ -1959,9 +1959,7 @@ dd + dt {
 .list-reset {
   padding-left: 0;
   list-style: none; }
-  .list-divided > li,
-  .list-inline > li,
-  .list-menu > li,
+  .list-divided > li, .list-inline > li, .list-menu > li,
   .list-reset > li {
     margin-left: 0; }
 
@@ -2394,7 +2392,7 @@ input[type="text"] {
 .landing-link {
   font-size: 1.1rem; }
 
-.landing-map-canvas {
+.landing-map-canvas img {
   width: 100%;
   height: 270px; }
 

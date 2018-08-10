@@ -14,13 +14,16 @@
     "build": "NODE_ENV=production webpack --progress --hide-modules"
   },
   "devDependencies": {
-    "css-loader": "^0.28.1",
-    "extract-text-webpack-plugin": "^2.1.0",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^2.1.2",
     "hocus-pocus": "^0.3.3",
     "isdev": "^1.0.1",
-    "node-sass": "^4.5.2",
-    "sass-loader": "^6.0.5",
+    "node-sass": "^4.9.3",
+    "sass-loader": "^6.0.7",
     "style-loader": "^0.17.0",
-    "webpack": "^2.5.1"
+    "webpack": "^2.7.0"
+  },
+  "dependencies": {
+    "npm": "^6.3.0"
   }
 }
