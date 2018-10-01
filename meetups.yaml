@@ -5,10 +5,12 @@
       :title: Moja Ruby historia - Jak zostałem programistą grubo po 30-stce.
       :video_id: FP3gvcRPD_c
       :video_provider: youtube
+      :video_thumb: http://img.youtube.com/vi/FP3gvcRPD_c/sddefault.jpg
     - :fullname: Łukasz Skotarek
       :title: Wprowadzenie do Property Based Testing
       :video_id: 1aJ-rA5_9QU
       :video_provider: youtube
+      :video_thumb: http://img.youtube.com/vi/1aJ-rA5_9QU/sddefault.jpg
 
 - :number: 73
   :date: 2018-04-18
@@ -98,7 +100,7 @@
       :title: CSS Grid
       :video_id: 5CmeDZmd-_I
       :video_provider: youtube
-      :video_thumb: http://img.youtube.com/vi/aQzmsXu3P7A/sddefault.jpg
+      :video_thumr: http://img.youtube.com/vi/5CmeDZmd-_I/sddefault.jpg
 
 - :number: 64
   :date: 2017-07-19
