@@ -1,3 +1,16 @@
+- :number: 81
+  :date: 2018-12-12
+  :talks:
+    - :fullname: Jacek Marmuszewski
+      :title: Why do we need security headers?
+      :slides: https://docs.google.com/presentation/d/1uZhbe-opQQ-90iQvnryoobZt3qa0GXfdgwiDbOcPMfk/edit#slide=id.g45e057549f_0_56
+    - :fullname: Oskar Szrajer
+      :title: GraphQL - część I -  wstęp (Setup, Query and Types)
+    - :fullname: Adam Okoń
+      :title: Lighting talk - Mermaidjs
+      :slides: https://mermaidjs.github.io/
+- :number: 80
+  :date: 2018-11-21
 - :number: 79
   :date: 2018-10-24
   :talks:
