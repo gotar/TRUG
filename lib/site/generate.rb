@@ -22,6 +22,8 @@ module Site
       FileUtils.cp_r File.join(root, "assets/archive"), File.join(export_dir, "assets/archive")
 
       FileUtils.cp_r File.join(root, "assets/fontello.css"), File.join(export_dir, "assets/fontello.css")
+      FileUtils.cp_r File.join(root, "assets/.nojekyll"), File.join(export_dir, ".nojekyll")
+      FileUtils.cp_r File.join(root, "assets/CNAME"), File.join(export_dir, "CNAME")
 
 
       render export_dir, "index.html", home_view
