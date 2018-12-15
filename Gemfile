@@ -1,29 +1,21 @@
-source 'http://rubygems.org'
+source "https://rubygems.org"
 
-gem 'sinatra', require: 'sinatra/base'
+gem "builder"
+gem "dry-core"
+gem "dry-inflector"
+gem "dry-monads", "= 1.0.0.beta1"
+gem "dry-system"
+gem "dry-types"
+gem "dry-view"
+gem "pry"
+gem "rom"
+gem "rom-yaml"
+gem "slim"
+gem "transproc"
 
-gem 'rake'
-gem 'puma'
-gem 'rack-rewrite'
-
-gem 'slim'
-gem 'sass'
-
-gem 'sinatra-assetpack'
-gem 'therubyracer'
-
-group :development do
-  gem 'capistrano'
-  gem 'capistrano-bundler'
-  gem 'capistrano-passenger'
-  gem 'capistrano-rvm'
-  gem 'foreman'
-  gem 'pry'
-  gem 'shotgun'
-end
-
-group :test do
-  gem 'rspec'
-  gem 'fivemat'
-  gem 'rack-test'
+group :development, :test do
+  gem "byebug"
+  gem "foreman"
+  gem "guard"
+  gem "guard-shell"
 end

@@ -1,60 +1,69 @@
-var ExtractTextPlugin = require("extract-text-webpack-plugin");
+const ManifestPlugin = require("webpack-manifest-plugin")
+const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin")
+const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
+
 var webpack = require('webpack')
 
-const IS_DEV = require('isdev')
-
-module.exports = modulePaths => ({
-  test: /\.ms[ac]ss$/,
-  use: [{
-    loader: 'style-loader',
-    options: {
-      sourceMap: IS_DEV
-    }
-  },{
-    loader: 'css-loader',
-    options: {
-      localIdentName: '[hash:8]-[name]-[local]',
-      modules: true,
-      sourceMap: IS_DEV
-    }
-  },
-  {
-    loader: 'sass-loader',
-    options: {
-      sourceMap: IS_DEV,
-      includePaths: modulePaths
-    }
-  }]
-})
-
-module.exports = modulePaths => ({
-  entry: {
-    app: ["./public/stylesheets/sass/all.scss"],
-  },
-
-  output: {
-    path: __dirname + "/public/",
-    filename: "js/[name].js"
-  },
-
-  module: {
-    loaders: [{
-      test: /\.css$/,
-      loader: ExtractTextPlugin.extract({ fallback: 'style-loader', use: 'css-loader'})
+module.exports = function(env, argv) {
+  return {
+    entry: {
+      site: [
+        './assets/index.js',
+        './assets/index.scss',
+      ],
+      archive: [
+        './assets/archive.js'
+      ],
     },
-      {
-        test: /\.scss$/,
-        loader: ExtractTextPlugin.extract({ fallback: 'style-loader', use: 'css-loader!sass-loader'})
-      }
-    ]
-  },
-
-  plugins: [
-    new ExtractTextPlugin("stylesheets/[name].css"),
-    new webpack.DefinePlugin({
-      'process.env': {
-        NODE_ENV: '"production"'
-      }
-    })
-  ]
-});
+    output: {
+      filename: '[name].[hash:8].js',
+      path: __dirname + '/build/assets',
+    },
+    optimization: {
+      minimizer: [
+        new UglifyJsPlugin({
+          cache: true,
+          parallel: true,
+          sourceMap: true
+        }),
+        new OptimizeCSSAssetsPlugin({})
+      ]
+    },
+    plugins: [
+      new ManifestPlugin(),
+      new MiniCssExtractPlugin({
+        filename: "[name].[hash:8].css",
+        chunkFilename: "[id].css"
+      }),
+     new webpack.ProvidePlugin({
+       $: 'jquery',
+       jQuery: 'jquery'
+     }),
+    ],
+    module: {
+      rules: [
+        {
+          test: /\.scss$/,
+          use: [
+            MiniCssExtractPlugin.loader,
+            'css-loader',
+            'sass-loader',
+          ],
+        },
+        {
+          test: /\.(gif|jpg|png|svg)$/,
+          use: [
+            {
+              loader: 'file-loader',
+              options: {
+                name: '[name].[hash:8].[ext]',
+                useRelativePath: true,
+              },
+            },
+          ],
+        },
+      ],
+    },
+  }
+}
