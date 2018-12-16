@@ -31,7 +31,7 @@ In this application, the system provides two special components:
 
 The persystence layer is built using [rom-rb][rom-rb] and is a crucial aspect of the application. It gives us a database that we can populate from any number of sources, and then use to extract and combine data in ways that are meaningful to the types of pages we want to generate for our site.
 
-The system's `database` component (see above) loads **relations** (which roughly correspond to database tables in typical use) in `lib/database/relations`, creates an in-memory SQLite database and migrates it according to the schemas defined in the relations.
+The system's `database` component (see above) loads **relations** (which roughly correspond to database tables in typical use) in `lib/database/relations`.
 
 The relations also provide a place for defining low-level query logic. We can then use this logic when building **repositories** (see `lib/site/repos/`), which provide the application's own clear, central interface to the persistence layer. Repositories give us a place to define meaningful names for the data we wish to access, and then return typed, immutable structs that can be passed around the application and used as required.
 
@@ -43,11 +43,7 @@ The application offers 2 key build stages, **prepare** and **generate**, which a
 
 The prepare stage (see `lib/site/prepare.rb`) is intended for us to populate the database with any data we require for our site. Here we can run number of different **importers** to prepare the data we need.
 
-A single "file" importer is currently available. This importer load all the files in a given directory, parses them for body content and YAML front matter, and loads the resulting data into a matching database table, based on the file's secondary file extension (e.g. `hello-world.article.md` will be loaded into the `articles` table).
-
 The generate stage (see `lib/site/generate.rb`) is intended for us to fetch data back from the database as required, render views, and save the output as static files.
-
-_Right now, at this stage of the proof-of-concept, the logic to generate my site is implemented directly in the `#call` methods of both these build components. Later, I'll add some kind of DSL to make it nicer to define the **prepare** and **generate** rules for any given site._
 
 ### Views
 
