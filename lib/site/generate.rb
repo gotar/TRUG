@@ -17,13 +17,11 @@ module Site
     def call(root)
       export_dir = File.join(root, settings.export_dir)
 
-      FileUtils.cp_r File.join(root, "assets/font"), File.join(export_dir, "assets/font")
       FileUtils.cp_r File.join(root, "assets/images"), File.join(export_dir, "assets/images")
       FileUtils.cp_r File.join(root, "assets/archive"), File.join(export_dir, "assets/archive")
 
-      FileUtils.cp_r File.join(root, "assets/fontello.css"), File.join(export_dir, "assets/fontello.css")
-      FileUtils.cp_r File.join(root, "assets/.nojekyll"), File.join(export_dir, ".nojekyll")
-      FileUtils.cp_r File.join(root, "assets/CNAME"), File.join(export_dir, "CNAME")
+      FileUtils.cp File.join(root, "assets/.nojekyll"), File.join(export_dir, ".nojekyll")
+      FileUtils.cp File.join(root, "assets/CNAME"), File.join(export_dir, "CNAME")
 
 
       render export_dir, "index.html", home_view

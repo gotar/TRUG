@@ -11,10 +11,9 @@ module.exports = function(env, argv) {
       site: [
         './assets/index.js',
         './assets/index.scss',
+        './assets/fontello.css'
       ],
-      archive: [
-        './assets/archive.js'
-      ],
+      archive: './assets/archive.js',
     },
     output: {
       filename: '[name].[hash:8].js',
@@ -44,6 +43,13 @@ module.exports = function(env, argv) {
     module: {
       rules: [
         {
+          test: /\.css$/,
+          use: [
+            MiniCssExtractPlugin.loader,
+            'css-loader',
+          ],
+        },
+        {
           test: /\.scss$/,
           use: [
             MiniCssExtractPlugin.loader,
@@ -52,7 +58,7 @@ module.exports = function(env, argv) {
           ],
         },
         {
-          test: /\.(gif|jpg|png|svg)$/,
+          test: /\.(gif|jpg|png|svg|eot|ttf|woff|woff2)$/,
           use: [
             {
               loader: 'file-loader',
