@@ -6,6 +6,10 @@ module Site
       def all
         events.to_a
       end
+
+      def lastest
+        events.first
+      end
     end
   end
 end
