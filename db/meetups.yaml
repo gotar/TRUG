@@ -1,4 +1,11 @@
 events:
+  - :number: 82
+    :date: 2019-01-23
+    :talks:
+      - :fullname: Adam Okoń
+        :title: JWT
+      - :fullname: ???
+        :title: wolny slot
   - :number: 81
     :date: 2018-12-12
     :talks:
