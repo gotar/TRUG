@@ -1,4 +1,11 @@
 events:
+  - :number: 83
+    :date: 2019-02-27
+    :talks:
+      - :fullname: Paweł Pokrywka
+        :title: Podsumowanie 12 lat eksperymentu dot. wycieków danych
+      - :fullname: Oskar Szrajer
+        :title: Dry-view (better way to write views)
   - :number: 82
     :date: 2019-01-23
     :talks:
