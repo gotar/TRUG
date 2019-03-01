@@ -11,9 +11,9 @@ var archive = (function() {
 
   movieUrl = function( movieId, provider ) {
     if( provider == "youtube" ) {
-      return "http://www.youtube.com/embed/" + movieId + "/?autoplay=1&rel=0";
+      return "https://www.youtube.com/embed/" + movieId + "/?autoplay=1&rel=0";
     } else {
-      return "http://player.vimeo.com/video/" + movieId + "?autoplay=true";
+      return "https://player.vimeo.com/video/" + movieId + "?autoplay=true";
     }
   }
 

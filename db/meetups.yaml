@@ -6,6 +6,10 @@ events:
         :title: Podsumowanie 12 lat eksperymentu dot. wycieków danych
       - :fullname: Oskar Szrajer
         :title: Dry-view (better way to write views)
+        :slides: https://www.slideshare.net/secret/v1KMJE7D7aynTp
+        :video_id: CXt2kZvbV7c
+        :video_provider: youtube
+        :video_thumb: https://img.youtube.com/vi/CXt2kZvbV7c/sddefault.jpg
   - :number: 82
     :date: 2019-01-23
     :talks:
@@ -44,12 +48,12 @@ events:
         :title: Moja Ruby historia - Jak zostałem programistą grubo po 30-stce.
         :video_id: FP3gvcRPD_c
         :video_provider: youtube
-        :video_thumb: http://img.youtube.com/vi/FP3gvcRPD_c/sddefault.jpg
+        :video_thumb: https://img.youtube.com/vi/FP3gvcRPD_c/sddefault.jpg
       - :fullname: Łukasz Skotarek
         :title: Wprowadzenie do Property Based Testing
         :video_id: 1aJ-rA5_9QU
         :video_provider: youtube
-        :video_thumb: http://img.youtube.com/vi/1aJ-rA5_9QU/sddefault.jpg
+        :video_thumb: https://img.youtube.com/vi/1aJ-rA5_9QU/sddefault.jpg
   - :number: 73
     :date: 2018-04-18
     :talks:
@@ -64,13 +68,13 @@ events:
         :title: Delivering backend - case study.
         :slides: https://speakerdeck.com/dmp0x7c5/delivering-backend-case-study/
       - :fullname: Oskar Szrajer
-        :home_page: http://gotar.info
+        :home_page: https://gotar.info
         :title: Another Live code session (discovering ruby through TDD)
   - :number: 71
     :date: 2018-02-28
     :talks:
       - :fullname: Oskar Szrajer
-        :home_page: http://gotar.info
+        :home_page: https://gotar.info
         :title: Live code session (discovering ruby through TDD)
   - :number: 70
     :date: 2018-01-24
@@ -87,7 +91,7 @@ events:
         :title: Make frontend development great again in Rails
         :video_id: rgmW_VIzPc4
         :video_provider: youtube
-        :video_thumb: http://img.youtube.com/vi/rgmW_VIzPc4/sddefault.jpg
+        :video_thumb: https://img.youtube.com/vi/rgmW_VIzPc4/sddefault.jpg
         :slides: https://speakerdeck.com/aokon/trug-number-69-make-frontend-development-great-again-in-rails
   - :number: 68
     :date: 2017-11-22
@@ -97,7 +101,7 @@ events:
         :title: DDD & Hexagonal Architecture
         :video_id: zYF2XdGeQHs
         :video_provider: youtube
-        :video_thumb: http://img.youtube.com/vi/zYF2XdGeQHs/sddefault.jpg
+        :video_thumb: https://img.youtube.com/vi/zYF2XdGeQHs/sddefault.jpg
   - :number: 67
     :date: 2017-10-25
     :talks:
@@ -106,7 +110,7 @@ events:
         :home_page: https://github.com/seban
         :video_id: ojvRSb4qQG4
         :video_provider: youtube
-        :video_thumb: http://img.youtube.com/vi/ojvRSb4qQG4/sddefault.jpg
+        :video_thumb: https://img.youtube.com/vi/ojvRSb4qQG4/sddefault.jpg
       - :fullname: Anna Mikulińska
         :title: Jak to się robi w wielkim świecie - berlińska scena softwareowa
       - :fullname: Andrzej Krzywda
@@ -127,11 +131,11 @@ events:
       - :fullname: Robert Kostrzewski
         :title: Integracja mikroserwisu Machine Learning w Python z aplikacją webową Ruby on Rails
       - :fullname: Oskar Szrajer
-        :home_page: http://gotar.info
+        :home_page: https://gotar.info
         :title: CSS Grid
         :video_id: 5CmeDZmd-_I
         :video_provider: youtube
-        :video_thumr: http://img.youtube.com/vi/5CmeDZmd-_I/sddefault.jpg
+        :video_thumr: https://img.youtube.com/vi/5CmeDZmd-_I/sddefault.jpg
   - :number: 64
     :date: 2017-07-19
     :talks:
@@ -144,7 +148,7 @@ events:
         :title: Docker
         :video_id: oZNMzAx57nY
         :video_provider: youtube
-        :video_thumb: http://img.youtube.com/vi/oZNMzAx57nY/sddefault.jpg
+        :video_thumb: https://img.youtube.com/vi/oZNMzAx57nY/sddefault.jpg
         :slides: https://docs.google.com/presentation/d/1p6uGENUkJKV4OrFMoafJVvMGdaE7ew-7mP3kP9S3aSo
       - :fullname: Krzysztof Wawer
         :home_page: https://github.com/wafcio
@@ -159,7 +163,7 @@ events:
         :title: Monady
         :video_id: aQzmsXu3P7A
         :video_provider: youtube
-        :video_thumb: http://img.youtube.com/vi/aQzmsXu3P7A/sddefault.jpg
+        :video_thumb: https://img.youtube.com/vi/aQzmsXu3P7A/sddefault.jpg
 
   - :number: 61
     :date: 2017-04-26
@@ -179,7 +183,7 @@ events:
         :title: Webpack 2 dla opornych
         :video_id: HO-gFdVni1k
         :video_provider: youtube
-        :video_thumb: http://img.youtube.com/vi/HO-gFdVni1k/sddefault.jpg
+        :video_thumb: https://img.youtube.com/vi/HO-gFdVni1k/sddefault.jpg
         :slides: https://speakerdeck.com/aokon/trug-number-60-webpack-2
 
   - :number: 59
@@ -190,13 +194,13 @@ events:
         :title: GraphQL - zaawansowane API (mutacje, autoryzacja, itp.)
         :video_id: HGa8dr2OYIk
         :video_provider: youtube
-        :video_thumb: http://img.youtube.com/vi/HGa8dr2OYIk/sddefault.jpg
+        :video_thumb: https://img.youtube.com/vi/HGa8dr2OYIk/sddefault.jpg
       - :fullname: Michał Poczwardowski
         :home_page: https://github.com/dmp0x7c5
         :title: ML in Ruby
         :video_id: zSfXh-Qul1s
         :video_provider: youtube
-        :video_thumb: http://img.youtube.com/vi/zSfXh-Qul1s/sddefault.jpg
+        :video_thumb: https://img.youtube.com/vi/zSfXh-Qul1s/sddefault.jpg
       - :fullname: Szymon Szypulski
         :home_page: https://github.com/szymonpk
         :title: InSpec - Inspect Your Infrastructure
@@ -210,7 +214,7 @@ events:
         :title: PostgreSQL - Dlaczego moje zapytania są takie wolne?
         :video_id: _zS4KjUE24w
         :video_provider: youtube
-        :video_thumb: http://img.youtube.com/vi/_zS4KjUE24w/sddefault.jpg
+        :video_thumb: https://img.youtube.com/vi/_zS4KjUE24w/sddefault.jpg
         :slides: https://speakerdeck.com/aokon/postgresql-dlaczego-moje-zapytania-sa-takie-wolne
       - :fullname: Sebastian Nowak
         :home_page: https://github.com/seban
@@ -261,13 +265,13 @@ events:
         :home_page: https://github.com/smt116
         :video_id: T3Wlogn6HzQ
         :video_provider: youtube
-        :video_thumb: http://img.youtube.com/vi/T3Wlogn6HzQ/sddefault.jpg
+        :video_thumb: https://img.youtube.com/vi/T3Wlogn6HzQ/sddefault.jpg
       - :fullname: Krzysztof Wawer
         :home_page: https://github.com/wafcio
         :title: "Konfiguracja aplikacji Ruby - Rób to mądrze"
         :video_id: aM-ioLCZ3fA
         :video_provider: youtube
-        :video_thumb: http://img.youtube.com/vi/aM-ioLCZ3fA/sddefault.jpg
+        :video_thumb: https://img.youtube.com/vi/aM-ioLCZ3fA/sddefault.jpg
 
   - :number: 53
     :date: 2016-08-24
@@ -277,14 +281,14 @@ events:
         :title: Z czym się je Vue.JS
         :video_id: G3bzinki1AE
         :video_provider: youtube
-        :video_thumb: http://img.youtube.com/vi/G3bzinki1AE/sddefault.jpg
+        :video_thumb: https://img.youtube.com/vi/G3bzinki1AE/sddefault.jpg
         :slides: https://speakerdeck.com/aokon/trug-number-54-z-czym-sie-je-vuejs
 
   - :number: 52
     :date: 2016-07-20
     :talks:
       - :fullname: Szymon Jeż
-        :home_page: http://szymon.jez.net.pl
+        :home_page: https://szymon.jez.net.pl
         :title: "ETL systems in Elixir; Extract |> Transform |> Load; Case study of an ETL system written in Elixir"
         :slides:
         :video_id:
@@ -299,7 +303,7 @@ events:
         :title: "Dry-web workshops"
         :video_id: 2FGRXzysd2M
         :video_provider: youtube
-        :video_thumb: http://img.youtube.com/vi/2FGRXzysd2M/sddefault.jpg
+        :video_thumb: https://img.youtube.com/vi/2FGRXzysd2M/sddefault.jpg
 
   - :number: 50
     :date: 2016-05-25
@@ -313,7 +317,7 @@ events:
         :title: "Fuckin' startups..."
         :video_id: 4uYmy3hDC4Q
         :video_provider: youtube
-        :video_thumb: http://img.youtube.com/vi/4uYmy3hDC4Q/sddefault.jpg
+        :video_thumb: https://img.youtube.com/vi/4uYmy3hDC4Q/sddefault.jpg
       - :fullname: Robert Pankowecki
         :home_page: https://github.com/paneq
         :title: "Jak zarobić $80 000 na blogu"
@@ -327,7 +331,7 @@ events:
         :slides: https://speakerdeck.com/bkzl/what-have-i-learned-as-a-ceo-pl
         :video_id: Ik4gMxTKYrI
         :video_provider: youtube
-        :video_thumb: http://img.youtube.com/vi/Ik4gMxTKYrI/sddefault.jpg
+        :video_thumb: https://img.youtube.com/vi/Ik4gMxTKYrI/sddefault.jpg
 
   - :number: 47
     :date: 2016-03-23
@@ -337,13 +341,13 @@ events:
         :title: "Validations in Ruby"
         :video_id: WIzh6FU9UdI
         :video_provider: youtube
-        :video_thumb: http://img.youtube.com/vi/WIzh6FU9UdI/sddefault.jpg
+        :video_thumb: https://img.youtube.com/vi/WIzh6FU9UdI/sddefault.jpg
       - :fullname: Stanisław Tuszyński
         :home_page: https://github.com/stuszynski
         :title: "Deis. Your PaaS. Your Rules."
         :video_id: ZxcQ5dWUAKI
         :video_provider: youtube
-        :video_thumb: http://img.youtube.com/vi/ZxcQ5dWUAKI/sddefault.jpg
+        :video_thumb: https://img.youtube.com/vi/ZxcQ5dWUAKI/sddefault.jpg
 
   - :number: 46
     :date: 2016-02-17
@@ -411,7 +415,7 @@ events:
         :title: "Cooking with Chef"
         :video_id: ctkSVZsiaF4
         :video_provider: youtube
-        :video_thumb: http://img.youtube.com/vi/ctkSVZsiaF4/sddefault.jpg
+        :video_thumb: https://img.youtube.com/vi/ctkSVZsiaF4/sddefault.jpg
 
   - :number: 38
     :date: 2015-06-17
@@ -422,14 +426,14 @@ events:
         :slides: https://speakerdeck.com/dmp0x7c5/defining-dsl-in-ruby/
         :video_id: CTKrvzkEbKs
         :video_provider: youtube
-        :video_thumb: http://img.youtube.com/vi/CTKrvzkEbKs/sddefault.jpg
+        :video_thumb: https://img.youtube.com/vi/CTKrvzkEbKs/sddefault.jpg
       - :fullname: Krzysztof Wawer
         :home_page: https://github.com/wafcio
         :title: "Generating a CSV file with ROM"
         :slides: https://speakerdeck.com/wafcio/generating-a-csv-file-with-rom
         :video_id: kdml2xdwmxo
         :video_provider: youtube
-        :video_thumb: http://img.youtube.com/vi/kdml2xdwmxo/sddefault.jpg
+        :video_thumb: https://img.youtube.com/vi/kdml2xdwmxo/sddefault.jpg
 
   - :number: 37
     :date: 2015-05-20
@@ -440,16 +444,16 @@ events:
         :slides: https://speakerdeck.com/mbuda/male-co-nieco-sequela
         :video_id: x505tjKQMfY
         :video_provider: youtube
-        :video_thumb: http://img.youtube.com/vi/x505tjKQMfY/sddefault.jpg
+        :video_thumb: https://img.youtube.com/vi/x505tjKQMfY/sddefault.jpg
       - :fullname: Szymon Jeż
-        :home_page: http://szymon.jez.net.pl
+        :home_page: https://szymon.jez.net.pl
         :title: "ElixirConfEU 2015 - summary, report"
-        :slides: http://www.elixirconf.eu/
+        :slides: https://www.elixirconf.eu/
         :video_id:
         :video_provider:
         :video_thumb:
       - :fullname: Szymon Jeż
-        :home_page: http://szymon.jez.net.pl
+        :home_page: https://szymon.jez.net.pl
         :title: "3Alchemy session 1 - Freestyle improvised interactive live mob programming Elixir session"
         :slides: https://github.com/jeznet/3alchemy#session-1-2015-05-20
         :video_id:
@@ -460,14 +464,14 @@ events:
     :date: 2015-04-15
     :talks:
       - :fullname: Szymon Jeż
-        :home_page: http://szymon.jez.net.pl
+        :home_page: https://szymon.jez.net.pl
         :title: "Why and how to try Elixir and Erlang/OTP?"
-        :slides: http://szymon.jez.net.pl/2015-04-15-trug-presentation-why-and-how-to-try-elixir-and-erlang-otp.html
+        :slides: https://szymon.jez.net.pl/2015-04-15-trug-presentation-why-and-how-to-try-elixir-and-erlang-otp.html
         :video_id:
         :video_provider:
         :video_thumb:
       - :fullname: Szymon Jeż
-        :home_page: http://szymon.jez.net.pl
+        :home_page: https://szymon.jez.net.pl
         :title: "3Alchemy session 0 - Freestyle improvised interactive live mob programming Elixir session"
         :slides: https://github.com/jeznet/3alchemy#session-0-2015-04-15
         :video_id:
@@ -494,7 +498,7 @@ events:
         :slides:
         :video_id: M0PfkUL_IB8
         :video_provider: youtube
-        :video_thumb: http://img.youtube.com/vi/M0PfkUL_IB8/sddefault.jpg
+        :video_thumb: https://img.youtube.com/vi/M0PfkUL_IB8/sddefault.jpg
 
   - :number: 33
     :date: 2015-01-21
@@ -505,21 +509,21 @@ events:
         :slides:
         :video_id: SF5MmIvoF1o
         :video_provider: youtube
-        :video_thumb: http://img.youtube.com/vi/SF5MmIvoF1o/sddefault.jpg
+        :video_thumb: https://img.youtube.com/vi/SF5MmIvoF1o/sddefault.jpg
       - :fullname: Krzysztof Wawer
         :home_page: https://github.com/wafcio
         :title: ORM, DataMapper czy Agregacja encji
         :slides: https://speakerdeck.com/wafcio/activerecord-datamapper-czy-agregacja-encji
         :video_id: dWjeToQHDkI
         :video_provider: youtube
-        :video_thumb: http://img.youtube.com/vi/dWjeToQHDkI/sddefault.jpg
+        :video_thumb: https://img.youtube.com/vi/dWjeToQHDkI/sddefault.jpg
       - :fullname: Michał Kwiatkowski
         :home_page: https://github.com/mkwiatkowski
         :title: "Języki funkcyjne: czego jeszcze mogą nas nauczyć?"
         :slides:
         :video_id: _JlL3p5V3Gg
         :video_provider: youtube
-        :video_thumb: http://img.youtube.com/vi/_JlL3p5V3Gg/sddefault.jpg
+        :video_thumb: https://img.youtube.com/vi/_JlL3p5V3Gg/sddefault.jpg
 
   - :number: 32
     :date: 2014-12-17
@@ -580,7 +584,7 @@ events:
         :slides:
         :video_id: wmssg1g6bNA
         :video_provider: youtube
-        :video_thumb: http://img.youtube.com/vi/wmssg1g6bNA/sddefault.jpg
+        :video_thumb: https://img.youtube.com/vi/wmssg1g6bNA/sddefault.jpg
 
   - :number: 29
     :date: 2014-09-17
@@ -588,10 +592,10 @@ events:
       - :fullname: Michał Podlecki
         :home_page: https://github.com/michalpodlecki
         :title: Mazureo.pl
-        :slides: http://mazureo.pl/
+        :slides: https://mazureo.pl/
         :video_id: b3i5CHojnsU
         :video_provider: youtube
-        :video_thumb: http://img.youtube.com/vi/b3i5CHojnsU/sddefault.jpg
+        :video_thumb: https://img.youtube.com/vi/b3i5CHojnsU/sddefault.jpg
 
       - :fullname: Piotr Macuk
         :home_page: https://github.com/macuk
@@ -599,19 +603,19 @@ events:
         :slides: /archive/20140917/Konfeo.com-moja-przygoda-z-biznesem-Piotr-Macuk.pdf
         :video_id: l_XMz4m7lt4
         :video_provider: youtube
-        :video_thumb: http://img.youtube.com/vi/l_XMz4m7lt4/sddefault.jpg
+        :video_thumb: https://img.youtube.com/vi/l_XMz4m7lt4/sddefault.jpg
 
   - :number: 28
     :date: 2014-08-20
     :talks:
       - :fullname: Oskar Szrajer
-        :home_page: http://gotar.info
+        :home_page: https://gotar.info
         :title: Beyond MVC
-        :slides: http://www.slideshare.net/oskarszrajer/beyond-mvc
+        :slides: https://www.slideshare.net/oskarszrajer/beyond-mvc
         :source_code:
         :video_id: 9b1G_Q2AHXI
         :video_provider: youtube
-        :video_thumb: http://img.youtube.com/vi/9b1G_Q2AHXI/sddefault.jpg
+        :video_thumb: https://img.youtube.com/vi/9b1G_Q2AHXI/sddefault.jpg
       - :fullname: Paweł Gościcki
         :home_page: https://github.com/pjg
         :title: 'Rspec: Best practices'
@@ -619,7 +623,7 @@ events:
         :source_code:
         :video_id: NS2N-gqTU78
         :video_provider: youtube
-        :video_thumb: http://img.youtube.com/vi/NS2N-gqTU78/sddefault.jpg
+        :video_thumb: https://img.youtube.com/vi/NS2N-gqTU78/sddefault.jpg
 
   - :number: 27
     :date: 2014-07-24
@@ -631,15 +635,15 @@ events:
         :source_code: https://github.com/wafcio/blog_hobbit_trug
         :video_id: njtrTTZFk-A
         :video_provider: youtube
-        :video_thumb: http://img.youtube.com/vi/njtrTTZFk-A/sddefault.jpg
+        :video_thumb: https://img.youtube.com/vi/njtrTTZFk-A/sddefault.jpg
 
   - :number: 26
     :date: 2014-06-18
     :talks:
       - :fullname: Oskar Szrajer
-        :home_page: http://gotar.info
+        :home_page: https://gotar.info
         :title: Lotus Router, Model, Controller, View
-        :slides: http://lotusrb.org
+        :slides: https://lotusrb.org
         :video_id:
         :video_provider:
         :video_thumb:
@@ -653,7 +657,7 @@ events:
         :slides:
         :video_id: Xou9TQ9fKf4
         :video_provider: youtube
-        :video_thumb: http://img.youtube.com/vi/Xou9TQ9fKf4/sddefault.jpg
+        :video_thumb: https://img.youtube.com/vi/Xou9TQ9fKf4/sddefault.jpg
       - :fullname: Michał Kwiatkowski
         :home_page: https://github.com/mkwiatkowski
         :title: Porównanie Rails-Django
@@ -671,7 +675,7 @@ events:
         :slides: https://speakerdeck.com/wafcio/odchudzanie-gitignore
         :video_id: 96CLV52zLwI
         :video_provider: youtube
-        :video_thumb: http://img.youtube.com/vi/96CLV52zLwI/sddefault.jpg
+        :video_thumb: https://img.youtube.com/vi/96CLV52zLwI/sddefault.jpg
 
   - :number: 23
     :date: 2014-03-19
@@ -682,7 +686,7 @@ events:
         :slides: https://speakerdeck.com/bkzl/scalable-css
         :video_id: 96590922
         :video_provider: vimeo
-        :video_thumb: http://i.vimeocdn.com/video/476683884_640.jpg
+        :video_thumb: https://i.vimeocdn.com/video/476683884_640.jpg
 
       - :fullname: Krzysztof Wawer
         :home_page: https://github.com/wafcio
@@ -691,7 +695,7 @@ events:
         :source_code: https://github.com/wafcio/liquid_example_trug
         :video_id: W-Mg6J-97M8
         :video_provider: youtube
-        :video_thumb: http://img.youtube.com/vi/W-Mg6J-97M8/sddefault.jpg
+        :video_thumb: https://img.youtube.com/vi/W-Mg6J-97M8/sddefault.jpg
 
       - :fullname: Oskar Szrajer
         :home_page: https://github.com/gotar
@@ -699,7 +703,7 @@ events:
         :slides:
         :video_id: 89779134
         :video_provider: vimeo
-        :video_thumb: http://b.vimeocdn.com/ts/468/668/468668214_640.jpg
+        :video_thumb: https://b.vimeocdn.com/ts/468/668/468668214_640.jpg
 
   - :number: 22
     :date: 2014-02-19
@@ -707,10 +711,10 @@ events:
       - :fullname: Adrian Gruntkowski
         :home_page: https://github.com/zoldar
         :title: React JS
-        :slides: http://zoldar.net/react/#1
+        :slides: https://zoldar.net/react/#1
         :video_id: 91980711
         :video_provider: vimeo
-        :video_thumb: http://i.vimeocdn.com/video/471590150_640.jpg
+        :video_thumb: https://i.vimeocdn.com/video/471590150_640.jpg
 
       - :fullname: Oskar Szrajer
         :home_page: https://github.com/gotar
@@ -718,7 +722,7 @@ events:
         :slides:
         :video_id: 92492821
         :video_provider: vimeo
-        :video_thumb: http://i.vimeocdn.com/video/472285541_640.jpg
+        :video_thumb: https://i.vimeocdn.com/video/472285541_640.jpg
 
   - :number: 21
     :date: 2014-01-22
@@ -726,10 +730,10 @@ events:
       - :fullname: Maciej Małecki
         :home_page: https://github.com/smt116
         :title: RethinkDB
-        :slides: http://smefju.pl/presentations/rethinkdb/#1
+        :slides: https://smefju.pl/presentations/rethinkdb/#1
         :video_id: 87866803
         :video_provider: vimeo
-        :video_thumb: http://b.vimeocdn.com/ts/466/111/466111992_640.jpg
+        :video_thumb: https://b.vimeocdn.com/ts/466/111/466111992_640.jpg
 
       - :fullname: Adam Okoń
         :home_page: https://github.com/aokon
@@ -737,7 +741,7 @@ events:
         :slides:
         :video_id: 89399924
         :video_provider: vimeo
-        :video_thumb: http://b.vimeocdn.com/ts/468/411/468411439_640.jpg
+        :video_thumb: https://b.vimeocdn.com/ts/468/411/468411439_640.jpg
 
       - :fullname: Adam Okoń
         :home_page: https://github.com/aokon
@@ -745,7 +749,7 @@ events:
         :slides:
         :video_id: 89426724
         :video_provider: vimeo
-        :video_thumb: http://b.vimeocdn.com/ts/468/411/468411386_640.jpg
+        :video_thumb: https://b.vimeocdn.com/ts/468/411/468411386_640.jpg
 
   - :number: 19
     :date: 2013-11-20
@@ -756,15 +760,15 @@ events:
         :slides:
         :video_id: 85487366
         :video_provider: vimeo
-        :video_thumb: http://b.vimeocdn.com/ts/463/444/463444567_640.jpg
+        :video_thumb: https://b.vimeocdn.com/ts/463/444/463444567_640.jpg
 
       - :fullname: Sebastian Zontek
         :home_page:
         :title: Advertine
-        :slides: http://www.advertine.com/
+        :slides: https://www.advertine.com/
         :video_id: 85975292
         :video_provider: vimeo
-        :video_thumb: http://b.vimeocdn.com/ts/463/514/463514579_640.jpg
+        :video_thumb: https://b.vimeocdn.com/ts/463/514/463514579_640.jpg
 
   - :number: 18
     :date: 2013-10-23
@@ -775,7 +779,7 @@ events:
         :slides: https://docs.google.com/presentation/d/1n110NqCARtX2qqASjuK_CtWRAFXPV1_N3jFldllkQRA/edit#slide=id.p
         :video_id: iDKoYfXHbwE
         :video_provider: youtube
-        :video_thumb: http://img.youtube.com/vi/iDKoYfXHbwE/sddefault.jpg
+        :video_thumb: https://img.youtube.com/vi/iDKoYfXHbwE/sddefault.jpg
 
   - :number: 17
     :date: 2013-09-18
@@ -783,7 +787,7 @@ events:
       - :fullname: Michał Kwiatkowski
         :home_page: https://github.com/mkwiatkowski
         :title: AngularJS + Rails
-        :slides: http://mkwiatkowski.github.io/angularjs-rails4-trug-presentation
+        :slides: https://mkwiatkowski.github.io/angularjs-rails4-trug-presentation
         :video_id:
         :video_provider:
         :video_thumb:
@@ -825,7 +829,7 @@ events:
         :slides:
         :video_id: 86509377
         :video_provider: vimeo
-        :video_thumb: http://b.vimeocdn.com/ts/465/279/465279284_640.jpg
+        :video_thumb: https://b.vimeocdn.com/ts/465/279/465279284_640.jpg
 
       - :fullname: Szymon Wrożyński
         :home_page: https://github.com/szw
@@ -833,7 +837,7 @@ events:
         :slides:
         :video_id: 87281357
         :video_provider: vimeo
-        :video_thumb: http://b.vimeocdn.com/ts/465/293/465293280_640.jpg
+        :video_thumb: https://b.vimeocdn.com/ts/465/293/465293280_640.jpg
 
   - :number: 14
     :date: 2013-06-19
@@ -844,7 +848,7 @@ events:
         :slides:
         :video_id: 78759335
         :video_provider: vimeo
-        :video_thumb: http://b.vimeocdn.com/ts/454/273/454273440_640.jpg
+        :video_thumb: https://b.vimeocdn.com/ts/454/273/454273440_640.jpg
 
       - :fullname: Michał Kwiatkowski
         :home_page: https://github.com/mkwiatkowski
@@ -852,7 +856,7 @@ events:
         :slides:
         :video_id: 80318734
         :video_provider: vimeo
-        :video_thumb: http://b.vimeocdn.com/ts/457/527/457527903_640.jpg
+        :video_thumb: https://b.vimeocdn.com/ts/457/527/457527903_640.jpg
 
       - :fullname: Maciej Greń
         :home_page: https://defii.co/en
@@ -860,7 +864,7 @@ events:
         :slides:
         :video_id: 81406179
         :video_provider: vimeo
-        :video_thumb: http://b.vimeocdn.com/ts/457/570/457570632_640.jpg
+        :video_thumb: https://b.vimeocdn.com/ts/457/570/457570632_640.jpg
 
   - :number: 13
     :date: 2013-05-22
@@ -871,7 +875,7 @@ events:
         :slides: /archive/20130522/alternatywa-dla-rvm-gemsets/
         :video_id: 78759336
         :video_provider: vimeo
-        :video_thumb: http://b.vimeocdn.com/ts/454/273/454273368_640.jpg
+        :video_thumb: https://b.vimeocdn.com/ts/454/273/454273368_640.jpg
 
       - :fullname: Sebastian Nowak
         :home_page: https://github.com/seban
@@ -879,7 +883,7 @@ events:
         :slides:
         :video_id: 80318733
         :video_provider: vimeo
-        :video_thumb: http://b.vimeocdn.com/ts/457/528/457528059_640.jpg
+        :video_thumb: https://b.vimeocdn.com/ts/457/528/457528059_640.jpg
 
       - :fullname: Adam Okoń
         :home_page: https://github.com/aokon
@@ -887,7 +891,7 @@ events:
         :slides:
         :video_id: 80318732
         :video_provider: vimeo
-        :video_thumb: http://b.vimeocdn.com/ts/457/527/457527978_640.jpg
+        :video_thumb: https://b.vimeocdn.com/ts/457/527/457527978_640.jpg
 
   - :number: 11
     :date: 2013-03-01 # TODO: znalzc date
@@ -898,7 +902,7 @@ events:
         :slides:
         :video_id: 78581709
         :video_provider: vimeo
-        :video_thumb: http://b.vimeocdn.com/ts/454/269/454269753_640.jpg
+        :video_thumb: https://b.vimeocdn.com/ts/454/269/454269753_640.jpg
 
       - :fullname: Michał Kwiatkowski
         :home_page: https://github.com/mkwiatkowski
@@ -906,18 +910,18 @@ events:
         :slides:
         :video_id: 78670603
         :video_provider: vimeo
-        :video_thumb: http://b.vimeocdn.com/ts/454/269/454269365_640.jpg
+        :video_thumb: https://b.vimeocdn.com/ts/454/269/454269365_640.jpg
 
   - :number: 10
     :date: 2012-12-01 # TODO: znalzc date
     :talks:
       - :fullname: Przemysław Wróblewski
-        :home_page: http://przemyslawwroblewski.blogspot.com/
+        :home_page: https://przemyslawwroblewski.blogspot.com/
         :title: Torquebox 2
         :slides:
         :video_id: 78670602
         :video_provider: vimeo
-        :video_thumb: http://b.vimeocdn.com/ts/454/269/454269575_640.jpg
+        :video_thumb: https://b.vimeocdn.com/ts/454/269/454269575_640.jpg
 
   - :number: 9
     :date: 2012-05-15
@@ -928,7 +932,7 @@ events:
         :slides:
         :video_id: 78579342
         :video_provider: vimeo
-        :video_thumb: http://b.vimeocdn.com/ts/454/270/454270056_640.jpg
+        :video_thumb: https://b.vimeocdn.com/ts/454/270/454270056_640.jpg
 
       - :fullname: Paweł Gościcki
         :home_page: https://github.com/pjg
@@ -936,7 +940,7 @@ events:
         :slides: /archive/20120515/wspolbieznosc-w-ruby/
         :video_id: 78579343
         :video_provider: vimeo
-        :video_thumb: http://b.vimeocdn.com/ts/454/269/454269943_640.jpg
+        :video_thumb: https://b.vimeocdn.com/ts/454/269/454269943_640.jpg
 
   - :number: 8
     :date: 2012-01-01 # TODO: znalzc date
@@ -947,7 +951,7 @@ events:
         :slides:
         :video_id: 78579341
         :video_provider: vimeo
-        :video_thumb: http://b.vimeocdn.com/ts/454/271/454271088_640.jpg
+        :video_thumb: https://b.vimeocdn.com/ts/454/271/454271088_640.jpg
 
   - :number: 6
     :date: 2012-01-01 # TODO: znalzc date
@@ -958,7 +962,7 @@ events:
         :slides:
         :video_id: 78578277
         :video_provider: vimeo
-        :video_thumb: http://b.vimeocdn.com/ts/454/270/454270982_640.jpg
+        :video_thumb: https://b.vimeocdn.com/ts/454/270/454270982_640.jpg
 
   - :number: 5
     :date: 2012-01-01 # TODO: znalzc date
@@ -969,7 +973,7 @@ events:
         :slides:
         :video_id: 77541867
         :video_provider: vimeo
-        :video_thumb: http://b.vimeocdn.com/ts/454/271/454271442_640.jpg
+        :video_thumb: https://b.vimeocdn.com/ts/454/271/454271442_640.jpg
 
       - :fullname: Oskar Szrajer
         :home_page: https://github.com/gotar
@@ -977,7 +981,7 @@ events:
         :slides:
         :video_id: 77541868
         :video_provider: vimeo
-        :video_thumb: http://b.vimeocdn.com/ts/454/271/454271354_640.jpg
+        :video_thumb: https://b.vimeocdn.com/ts/454/271/454271354_640.jpg
 
       - :fullname: Maciej Wojdyr
         :home_page: https://github.com/mwojdyr
@@ -985,7 +989,7 @@ events:
         :slides:
         :video_id: 77541869
         :video_provider: vimeo
-        :video_thumb: http://b.vimeocdn.com/ts/454/271/454271206_640.jpg
+        :video_thumb: https://b.vimeocdn.com/ts/454/271/454271206_640.jpg
 
   - :number: 4
     :date: 2012-01-01 # TODO: znalzc date
@@ -996,7 +1000,7 @@ events:
         :slides:
         :video_id: 77527002
         :video_provider: vimeo
-        :video_thumb: http://b.vimeocdn.com/ts/454/271/454271733_640.jpg
+        :video_thumb: https://b.vimeocdn.com/ts/454/271/454271733_640.jpg
 
   - :number: 3
     :date: 2012-01-01 # TODO: znalzc date
@@ -1007,7 +1011,7 @@ events:
         :slides:
         :video_id: 77281779
         :video_provider: vimeo
-        :video_thumb: http://b.vimeocdn.com/ts/454/272/454272967_640.jpg
+        :video_thumb: https://b.vimeocdn.com/ts/454/272/454272967_640.jpg
 
       - :fullname: Mateusz Leszczyński
         :home_page:
@@ -1015,7 +1019,7 @@ events:
         :slides:
         :video_id: 77541866
         :video_provider: vimeo
-        :video_thumb: http://b.vimeocdn.com/ts/454/271/454271652_640.jpg
+        :video_thumb: https://b.vimeocdn.com/ts/454/271/454271652_640.jpg
 
   - :number: 2
     :date: 2012-01-01 # TODO: znalzc date
@@ -1026,7 +1030,7 @@ events:
         :slides:
         :video_id: 77281778
         :video_provider: vimeo
-        :video_thumb: http://b.vimeocdn.com/ts/452/750/452750252_640.jpg
+        :video_thumb: https://b.vimeocdn.com/ts/452/750/452750252_640.jpg
 
       - :fullname: Mateusz Marek
         :home_page: https://github.com/matthewpl
@@ -1034,7 +1038,7 @@ events:
         :slides:
         :video_id: 77281780
         :video_provider: vimeo
-        :video_thumb: http://b.vimeocdn.com/ts/454/272/454272115_640.jpg
+        :video_thumb: https://b.vimeocdn.com/ts/454/272/454272115_640.jpg
 
   - :number: 1
     :date: 2010-03-03
@@ -1045,7 +1049,7 @@ events:
         :slides:
         :video_id: 75640499
         :video_provider: vimeo
-        :video_thumb: http://b.vimeocdn.com/ts/450/342/450342003_640.jpg
+        :video_thumb: https://b.vimeocdn.com/ts/450/342/450342003_640.jpg
 
       - :fullname: Sebastian Nowak
         :home_page: https://github.com/seban
@@ -1053,4 +1057,4 @@ events:
         :slides:
         :video_id: 75640498
         :video_provider: vimeo
-        :video_thumb: http://b.vimeocdn.com/ts/450/342/450342180_640.jpg
+        :video_thumb: https://b.vimeocdn.com/ts/450/342/450342180_640.jpg
