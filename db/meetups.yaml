@@ -1,4 +1,11 @@
 events:
+  - :number: 84
+    :date: 2019-03-20
+    :talks:
+      - :fullname: Oskar Szrajer
+        :title: Dry-view (live coding, refactor)
+      - :fullname: ???
+        :title: ???
   - :number: 83
     :date: 2019-02-27
     :talks:
