@@ -1,4 +1,12 @@
 events:
+  - :number: 85
+    :date: 2019-04-17
+    :talks:
+      - :fullname: Maciej Kubiak
+        :title: Wprowadzenie do Frontend web developmentu
+      - :fullname: Paweł Gościcki
+        :title: ???
+events:
   - :number: 84
     :date: 2019-03-20
     :talks:
