@@ -5,14 +5,12 @@ events:
       - :fullname: Maciej Kubiak
         :title: Wprowadzenie do Frontend web developmentu
       - :fullname: Paweł Gościcki
-        :title: ???
+        :title: '"Wymyślam algorytm"'
   - :number: 84
     :date: 2019-03-20
     :talks:
       - :fullname: Oskar Szrajer
         :title: Dry-view (live coding, refactor)
-      - :fullname: ???
-        :title: ???
   - :number: 83
     :date: 2019-02-27
     :talks:
@@ -29,8 +27,6 @@ events:
     :talks:
       - :fullname: Adam Okoń
         :title: JWT
-      - :fullname: ???
-        :title: wolny slot
   - :number: 81
     :date: 2018-12-12
     :talks:
