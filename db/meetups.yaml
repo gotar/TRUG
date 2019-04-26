@@ -3,7 +3,11 @@ events:
     :date: 2019-04-17
     :talks:
       - :fullname: Maciej Kubiak
+        :home_page: https://github.com/buffot
         :title: Wprowadzenie do Frontend web developmentu
+        :video_id: GHIKtdl86H4
+        :video_provider: youtube
+        :video_thumb: https://img.youtube.com/vi/GHIKtdl86H4/sddefault.jpg
       - :fullname: Paweł Gościcki
         :title: '"Wymyślam algorytm"'
   - :number: 84
