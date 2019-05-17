@@ -1,4 +1,11 @@
 events:
+  - :number: 86
+    :date: 2019-05-22
+    :talks:
+      - :fullname: Piotr Macuk
+        :title: VPS vs Heroku for small team
+      - :fullname: Oskar Szrajer
+        :title: Podstawy programowania (część kolejna)
   - :number: 85
     :date: 2019-04-17
     :talks:
