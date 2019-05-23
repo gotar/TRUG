@@ -4,7 +4,7 @@ events:
     :talks:
       - :fullname: Piotr Macuk
         :title: VPS vs Heroku for small team
-        :slides: https://trug.pl/assets/20190522/vps_heroku.pdf
+        :slides: https://trug.pl/assets/archive/20190522/vps_heroku.pdf
       - :fullname: Oskar Szrajer
         :title: Podstawy programowania (część kolejna)
       - :fullname: Tomasz Stachewicz
