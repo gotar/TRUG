@@ -2,8 +2,10 @@ events:
   - :number: 87
     :date: 2019-06-19
     :talks:
-      - :fullname: ???
-        :title: ???
+      - :fullname: Adam Okoń
+        :title: '"Then in the action"'
+      - :fullname: Michał Matyas
+        :title: 'FFmpeg in Ruby'
   - :number: 86
     :date: 2019-05-22
     :talks:
