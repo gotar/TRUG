@@ -2,9 +2,10 @@ events:
   - :number: 88
     :date: 2019-07-17
     :talks:
-      - :fullname: ???
-        :title: ???
-events:
+      - :fullname: Piotr Macuk
+        :title: Migrating from Paperclip to ActiveStorage
+      - :fullname: Piotr Macuk
+        :title: Selecting SMTP for SaaS business
   - :number: 87
     :date: 2019-06-19
     :talks:
