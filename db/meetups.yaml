@@ -1,4 +1,10 @@
 events:
+  - :number: 88
+    :date: 2019-07-17
+    :talks:
+      - :fullname: ???
+        :title: ???
+events:
   - :number: 87
     :date: 2019-06-19
     :talks:
