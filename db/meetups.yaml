@@ -4,8 +4,12 @@ events:
     :talks:
       - :fullname: Piotr Macuk
         :title: Migrating from Paperclip to ActiveStorage
+        :slides: https://trug.pl/assets/archive/20190717/active_storage.pdf
       - :fullname: Piotr Macuk
         :title: Selecting SMTP for SaaS business
+        :slides: https://trug.pl/assets/archive/20190717/smtp.pdf
+      - :fullname: Maciej Małecki
+        :title: AppSignal
   - :number: 87
     :date: 2019-06-19
     :talks:
