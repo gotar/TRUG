@@ -1,4 +1,9 @@
 events:
+  - :number: 90
+    :date: 2019-09-18
+    :talks:
+      - :fullname: Artur Okoński
+        :title: O GraphQL i używaniu go z Ruby on Rails
   - :number: 89
     :date: 2019-08-21
     :talks:
