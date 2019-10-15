@@ -1,4 +1,9 @@
 events:
+  - :number: 91
+    :date: 2019-10-23
+    :talks:
+      - :fullname: Bartek Kozal
+        :title: Czego się nauczyłem, ile zarobiłem i dlaczego rzuciłem programowanie po zbudowaniu sześciu side projektów
   - :number: 90
     :date: 2019-09-18
     :talks:
