@@ -1,11 +1,14 @@
 events:
+  - :number: 92
+    :date: 2019-11-20
+    :talks:
+      - :fullname: Krzysztof Wawer
+        :title: The Good Architecture
   - :number: 91
     :date: 2019-10-23
     :talks:
       - :fullname: Bartek Kozal
         :title: Czego się nauczyłem, ile zarobiłem i dlaczego rzuciłem programowanie po zbudowaniu sześciu side projektów
-      - :fullname: Krzysztof Wawer
-        :title: The Good Architecture
   - :number: 90
     :date: 2019-09-18
     :talks:
