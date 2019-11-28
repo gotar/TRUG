@@ -4,6 +4,7 @@ events:
     :talks:
       - :fullname: Krzysztof Wawer
         :title: The Good Architecture
+        :slides: https://speakerdeck.com/wafcio/the-good-architecture
   - :number: 91
     :date: 2019-10-23
     :talks:
