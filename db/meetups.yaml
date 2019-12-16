@@ -1,4 +1,9 @@
 events:
+  - :number: 93
+    :date: 2019-12-18
+    :talks:
+      - :fullname: Michał Matyas
+        :title: Testing React components
   - :number: 92
     :date: 2019-11-20
     :talks:
