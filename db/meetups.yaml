@@ -1,4 +1,9 @@
 events:
+  - :number: 94
+    :date: 2020-01-22
+    :talks:
+      - :fullname: Adam Okoń
+        :title: Jak nie robić microfrontendów
   - :number: 93
     :date: 2019-12-18
     :talks:
