@@ -1,4 +1,9 @@
 events:
+  - :number: 95
+    :date: 2020-02-19
+    :talks:
+      - :fullname: Oskar Szrajer
+        :title: dry-* gems
   - :number: 94
     :date: 2020-01-22
     :talks:
