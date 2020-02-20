@@ -4,6 +4,7 @@ events:
     :talks:
       - :fullname: Oskar Szrajer
         :title: dry-* gems
+        :slides: https://trug.pl/assets/archive/20200219/admeet.pdf
   - :number: 94
     :date: 2020-01-22
     :talks:
