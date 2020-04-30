@@ -9,7 +9,7 @@
     "css-loader": "^2.1.0",
     "file-loader": "^3.0.1",
     "hocus-pocus": "^0.3.3",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "mini-css-extract-plugin": "^0.5.0",
     "node-sass": "^4.9.3",
     "optimize-css-assets-webpack-plugin": "^5.0.1",
