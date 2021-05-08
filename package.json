@@ -23,6 +23,6 @@
     "webpack-manifest-plugin": "^2.0.4"
   },
   "dependencies": {
-    "lodash": "^4.17.13"
+    "lodash": "^4.17.21"
   }
 }
