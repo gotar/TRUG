@@ -1,4 +1,7 @@
 events:
+  - :number: 100
+    :date: 2023-10-26
+    :talks:
   - :number: 95
     :date: 2020-02-19
     :talks:
@@ -53,7 +56,7 @@ events:
       - :fullname: Adam Okoń
         :title: '"Then in the action"'
       - :fullname: Michał Matyas
-        :title: 'FFmpeg in Ruby'
+        :title: "FFmpeg in Ruby"
   - :number: 86
     :date: 2019-05-22
     :talks:
@@ -697,7 +700,7 @@ events:
         :video_thumb: https://img.youtube.com/vi/9b1G_Q2AHXI/sddefault.jpg
       - :fullname: Paweł Gościcki
         :home_page: https://github.com/pjg
-        :title: 'Rspec: Best practices'
+        :title: "Rspec: Best practices"
         :slides: /archive/20140820/rspec.html
         :source_code:
         :video_id: NS2N-gqTU78
