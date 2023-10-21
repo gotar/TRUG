@@ -1,28 +1,24 @@
 {
   "private": true,
   "scripts": {
-    "start": "node_modules/webpack/bin/webpack.js --mode=development --watch --progress --hide-modules",
-    "dev": "node_modules/webpack/bin/webpack.js --mode=development --progress --hide-modules",
-    "build": "node_modules/webpack/bin/webpack.js --mode=production --no-progress --hide-modules"
-  },
-  "devDependencies": {
-    "css-loader": "^2.1.0",
-    "file-loader": "^3.0.1",
-    "hocus-pocus": "^0.3.3",
-    "jquery": "^3.3.1",
-    "mini-css-extract-plugin": "^0.5.0",
-    "node-sass": "^4.9.3",
-    "optimize-css-assets-webpack-plugin": "^5.0.1",
-    "postcss": "^7.0.7",
-    "postcss-loader": "^3.0.0",
-    "sass-loader": "^7.1.0",
-    "style-loader": "^0.23.1",
-    "uglifyjs-webpack-plugin": "^2.1.1",
-    "webpack": "^4.28.3",
-    "webpack-cli": "^3.2.0",
-    "webpack-manifest-plugin": "^2.0.4"
+    "start": "node_modules/webpack/bin/webpack.js --mode=development --watch --progress",
+    "dev": "node_modules/webpack/bin/webpack.js --mode=development --progress",
+    "build": "node_modules/webpack/bin/webpack.js --mode=production"
   },
   "dependencies": {
-    "lodash": "^4.17.13"
+    "lodash": "^4.17.21",
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "file-loader": "^6.2.0",
+    "hocus-pocus": "^0.3.5",
+    "jquery": "^3.7.1",
+    "mini-css-extract-plugin": "^2.7.6",
+    "sass": "^1.69.4",
+    "sass-loader": "^13.3.2",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-manifest-plugin": "^5.0.0"
   }
 }

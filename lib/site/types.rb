@@ -4,7 +4,7 @@ require "dry/types"
 
 module Site
   module Types
-    include Dry::Types.module
+    include Dry.Types(default: :nominal)
   end
 end
 

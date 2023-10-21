@@ -1,46 +1,50 @@
 events:
-  - :number: 100
-    :date: 2023-10-26
+  - :number: 96
+    :date: "2023-10-26"
     :talks:
+      - :fullname: Adam Okoń
+        :title: Ruby on Serveless
+      - :fullname: Krzysztof Wawer
+        :title: Doctrine of Useful Objects - Get rid of mocking
   - :number: 95
-    :date: 2020-02-19
+    :date: "2020-02-19"
     :talks:
       - :fullname: Oskar Szrajer
         :title: dry-* gems
         :slides: https://trug.pl/assets/archive/20200219/admeet.pdf
   - :number: 94
-    :date: 2020-01-22
+    :date: "2020-01-22"
     :talks:
       - :fullname: Adam Okoń
         :title: Jak nie robić microfrontendów
   - :number: 93
-    :date: 2019-12-18
+    :date: "2019-12-18"
     :talks:
       - :fullname: Michał Matyas
         :title: Testing React components
   - :number: 92
-    :date: 2019-11-20
+    :date: "2019-11-20"
     :talks:
       - :fullname: Krzysztof Wawer
         :title: The Good Architecture
         :slides: https://speakerdeck.com/wafcio/the-good-architecture
   - :number: 91
-    :date: 2019-10-23
+    :date: "2019-10-23"
     :talks:
       - :fullname: Bartek Kozal
         :title: Czego się nauczyłem, ile zarobiłem i dlaczego rzuciłem programowanie po zbudowaniu sześciu side projektów
   - :number: 90
-    :date: 2019-09-18
+    :date: "2019-09-18"
     :talks:
       - :fullname: Artur Okoński
         :title: O GraphQL i używaniu go z Ruby on Rails
   - :number: 89
-    :date: 2019-08-21
+    :date: "2019-08-21"
     :talks:
       - :fullname: ???
         :title: ???
   - :number: 88
-    :date: 2019-07-17
+    :date: "2019-07-17"
     :talks:
       - :fullname: Piotr Macuk
         :title: Migrating from Paperclip to ActiveStorage
@@ -51,14 +55,14 @@ events:
       - :fullname: Maciej Małecki
         :title: AppSignal
   - :number: 87
-    :date: 2019-06-19
+    :date: "2019-06-19"
     :talks:
       - :fullname: Adam Okoń
         :title: '"Then in the action"'
       - :fullname: Michał Matyas
         :title: "FFmpeg in Ruby"
   - :number: 86
-    :date: 2019-05-22
+    :date: "2019-05-22"
     :talks:
       - :fullname: Piotr Macuk
         :title: VPS vs Heroku for small team
@@ -68,7 +72,7 @@ events:
       - :fullname: Tomasz Stachewicz
         :title: Programowanie mikrokontrolerów (mruby)
   - :number: 85
-    :date: 2019-04-17
+    :date: "2019-04-17"
     :talks:
       - :fullname: Maciej Kubiak
         :home_page: https://github.com/buffot
@@ -79,12 +83,12 @@ events:
       - :fullname: Paweł Gościcki
         :title: '"Wymyślam algorytm"'
   - :number: 84
-    :date: 2019-03-20
+    :date: "2019-03-20"
     :talks:
       - :fullname: Oskar Szrajer
         :title: Dry-view (live coding, refactor)
   - :number: 83
-    :date: 2019-02-27
+    :date: "2019-02-27"
     :talks:
       - :fullname: Paweł Pokrywka
         :title: Podsumowanie 12 lat eksperymentu dot. wycieków danych
@@ -95,12 +99,12 @@ events:
         :video_provider: youtube
         :video_thumb: https://img.youtube.com/vi/CXt2kZvbV7c/sddefault.jpg
   - :number: 82
-    :date: 2019-01-23
+    :date: "2019-01-23"
     :talks:
       - :fullname: Adam Okoń
         :title: JWT
   - :number: 81
-    :date: 2018-12-12
+    :date: "2018-12-12"
     :talks:
       - :fullname: Jacek Marmuszewski
         :title: Why do we need security headers?
@@ -112,10 +116,10 @@ events:
         :title: Lighting talk - Mermaidjs
         :slides: https://mermaidjs.github.io/
   - :number: 80
-    :date: 2018-11-21
+    :date: "2018-11-21"
     talks:
   - :number: 79
-    :date: 2018-10-24
+    :date: "2018-10-24"
     :talks:
       - :fullname: Agata Kubiak
         :title: Rola badań w procesie projektowania
@@ -124,7 +128,7 @@ events:
         :title: Jak się żyje programistom na wschód od Polski
         :slides: https://www.dropbox.com/s/9t8qvewocya3sn7/Programisci%20na%20Wch%C3%B3d%20od%20Europy.pdf?dl=0
   - :number: 78
-    :date: 2018-09-26
+    :date: "2018-09-26"
     :talks:
       - :fullname: Dejan Aćimović
         :title: Moja Ruby historia - Jak zostałem programistą grubo po 30-stce.
@@ -137,13 +141,13 @@ events:
         :video_provider: youtube
         :video_thumb: https://img.youtube.com/vi/1aJ-rA5_9QU/sddefault.jpg
   - :number: 73
-    :date: 2018-04-18
+    :date: "2018-04-18"
     :talks:
       - :fullname: Jan Dudek
         :home_page: https://github.com/jdudek
         :title: Front-end Deployment with Lambda@Edge
   - :number: 72
-    :date: 2018-03-21
+    :date: "2018-03-21"
     :talks:
       - :fullname: Michał Poczwardowski
         :home_page: https://github.com/dmp0x7c5
@@ -153,20 +157,20 @@ events:
         :home_page: https://gotar.info
         :title: Another Live code session (discovering ruby through TDD)
   - :number: 71
-    :date: 2018-02-28
+    :date: "2018-02-28"
     :talks:
       - :fullname: Oskar Szrajer
         :home_page: https://gotar.info
         :title: Live code session (discovering ruby through TDD)
   - :number: 70
-    :date: 2018-01-24
+    :date: "2018-01-24"
     :talks:
       - :fullname: Piotr Macuk
         :home_page: https://github.com/macuk
         :title: Hourly billing is nuts
         :slides: https://www.slideshare.net/piotrmacuk/hourly-billing-is-nuts
   - :number: 69
-    :date: 2017-12-20
+    :date: "2017-12-20"
     :talks:
       - :fullname: Adam Okoń
         :home_page: https://github.com/aokon
@@ -176,7 +180,7 @@ events:
         :video_thumb: https://img.youtube.com/vi/rgmW_VIzPc4/sddefault.jpg
         :slides: https://speakerdeck.com/aokon/trug-number-69-make-frontend-development-great-again-in-rails
   - :number: 68
-    :date: 2017-11-22
+    :date: "2017-11-22"
     :talks:
       - :fullname: Krzysztof Wawer
         :home_page: https://github.com/wafcio
@@ -185,7 +189,7 @@ events:
         :video_provider: youtube
         :video_thumb: https://img.youtube.com/vi/zYF2XdGeQHs/sddefault.jpg
   - :number: 67
-    :date: 2017-10-25
+    :date: "2017-10-25"
     :talks:
       - :fullname: Sebastian Nowak
         :title: AWS deploy pipeline for Jekyll blog
@@ -199,7 +203,7 @@ events:
         :home_page: https://twitter.com/andrzejkrzywda
         :title: "Event-Driven Rails from scratch - Part 1: Motivation"
   - :number: 66
-    :date: 2017-09-20
+    :date: "2017-09-20"
     :talks:
       - :fullname: Krzysztof Wawer
         :home_page: https://github.com/wafcio
@@ -208,7 +212,7 @@ events:
         :home_page: https://www.behance.net/AgataKubiak
         :title: Logo - proces twórczy, ukryte znaczenie
   - :number: 65
-    :date: 2017-08-30
+    :date: "2017-08-30"
     :talks:
       - :fullname: Robert Kostrzewski
         :title: Integracja mikroserwisu Machine Learning w Python z aplikacją webową Ruby on Rails
@@ -219,11 +223,11 @@ events:
         :video_provider: youtube
         :video_thumr: https://img.youtube.com/vi/5CmeDZmd-_I/sddefault.jpg
   - :number: 64
-    :date: 2017-07-19
+    :date: "2017-07-19"
     :talks:
 
   - :number: 63
-    :date: 2017-06-21
+    :date: "2017-06-21"
     :talks:
       - :fullname: Marcin Siepetowski
         :home_page: https://github.com/siepet
@@ -238,7 +242,7 @@ events:
         :slides: https://speakerdeck.com/wafcio/slim-ruby-on-rails-controllers-and-middlewares
 
   - :number: 62
-    :date: 2017-05-24
+    :date: "2017-05-24"
     :talks:
       - :fullname: Oskar Szrajer
         :home_page: https://github.com/gotar
@@ -248,7 +252,7 @@ events:
         :video_thumb: https://img.youtube.com/vi/aQzmsXu3P7A/sddefault.jpg
 
   - :number: 61
-    :date: 2017-04-26
+    :date: "2017-04-26"
     :talks:
       - :fullname: Krzysztof Wawer
         :home_page: https://github.com/wafcio
@@ -258,7 +262,7 @@ events:
         :title: ActiveModel::Validations vs dry-validation vs custom solution - my form objects story.
 
   - :number: 60
-    :date: 2017-03-22
+    :date: "2017-03-22"
     :talks:
       - :fullname: Adam Okoń
         :home_page: https://github.com/aokon
@@ -269,7 +273,7 @@ events:
         :slides: https://speakerdeck.com/aokon/trug-number-60-webpack-2
 
   - :number: 59
-    :date: 2017-02-15
+    :date: "2017-02-15"
     :talks:
       - :fullname: Paweł Niewiadomski
         :home_page: https://github.com/pawelniewie
@@ -289,7 +293,7 @@ events:
         :slides:
 
   - :number: 58
-    :date: 2017-01-18
+    :date: "2017-01-18"
     :talks:
       - :fullname: Adam Okoń
         :home_page: https://github.com/aokon
@@ -306,7 +310,7 @@ events:
         :title: Logo - proces twórczy, ukryte znaczenie
 
   - :number: 57
-    :date: 2016-12-14
+    :date: "2016-12-14"
     :talks:
       - :fullname: Jakub Naliwajek
         :home_page: https://github.com/naliwajek
@@ -316,7 +320,7 @@ events:
         :title: Dokku - part 2
 
   - :number: 56
-    :date: 2016-11-19
+    :date: "2016-11-19"
     :talks:
       - :fullname: Jakub Naliwajek
         :home_page: https://github.com/naliwajek
@@ -326,7 +330,7 @@ events:
         :title: OSINT - Why Internet is a scary place
 
   - :number: 55
-    :date: 2016-10-19
+    :date: "2016-10-19"
     :talks:
       - :fullname: Michał Kwiatkowski
         :home_page: https://github.com/mkwiatkowski
@@ -340,7 +344,7 @@ events:
         :title: "Wprowadzenie do Ecto"
 
   - :number: 54
-    :date: 2016-09-21
+    :date: "2016-09-21"
     :talks:
       - :fullname: Maciej Małecki
         :title: "Dreyfus Model"
@@ -356,7 +360,7 @@ events:
         :video_thumb: https://img.youtube.com/vi/aM-ioLCZ3fA/sddefault.jpg
 
   - :number: 53
-    :date: 2016-08-24
+    :date: "2016-08-24"
     :talks:
       - :fullname: Adam Okoń
         :home_page: https://github.com/aokon
@@ -367,7 +371,7 @@ events:
         :slides: https://speakerdeck.com/aokon/trug-number-54-z-czym-sie-je-vuejs
 
   - :number: 52
-    :date: 2016-07-20
+    :date: "2016-07-20"
     :talks:
       - :fullname: Szymon Jeż
         :home_page: https://szymon.jez.net.pl
@@ -378,7 +382,7 @@ events:
         :video_thumb:
 
   - :number: 51
-    :date: 2016-06-22
+    :date: "2016-06-22"
     :talks:
       - :fullname: Oskar Szrajer
         :home_page: https://github.com/gotar
@@ -388,11 +392,11 @@ events:
         :video_thumb: https://img.youtube.com/vi/2FGRXzysd2M/sddefault.jpg
 
   - :number: 50
-    :date: 2016-05-25
+    :date: "2016-05-25"
     talks:
 
   - :number: 49
-    :date: 2016-04-27
+    :date: "2016-04-27"
     :talks:
       - :fullname: Robert Pankowecki
         :home_page: https://github.com/paneq
@@ -405,7 +409,7 @@ events:
         :title: "Jak zarobić $80 000 na blogu"
 
   - :number: 48
-    :date: 2016-04-20
+    :date: "2016-04-20"
     :talks:
       - :fullname: Bartłomiej Kozal
         :home_page: https://github.com/bkzl
@@ -416,7 +420,7 @@ events:
         :video_thumb: https://img.youtube.com/vi/Ik4gMxTKYrI/sddefault.jpg
 
   - :number: 47
-    :date: 2016-03-23
+    :date: "2016-03-23"
     :talks:
       - :fullname: Krzysztof Wawer
         :home_page: https://github.com/wafcio
@@ -432,12 +436,12 @@ events:
         :video_thumb: https://img.youtube.com/vi/ZxcQ5dWUAKI/sddefault.jpg
 
   - :number: 46
-    :date: 2016-02-17
+    :date: "2016-02-17"
     :talks:
       - :title: "Panel dyskusyjny - SPA hot or not?"
 
   - :number: 45
-    :date: 2016-01-27
+    :date: "2016-01-27"
     :talks:
       - :fullname: Maciej Małecki
         :home_page: https://github.com/smt116
@@ -446,20 +450,20 @@ events:
         :title: "Action Cable"
 
   - :number: 44
-    :date: 2015-12-16
+    :date: "2015-12-16"
     :talks:
       - :fullname: Adam Okoń
         :home_page: https://github.com/aokon
         :title: Derailed Benchmarks - nowe podejście do testowania wydajności aplikacji railsowej
 
   - :number: 43
-    :date: 2015-11-18
+    :date: "2015-11-18"
     :talks:
       - :fullname: Paweł Okoń
         :title: "Appium - test automation framework for use with native, hybrid and mobile web apps."
 
   - :number: 42
-    :date: 2015-10-21
+    :date: "2015-10-21"
     :talks:
       - :fullname: Krzysztof Wawer
         :home_page: https://github.com/wafcio
@@ -467,13 +471,13 @@ events:
         :source_code: https://github.com/wafcio/roda-rom
 
   - :number: 41
-    :date: 2015-09-09
+    :date: "2015-09-09"
     :talks:
       - :fullname: Damian Nowak
         :title: "Zebrałem milion dolarów od inwestorów na rozwój mojej firmy. Oto jak."
 
   - :number: 40
-    :date: 2015-08-12
+    :date: "2015-08-12"
     :talks:
       - :fullname: Oskar Szrajer
         :home_page: https://github.com/gotar
@@ -490,7 +494,7 @@ events:
         :slides: https://speakerdeck.com/aokon/trug-number-40-roda
 
   - :number: 39
-    :date: 2015-07-22
+    :date: "2015-07-22"
     :talks:
       - :fullname: Stanisław Tuszyński
         :home_page: https://github.com/stuszynski
@@ -500,7 +504,7 @@ events:
         :video_thumb: https://img.youtube.com/vi/ctkSVZsiaF4/sddefault.jpg
 
   - :number: 38
-    :date: 2015-06-17
+    :date: "2015-06-17"
     :talks:
       - :fullname: Michał Poczwardowski
         :home_page: https://github.com/dmp0x7c5
@@ -518,7 +522,7 @@ events:
         :video_thumb: https://img.youtube.com/vi/kdml2xdwmxo/sddefault.jpg
 
   - :number: 37
-    :date: 2015-05-20
+    :date: "2015-05-20"
     :talks:
       - :fullname: Marta Buda
         :home_page: https://github.com/mbuda
@@ -543,7 +547,7 @@ events:
         :video_thumb:
 
   - :number: 36
-    :date: 2015-04-15
+    :date: "2015-04-15"
     :talks:
       - :fullname: Szymon Jeż
         :home_page: https://szymon.jez.net.pl
@@ -561,7 +565,7 @@ events:
         :video_thumb:
 
   - :number: 35
-    :date: 2015-03-18
+    :date: "2015-03-18"
     :talks:
       - :fullname: Krzysztof Wawer
         :home_page: https://github.com/wafcio
@@ -572,7 +576,7 @@ events:
         :video_thumb:
 
   - :number: 34
-    :date: 2015-02-18
+    :date: "2015-02-18"
     :talks:
       - :fullname: Oskar Szrajer
         :home_page: https://github.com/gotar
@@ -583,7 +587,7 @@ events:
         :video_thumb: https://img.youtube.com/vi/M0PfkUL_IB8/sddefault.jpg
 
   - :number: 33
-    :date: 2015-01-21
+    :date: "2015-01-21"
     :talks:
       - :fullname: Maciej Małecki
         :home_page: https://github.com/smt116
@@ -608,7 +612,7 @@ events:
         :video_thumb: https://img.youtube.com/vi/_JlL3p5V3Gg/sddefault.jpg
 
   - :number: 32
-    :date: 2014-12-17
+    :date: "2014-12-17"
     :talks:
       - :fullname: Maciej Małecki
         :home_page: https://github.com/smt116
@@ -633,7 +637,7 @@ events:
         :video_thumb:
 
   - :number: 31
-    :date: 2014-11-19
+    :date: "2014-11-19"
     :talks:
       - :fullname: Mateusz Nowakowski
         :home_page: https://github.com/nowakov
@@ -658,7 +662,7 @@ events:
         :video_thumb:
 
   - :number: 30
-    :date: 2014-10-14
+    :date: "2014-10-14"
     :talks:
       - :fullname: Adam Okoń
         :home_page: https://github.com/aokon
@@ -669,7 +673,7 @@ events:
         :video_thumb: https://img.youtube.com/vi/wmssg1g6bNA/sddefault.jpg
 
   - :number: 29
-    :date: 2014-09-17
+    :date: "2014-09-17"
     :talks:
       - :fullname: Michał Podlecki
         :home_page: https://github.com/michalpodlecki
@@ -688,7 +692,7 @@ events:
         :video_thumb: https://img.youtube.com/vi/l_XMz4m7lt4/sddefault.jpg
 
   - :number: 28
-    :date: 2014-08-20
+    :date: "2014-08-20"
     :talks:
       - :fullname: Oskar Szrajer
         :home_page: https://gotar.info
@@ -708,7 +712,7 @@ events:
         :video_thumb: https://img.youtube.com/vi/NS2N-gqTU78/sddefault.jpg
 
   - :number: 27
-    :date: 2014-07-24
+    :date: "2014-07-24"
     :talks:
       - :fullname: Krzysztof Wawer
         :home_page: https://github.com/wafcio
@@ -720,7 +724,7 @@ events:
         :video_thumb: https://img.youtube.com/vi/njtrTTZFk-A/sddefault.jpg
 
   - :number: 26
-    :date: 2014-06-18
+    :date: "2014-06-18"
     :talks:
       - :fullname: Oskar Szrajer
         :home_page: https://gotar.info
@@ -731,7 +735,7 @@ events:
         :video_thumb:
 
   - :number: 25
-    :date: 2014-05-21
+    :date: "2014-05-21"
     :talks:
       - :fullname: Oskar Szrajer
         :home_page: https://github.com/gotar
@@ -749,7 +753,7 @@ events:
         :video_thumb:
 
   - :number: 24
-    :date: 2014-04-23
+    :date: "2014-04-23"
     :talks:
       - :fullname: Krzysztof Wawer
         :home_page: https://github.com/wafcio
@@ -760,7 +764,7 @@ events:
         :video_thumb: https://img.youtube.com/vi/96CLV52zLwI/sddefault.jpg
 
   - :number: 23
-    :date: 2014-03-19
+    :date: "2014-03-19"
     :talks:
       - :fullname: Bartłomiej Kozal
         :home_page: https://github.com/bkzl
@@ -788,7 +792,7 @@ events:
         :video_thumb: https://b.vimeocdn.com/ts/468/668/468668214_640.jpg
 
   - :number: 22
-    :date: 2014-02-19
+    :date: "2014-02-19"
     :talks:
       - :fullname: Adrian Gruntkowski
         :home_page: https://github.com/zoldar
@@ -807,7 +811,7 @@ events:
         :video_thumb: https://i.vimeocdn.com/video/472285541_640.jpg
 
   - :number: 21
-    :date: 2014-01-22
+    :date: "2014-01-22"
     :talks:
       - :fullname: Maciej Małecki
         :home_page: https://github.com/smt116
@@ -834,7 +838,7 @@ events:
         :video_thumb: https://b.vimeocdn.com/ts/468/411/468411386_640.jpg
 
   - :number: 19
-    :date: 2013-11-20
+    :date: "2013-11-20"
     :talks:
       - :fullname: Sebastian Nowak
         :home_page: https://github.com/seban
@@ -853,7 +857,7 @@ events:
         :video_thumb: https://b.vimeocdn.com/ts/463/514/463514579_640.jpg
 
   - :number: 18
-    :date: 2013-10-23
+    :date: "2013-10-23"
     :talks:
       - :fullname: Łukasz Piestrzeniewicz
         :home_page: https://github.com/bragi
@@ -864,7 +868,7 @@ events:
         :video_thumb: https://img.youtube.com/vi/iDKoYfXHbwE/sddefault.jpg
 
   - :number: 17
-    :date: 2013-09-18
+    :date: "2013-09-18"
     :talks:
       - :fullname: Michał Kwiatkowski
         :home_page: https://github.com/mkwiatkowski
@@ -899,11 +903,11 @@ events:
         :video_thumb:
 
   - :number: 16
-    :date: 2013-08-21
+    :date: "2013-08-21"
     talks:
 
   - :number: 15
-    :date: 2013-07-24
+    :date: "2013-07-24"
     :talks:
       - :fullname: Michał Kwiatkowski
         :home_page: https://github.com/mkwiatkowski
@@ -922,7 +926,7 @@ events:
         :video_thumb: https://b.vimeocdn.com/ts/465/293/465293280_640.jpg
 
   - :number: 14
-    :date: 2013-06-19
+    :date: "2013-06-19"
     :talks:
       - :fullname: Szymon Jeż
         :home_page: https://github.com/jeznet
@@ -949,7 +953,7 @@ events:
         :video_thumb: https://b.vimeocdn.com/ts/457/570/457570632_640.jpg
 
   - :number: 13
-    :date: 2013-05-22
+    :date: "2013-05-22"
     :talks:
       - :fullname: Paweł Gościcki
         :home_page: https://github.com/pjg
@@ -976,7 +980,7 @@ events:
         :video_thumb: https://b.vimeocdn.com/ts/457/527/457527978_640.jpg
 
   - :number: 11
-    :date: 2013-03-01 # TODO: znalzc date
+    :date: "2013-03-01" # TODO: znalzc date
     :talks:
       - :fullname: Adam Okoń
         :home_page: https://github.com/aokon
@@ -995,7 +999,7 @@ events:
         :video_thumb: https://b.vimeocdn.com/ts/454/269/454269365_640.jpg
 
   - :number: 10
-    :date: 2012-12-01 # TODO: znalzc date
+    :date: "2012-12-01" # TODO: znalzc date
     :talks:
       - :fullname: Przemysław Wróblewski
         :home_page: https://przemyslawwroblewski.blogspot.com/
@@ -1006,7 +1010,7 @@ events:
         :video_thumb: https://b.vimeocdn.com/ts/454/269/454269575_640.jpg
 
   - :number: 9
-    :date: 2012-05-15
+    :date: "2012-05-15"
     :talks:
       - :fullname: Sebastian Nowak
         :home_page: https://github.com/seban
@@ -1025,7 +1029,7 @@ events:
         :video_thumb: https://b.vimeocdn.com/ts/454/269/454269943_640.jpg
 
   - :number: 8
-    :date: 2012-01-01 # TODO: znalzc date
+    :date: "2012-01-01" # TODO: znalzc date
     :talks:
       - :fullname: Michał Kwiatkowski
         :home_page: https://github.com/mkwiatkowski
@@ -1036,7 +1040,7 @@ events:
         :video_thumb: https://b.vimeocdn.com/ts/454/271/454271088_640.jpg
 
   - :number: 6
-    :date: 2012-01-01 # TODO: znalzc date
+    :date: "2012-01-01" # TODO: znalzc date
     :talks:
       - :fullname: Oskar Szrajer
         :home_page: https://github.com/gotar
@@ -1047,7 +1051,7 @@ events:
         :video_thumb: https://b.vimeocdn.com/ts/454/270/454270982_640.jpg
 
   - :number: 5
-    :date: 2012-01-01 # TODO: znalzc date
+    :date: "2012-01-01" # TODO: znalzc date
     :talks:
       - :fullname: Sebastian Nowak
         :home_page: https://github.com/seban
@@ -1074,7 +1078,7 @@ events:
         :video_thumb: https://b.vimeocdn.com/ts/454/271/454271206_640.jpg
 
   - :number: 4
-    :date: 2012-01-01 # TODO: znalzc date
+    :date: "2012-01-01" # TODO: znalzc date
     :talks:
       - :fullname: Michał Kwiatkowski
         :home_page: https://github.com/mkwiatkowski
@@ -1085,7 +1089,7 @@ events:
         :video_thumb: https://b.vimeocdn.com/ts/454/271/454271733_640.jpg
 
   - :number: 3
-    :date: 2012-01-01 # TODO: znalzc date
+    :date: "2012-01-01" # TODO: znalzc date
     :talks:
       - :fullname: Sebastian Nowak
         :home_page: https://github.com/seban
@@ -1104,7 +1108,7 @@ events:
         :video_thumb: https://b.vimeocdn.com/ts/454/271/454271652_640.jpg
 
   - :number: 2
-    :date: 2012-01-01 # TODO: znalzc date
+    :date: "2012-01-01" # TODO: znalzc date
     :talks:
       - :fullname: Włodzimierz Bzyl
         :home_page: https://github.com/wbzyl
@@ -1123,7 +1127,7 @@ events:
         :video_thumb: https://b.vimeocdn.com/ts/454/272/454272115_640.jpg
 
   - :number: 1
-    :date: 2010-03-03
+    :date: "2010-03-03"
     :talks:
       - :fullname: Oskar Szrajer
         :home_page: https://github.com/gotar
