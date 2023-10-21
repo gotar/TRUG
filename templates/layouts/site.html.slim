@@ -14,8 +14,8 @@ html
 
     link rel="dns-prefetch" href="//fonts.googleapis.com"
     link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet"
-    link rel="stylesheet" type="text/css" href=asset_path("site.css")
-    script src=asset_path("site.js")
+    link rel="stylesheet" type="text/css" href=asset_path("site.css").gsub("/assets//", "/")
+    script src=asset_path("site.js").gsub("/assets//", "/")
   body
     div class="navbar padding"
       a href='/'
