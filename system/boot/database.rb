@@ -5,7 +5,7 @@ Site::Container.boot :database, namespace: true do |site|
 
     config = ROM::Configuration.new(
       :yaml,
-      "#{site.root}/db/meetups.yaml",
+      "#{site.root}/db/meetups.yaml"
     )
 
     register "config", config

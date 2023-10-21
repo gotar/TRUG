@@ -1,4 +1,5 @@
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const { WebpackManifestPlugin } = require("webpack-manifest-plugin");
 
 var webpack = require("webpack");
 
@@ -20,6 +21,11 @@ module.exports = function (env, argv) {
       new webpack.ProvidePlugin({
         $: "jquery",
         jQuery: "jquery",
+      }),
+      new WebpackManifestPlugin({
+        fileName: "manifest.json",
+        publicPath: "/assets/",
+        writeToFileEmit: true,
       }),
     ],
     module: {
