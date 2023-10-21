@@ -37,7 +37,7 @@ module.exports = function (env, argv) {
         },
         {
           test: /.s?css$/,
-          use: [MiniCssExtractPlugin.loader, "css-loader", "sass-loader"],
+          use: [MiniCssExtractPlugin.loader, "css-loader", "postcss-loader", "sass-loader"],
         },
         {
           test: /\.(gif|jpg|png|svg|eot|ttf|woff|woff2)$/,
@@ -54,7 +54,7 @@ module.exports = function (env, argv) {
       ],
     },
     optimization: {
-      // minimizer: [new CssMinimizerPlugin({})],
+      minimizer: [new CssMinimizerPlugin({})],
     },
   };
 };
