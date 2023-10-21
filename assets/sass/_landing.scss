@@ -1,5 +1,5 @@
 .landing-hero {
-  background-image: url('/assets/images/tricity-panorama.svg');
+  background-image: url("/assets/images/tricity-panorama.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -7,12 +7,12 @@
 }
 
 .landing-community {
-  background-image: url('/assets/images/bg-community.png');
+  background-image: url("/assets/images/bg-community.png");
   height: 265px;
 }
 
 .landing-bg-rubies {
-  background-image: url('/assets/images/rubies.svg');
+  background-image: url("/assets/images/rubies.svg");
   background-repeat: no-repeat;
   background-position-x: right;
   height: 180px;
@@ -53,14 +53,13 @@
   }
 }
 
-@media only screen and (min-width: 760px) and (max-width: 768px),
-only screen and (min-width: 2400px) {
+@media only screen and (min-width: 760px) and (max-width: 768px), only screen and (min-width: 2400px) {
   .landing-lead {
     padding-top: 10rem;
   }
 }
 
-@include rwd('compact') {
+@include rwd("compact") {
   .landing-hero {
     height: 300px;
   }

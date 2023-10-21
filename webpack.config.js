@@ -1,5 +1,6 @@
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const { WebpackManifestPlugin } = require("webpack-manifest-plugin");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 
 var webpack = require("webpack");
 
@@ -35,7 +36,7 @@ module.exports = function (env, argv) {
           use: [MiniCssExtractPlugin.loader, "css-loader"],
         },
         {
-          test: /\.scss$/,
+          test: /.s?css$/,
           use: [MiniCssExtractPlugin.loader, "css-loader", "sass-loader"],
         },
         {
@@ -50,6 +51,20 @@ module.exports = function (env, argv) {
             },
           ],
         },
+      ],
+    },
+    optimization: {
+      minimizer: [
+        new CssMinimizerPlugin({
+          minimizerOptions: {
+            preset: [
+              "default",
+              {
+                discardComments: { removeAll: true },
+              },
+            ],
+          },
+        }),
       ],
     },
   };

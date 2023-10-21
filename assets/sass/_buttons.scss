@@ -10,7 +10,7 @@
 
 .btn-brand {
   @include btn-base($color-brand, 0, $color-light);
-  padding: .7rem 2.5rem;
+  padding: 0.7rem 2.5rem;
 
   &:hover {
     background: $color-brand-dark;
@@ -19,10 +19,10 @@
 
 .btn-ghost {
   @include btn-base(transparent, 1px solid $color-brand, $color-brand);
-  padding: .5rem 2.5rem;
+  padding: 0.5rem 2.5rem;
 
   &:hover {
     background: $color-brand;
-    color: $color-light
+    color: $color-light;
   }
 }

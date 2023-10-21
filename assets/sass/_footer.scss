@@ -1,7 +1,7 @@
 .footer {
   color: $color-light;
   background: $color-brand;
-  background-image: url('/assets/images/sparkles.svg');
+  background-image: url("/assets/images/sparkles.svg");
   background-repeat: no-repeat;
   background-size: 130px;
   background-position-y: center;
@@ -10,7 +10,7 @@
 .footer-icon {
   height: 45px;
   margin-top: $spacing-unit;
-  margin-right: .5 * $spacing-unit;
+  margin-right: 0.5 * $spacing-unit;
 }
 
 .footer-form-input {
@@ -47,7 +47,7 @@
     text-align: center;
 
     .footer-col-title {
-      padding-top: 1rem
+      padding-top: 1rem;
     }
 
     .footer-form-input {
@@ -62,7 +62,7 @@
   }
 }
 
-@include rwd('compact') {
+@include rwd("compact") {
   .footer {
     background-image: none;
   }
