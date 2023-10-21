@@ -54,18 +54,7 @@ module.exports = function (env, argv) {
       ],
     },
     optimization: {
-      minimizer: [
-        new CssMinimizerPlugin({
-          minimizerOptions: {
-            preset: [
-              "default",
-              {
-                discardComments: { removeAll: true },
-              },
-            ],
-          },
-        }),
-      ],
+      // minimizer: [new CssMinimizerPlugin({})],
     },
   };
 };
