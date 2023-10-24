@@ -1,9 +1,7 @@
 const { WebpackManifestPlugin } = require("webpack-manifest-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
-const TerserPlugin = require("terser-webpack-plugin");
-
-var webpack = require("webpack");
+// const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
+// const TerserPlugin = require("terser-webpack-plugin");
 
 module.exports = (env, argv) => ({
   devtool: argv.mode === "production" ? false : "source-map",
@@ -20,10 +18,6 @@ module.exports = (env, argv) => ({
     new MiniCssExtractPlugin({
       filename: "[name].[hash:8].css",
       chunkFilename: "[id].css",
-    }),
-    new webpack.ProvidePlugin({
-      $: "jquery",
-      jQuery: "jquery",
     }),
     new WebpackManifestPlugin({
       fileName: "manifest.json",
@@ -64,13 +58,5 @@ module.exports = (env, argv) => ({
     //     },
     //   }),
     // ],
-  },
-  resolve: {
-    alias: {
-      jquery: "jquery/src/jquery",
-    },
-  },
-  externals: {
-    jquery: "jQuery",
   },
 });

@@ -1,15 +1,15 @@
 var archive = (function () {
-  playerTemplate = function (movieId, provider) {
-    return $("<iframe />", {
-      src: movieUrl(movieId, provider),
-      width: 460,
-      height: 259,
-      class: "compact-1/1",
-      frameborder: 0,
-    });
+  var playerTemplate = function (movieId, provider) {
+    var player = document.createElement("iframe");
+    player.src = movieUrl(movieId, provider);
+    player.width = 460;
+    player.height = 259;
+    player.class = "compact-1/1";
+    player.frameborder = 0;
+    return player;
   };
 
-  movieUrl = function (movieId, provider) {
+  var movieUrl = function (movieId, provider) {
     if (provider == "youtube") {
       return "https://www.youtube.com/embed/" + movieId + "/?autoplay=1&rel=0";
     } else {
@@ -17,21 +17,24 @@ var archive = (function () {
     }
   };
 
-  playVideo = function (event) {
+  var playVideo = function (event) {
     event.preventDefault();
-    var $videoBox = $(this).parents(".video"),
-      player = playerTemplate($videoBox.data("video_id"), $videoBox.data("provider"));
-    $videoBox.append(player);
-    $videoBox.find(".play, img").hide();
+    var $videoBox = this.closest(".video"),
+      player = playerTemplate($videoBox.dataset.video_id, $videoBox.dataset.provider);
+    $videoBox.appendChild(player);
+    $videoBox.querySelector(".play, img").style.display = "none";
   };
 
   return {
     init: function () {
-      $(".meetup img, .meetup .play").on("click", playVideo);
+      var videos = document.querySelectorAll(".meetup img, .meetup .play");
+      for (var i = 0; i < videos.length; i++) {
+        videos[i].addEventListener("click", playVideo);
+      }
     },
   };
 })();
 
-$(function () {
+document.addEventListener("DOMContentLoaded", function () {
   archive.init();
 });

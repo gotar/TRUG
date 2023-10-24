@@ -1,11 +1,5 @@
-import $ from "jquery";
-window.jQuery = $;
-window.$ = $;
-
-$(function () {
-  $(".js-btn-schedule").on("click", function (e) {
-    e.preventDefault();
-    var offset = $(".js-landing-schedule").offset();
-    $("html, body").animate({ scrollTop: offset.top }, 500);
-  });
+document.querySelector(".js-btn-schedule").addEventListener("click", function (e) {
+  e.preventDefault();
+  var offset = document.querySelector(".js-landing-schedule").offsetTop;
+  window.scrollTo({ top: offset, behavior: "smooth" });
 });
