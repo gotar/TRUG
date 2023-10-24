@@ -6,7 +6,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 module.exports = (env, argv) => ({
   devtool: argv.mode === "production" ? false : "source-map",
   entry: {
-    site: ["./assets/index.js", "./assets/index.scss", "./assets/fontello.css"],
+    site: ["./assets/index.scss", "./assets/fontello.css"],
     archive: "./assets/archive.js",
   },
   output: {

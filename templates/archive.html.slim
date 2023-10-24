@@ -20,4 +20,4 @@ div class="container"
           == meetup.talk_source_code(talk)
       hr
 
-script src=asset_path("archive.js")
+script src=asset_path("archive.js").gsub("/assets//", "/")
