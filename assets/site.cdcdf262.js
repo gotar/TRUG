@@ -1,0 +1,1 @@
+document.querySelector(".js-btn-schedule").addEventListener("click",(function(e){e.preventDefault();var o=document.querySelector(".js-landing-schedule").offsetTop;window.scrollTo({top:o,behavior:"smooth"})}));
