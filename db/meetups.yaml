@@ -6,6 +6,7 @@ events:
         :title: Ruby on Serveless
       - :fullname: Krzysztof Wawer
         :title: Doctrine of Useful Objects - Get rid of mocking
+        :slides: https://wafcio.github.io/presentations/douo-mocking/
   - :number: 95
     :date: "2020-02-19"
     :talks:
