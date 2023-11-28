@@ -1,4 +1,9 @@
 events:
+  - :number: 97
+    :date: "2023-11-30"
+    :talks:
+      - :fullname: Ogladamy film
+        :title: Ruby on Rails - The Documentary
   - :number: 96
     :date: "2023-10-26"
     :talks:
