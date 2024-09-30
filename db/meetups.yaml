@@ -1,4 +1,11 @@
 events:
+  - :number: 000
+    :date: "2024-09-26"
+    :talks:
+      - :fullname: Adam Okoń
+        :title: Solid Queue + Mission Controll
+      - :fullname: Oskar Szrajer
+        :title: UNION, INTERSECT, EXCEPT in SQL and how to use them
   - :number: 97
     :date: "2023-11-30"
     :talks:
