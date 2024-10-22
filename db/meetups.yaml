@@ -1,18 +1,62 @@
 events:
-  - :number: 000
+  - :number: 107
     :date: "2024-10-24"
     :talks:
       - :fullname: Adam Okoń
         :title: Golang - z pamiętników wdrożeniowca
       - :fullname: Maciej Małecki
         :title: Ash Framework w praktyce
-  - :number: 000
+  - :number: 106
     :date: "2024-09-26"
     :talks:
       - :fullname: Adam Okoń
         :title: Solid Queue + Mission Controll
       - :fullname: Oskar Szrajer
         :title: UNION, INTERSECT, EXCEPT in SQL and how to use them
+  - :number: 105
+    :date: "2024-08-29"
+    :talks:
+      - :fullname: Tomasz Stachewicz
+        :title: Jak hostować z homelabu
+      - :fullname: Adam Okoń
+        :title: Co nowego w świecie Railsowym?
+  - :number: 104
+    :date: "2024-06-27"
+    :talks:
+      - :fullname: Oskar Szrajer
+        :title: NixOS
+      - :fullname: Adam Okoń
+        :title: kolejne warsztaty z Rails Turbo
+  - :number: 103
+    :date: "2024-05-23"
+    :talks:
+      - :fullname: Michał Poczwardowski
+        :title: On Building Newsletter
+        :slides: https://trug.pl/assets/archive/20240523/on_building_newsletter_trug_2024_05_23.pdf
+  - :number: 102
+    :date: "2024-04-25"
+    :talks:
+      - :fullname: Adam Okoń
+        :title: Turbo, ciąg dalszy
+  - :number: 101
+    :date: "2024-03-28"
+    :talks:
+      - :fullname: Adam Okoń
+        :title: kontynuacja eksploracji wzorców dla turbo-rails
+  - :number: 100
+    :date: "2024-02-27"
+    :talks:
+      - :fullname: Adam Okoń
+        :title: turbo_frame vs trubo_stream
+  - :number: 99
+    :date: "2024-01-25"
+    :talks:
+
+  - :number: 98
+    :date: "2023-12-28"
+    :talks:
+      - :fullname: Ogladamy film
+        :title: Turbo Native in 15 minutes, Joe Masilotti
   - :number: 97
     :date: "2023-11-30"
     :talks:
