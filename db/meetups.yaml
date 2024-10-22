@@ -1,5 +1,12 @@
 events:
   - :number: 000
+    :date: "2024-10-24"
+    :talks:
+      - :fullname: Adam Okoń
+        :title: Golang - z pamiętników wdrożeniowca
+      - :fullname: Maciej Małecki
+        :title: Ash Framework w praktyce
+  - :number: 000
     :date: "2024-09-26"
     :talks:
       - :fullname: Adam Okoń
