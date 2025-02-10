@@ -1,4 +1,16 @@
 events:
+  - :number: 109
+    :date: "2026-02-20"
+    :talks:
+      - :fullname: Paweł Strzałkowski
+        :title: My LLM is smarter than yours - czyli LLMy, Vector Search i RAG w Ruby
+      - :fullname: Krzysztof Hasiński
+        :title: Fantastic Databases and Where to Find Them
+  - :number: 108
+    :date: "2024-11-28"
+    :talks:
+      - :fullname: Adam Okoń
+        :title: Golang - z pamiętników wdrożeniowca, część 2
   - :number: 107
     :date: "2024-10-24"
     :talks:
