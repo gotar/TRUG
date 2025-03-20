@@ -1,6 +1,15 @@
 events:
+  - :number: 110
+    :date: "2025-03-27"
+    :talks:
+      - :fullname: Tomasz Stachewicz
+        :title: Co to jest DDIA Kleppmanna i dlaczego warto przeczytać
+      - :fullname: Adam Okoń
+        :title: "LLM Apps: Building Beyond the Hype"
+      - :fullname: All are welcome
+        :title: Lighting talks
   - :number: 109
-    :date: "2026-02-20"
+    :date: "2025-02-20"
     :talks:
       - :fullname: Paweł Strzałkowski
         :title: My LLM is smarter than yours - czyli LLMy, Vector Search i RAG w Ruby
