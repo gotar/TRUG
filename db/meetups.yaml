@@ -1,9 +1,14 @@
 events:
+  - :number: 111
+    :date: "2025-04-24"
+    :talks:
+      - :fullname: Adam Okoń
+        :title: "Beyond the Hype: Fact-Checking Phlex Promises from Wroclove.rb 2025"
+      - :fullname: Panel dyskusyjny
+        :title: "Co z DDD można wyciągnąć"
   - :number: 110
     :date: "2025-03-27"
     :talks:
-      - :fullname: Tomasz Stachewicz
-        :title: Co to jest DDIA Kleppmanna i dlaczego warto przeczytać
       - :fullname: Adam Okoń
         :title: "LLM Apps: Building Beyond the Hype"
       - :fullname: All are welcome
