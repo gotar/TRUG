@@ -1,4 +1,9 @@
 events:
+  - :number: 112
+    :date: "2025-05-22"
+    :talks:
+      - :fullname: Krzysztof (Chris) Wawer
+        :title: "Ruby Meetups Integration"
   - :number: 111
     :date: "2025-04-24"
     :talks:
